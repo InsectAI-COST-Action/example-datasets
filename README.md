@@ -25,37 +25,12 @@ Each individual dataset is located in a folder named `<DATASET_NAME>` with the f
 | :--- | :--- |
 | `media/` | Folder containing all images, potentially organized into subdirectories. |
 | `raw_labels/` | The original annotations in their source format (JSON, CSV, TXT, etc.). |
-| `main.ipynb` | The conversion script (Jupyter, R, etc.) used to convert the dataset in raw format to the Camtrap DP standard. |
+| `code/` | Folder containing the conversion scripts (Jupyter, R, etc.) used to convert the dataset in raw format to the Camtrap DP standard. |
+| `README.md` | A readme file describing the dataset, its source, and any specific details about the conversion process. |
 | `deployments.csv` | **Generated:** Records of camera/sensor deployments. |
 | `media.csv` | **Generated:** Metadata for all media files. |
 | `observations.csv`| **Generated:** Taxonomic or individual observations. |
 | `datapackage.json`| **Generated:** The metadata descriptor for the data package. |
-
----
-
-## 📝 Technical Requirements
-
-To run the conversion scripts and work with these datasets, please set up a Python environment and install the dependencies:
-
-1. **Create a Python environment** (using `venv` or `conda`)
-   Example using `venv`:
-   ```bash
-   python -m venv venv
-   ```
-2. **Activate the environment**
-   Example for `venv`:
-   - On Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
-3. **Install requirements**:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ---
 
