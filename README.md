@@ -99,4 +99,3 @@ Please consider contributing links to models and other resources for insect dete
 
 
 This was Dennis
-Test in VS code
