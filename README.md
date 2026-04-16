@@ -8,6 +8,7 @@
 
 - `datasets/` - example datasets
 - `resources/` – logos and images for use in readmes, notebooks and presentations
+- `src/` – generic scripts to convert data to Camtrap DP or InsectAI extensions thereof
 - `README.md` – this readme!
 - `requirements.txt` – Python dependencies for running the conversion scripts
 - `*_template.csv` – reference files used to initialize the Camtrap DP CSVs. These contain all necessary headers to ensure the final output meets the data package specifications
