@@ -14,25 +14,80 @@
 
 
 
+
 <!-- START: DATASET PROGRESS TABLE -->
 <!-- Do NOT manually edit! -->
 
-| Dataset | Status | Example Image |
-| :-- | :--: | :--: |
-| [**plant-pollinator-interactions**](/datasets/plant-pollinator-interactions) | 🔴 Failed (1/5) | _No image tag found_ |
-| [**flower_visitors**](/datasets/flower_visitors) | 🔴 Failed (1/5) | _No image tag found_ |
-| [**flatbug**](/datasets/flatbug) | 🟠 Partial (2/7) | <img src="datasets/flatbug/data/ALUS/Araneae_Unknown_2020_11_10_4723.jpg " height="150"> |
-| [**insect-detect**](/datasets/insect-detect) | 🔴 Failed (1/5) | _No image tag found_ |
-| [**rangex**](/datasets/rangex) | 🟡 Almost (4/5) | <img src="datasets/rangex/media/HE22_01_83_2037_2.jpg " height="150"> |
-| [**amber**](/datasets/amber) | 🔴 Failed (1/5) | _No image tag found_ |
-| [**lepmon**](/datasets/lepmon) | 🟠 Partial (2/5) | _No image tag found_ |
-| [**antenna**](/datasets/antenna) | 🟠 Partial (2/5) | _No image tag found_ |
-| [**ias**](/datasets/ias) | 🟠 Partial (2/5) | <img src="datasets/ias/data/20250613022959-snapshot.jpg " height="150"> |
-| [**minimon**](/datasets/minimon) | 🟡 Almost (3/5) | _No image tag found_ |
-| [**diopsis**](/datasets/diopsis) | 🟠 Partial (2/5) | _No image tag found_ |
+<table width="100%">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Dataset</th>
+      <th style="text-align: center;">Status</th>
+      <th style="text-align: center;">Example Image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/plant-pollinator-interactions"><b>plant-pollinator-interactions</b></a></td>
+      <td style="text-align: center;">🔴 Failed (1/5)</td>
+      <td style="text-align: center;"><i>No image tag found</i></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/flower_visitors"><b>flower_visitors</b></a></td>
+      <td style="text-align: center;">🔴 Failed (1/5)</td>
+      <td style="text-align: center;"><i>No image tag found</i></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/flatbug"><b>flatbug</b></a></td>
+      <td style="text-align: center;">🟠 Partial (2/7)</td>
+      <td style="text-align: center;"><img src="datasets/flatbug/data/ALUS/Araneae_Unknown_2020_11_10_4723.jpg " height="150"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/insect-detect"><b>insect-detect</b></a></td>
+      <td style="text-align: center;">🔴 Failed (1/5)</td>
+      <td style="text-align: center;"><i>No image tag found</i></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/rangex"><b>rangex</b></a></td>
+      <td style="text-align: center;">🟡 Almost (4/5)</td>
+      <td style="text-align: center;"><img src="datasets/rangex/media/HE22_01_83_2037_2.jpg " height="150"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/amber"><b>amber</b></a></td>
+      <td style="text-align: center;">🔴 Failed (1/5)</td>
+      <td style="text-align: center;"><i>No image tag found</i></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/lepmon"><b>lepmon</b></a></td>
+      <td style="text-align: center;">🟠 Partial (2/5)</td>
+      <td style="text-align: center;"><i>No image tag found</i></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/antenna"><b>antenna</b></a></td>
+      <td style="text-align: center;">🟠 Partial (2/5)</td>
+      <td style="text-align: center;"><i>No image tag found</i></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/ias"><b>ias</b></a></td>
+      <td style="text-align: center;">🟠 Partial (2/5)</td>
+      <td style="text-align: center;"><img src="datasets/ias/data/20250613022959-snapshot.jpg " height="150"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/minimon"><b>minimon</b></a></td>
+      <td style="text-align: center;">🟡 Almost (3/5)</td>
+      <td style="text-align: center;"><i>No image tag found</i></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><a href="/datasets/diopsis"><b>diopsis</b></a></td>
+      <td style="text-align: center;">🟠 Partial (2/5)</td>
+      <td style="text-align: center;"><i>No image tag found</i></td>
+    </tr>
+  </tbody>
+</table>
 
-<!-- Last updated: 2026-04-20 20:41:36 UTC -->
+<!-- Last updated: 2026-04-20 20:45:55 UTC -->
 <!-- END: DATASET PROGRESS TABLE -->
+
 
 
 ---
