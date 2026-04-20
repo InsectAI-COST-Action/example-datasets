@@ -11,7 +11,7 @@ import sys
 import json
 from pathlib import Path
 from dataclasses import dataclass
-from typing import Optional, Any, Callable, List
+from typing import Any, Callable
 
 from frictionless import validate, Report, Error
 
@@ -22,25 +22,27 @@ from frictionless import validate, Report, Error
 @dataclass
 class RuleReturn:
     status: bool
-    name: str # What rule is being checked (used for error reporting)
-    help: Optional[str] = None
-    data: Any = None # Reserved for future serialization of complex errors
+    name: str 
+    message: str
+    data: Any = None 
 
     def to_dict(self):
         return {
+            "status" : self.status,
             "name": self.name,
-            "help": self.help,
+            "message": self.message,
             "data": self.data
         }
+    
+    def __bool__(self):
+        return self.status
 
-# This list will automatically collect all our decorated rule functions
-VALIDATION_RULES: List[Callable[[Path], RuleReturn]] = []
+VALIDATION_RULES: list[Callable[[Path], RuleReturn]] = []
 
 def rule(func: Callable[[Path], RuleReturn]) -> Callable[[Path], RuleReturn | list[RuleReturn]]:
     """Decorator to automatically register a validation rule."""
     VALIDATION_RULES.append(func)
     return func
-
 
 # ==========================================
 # 🛠️ DATASET VALIDATION RULES
@@ -48,36 +50,43 @@ def rule(func: Callable[[Path], RuleReturn]) -> Callable[[Path], RuleReturn | li
 
 @rule
 def check_media_dir(dataset_path: Path) -> RuleReturn:
-    return RuleReturn(
-        status=(dataset_path / "media").is_dir(),
-        name="Directory: media",
-        help="Folder containing all images, potentially organized into subdirectories."
-    )
+    status = (dataset_path / "media").is_dir()
+    if status:
+        msg = 'Successfully found "media" folder!'
+    else:
+        msg = 'Missing "media" folder.\nThe "media" folder should contain all images, potentially organized into subdirectories.'
+    return RuleReturn(status=status, name="Directory: media", message=msg)
 
 @rule
 def check_raw_labels_dir(dataset_path: Path) -> RuleReturn:
-    return RuleReturn(
-        status=(dataset_path / "raw_labels").is_dir(),
-        name="Directory: raw_labels",
-        help="The original annotations in their source format (JSON, CSV, TXT, etc.)."
-    )
+    status = (dataset_path / "raw-data").is_dir()
+    misspellings = ["rawdata", "data", "raw_data", "raw-labels", "raw_labels"]
+    if status:
+        msg = 'Successfully found "raw-data" folder!'
+    else:
+        msg = 'Missing "raw-data" folder.'
+        for misspelling in misspellings:
+            if (dataset_path / misspelling).is_dir():
+                msg += f'\nFound incorrect folder "{misspelling}".'
+    return RuleReturn(status=status, name="Directory: raw-data", message=msg)
 
 @rule
 def check_code_dir(dataset_path: Path) -> RuleReturn:
-    return RuleReturn(
-        status=(dataset_path / "code").is_dir(),
-        name="Directory: code",
-        help="Folder containing the conversion scripts (Jupyter, R, etc.) used to convert the raw data."
-    )
+    status = (dataset_path / "code").is_dir()
+    if status:
+        msg = 'Successfully found "code" folder!'
+    else:
+        msg = 'Missing "code" folder.\nThe "code" folder should contain the conversion scripts (Jupyter, R, etc.) used to convert the raw data.'
+    return RuleReturn(status=status, name="Directory: code", message=msg)
 
 @rule
 def check_readme(dataset_path: Path) -> RuleReturn:
-    return RuleReturn(
-        status=(dataset_path / "README.md").is_file(),
-        name="File: README.md",
-        help="A readme file describing the dataset, its source, and details about the conversion."
-    )
-
+    status = (dataset_path / "README.md").is_file()
+    if status:
+        msg = 'Successfully found "README.md"!'
+    else:
+        msg = 'Missing "README.md". The "README.md" should describe the dataset, its source, and details about the conversion.'
+    return RuleReturn(status=status, name="File: README.md", message=msg)
 
 @dataclass
 class Violation:
@@ -108,72 +117,80 @@ class Violation:
             "tag_list" : f'[{",".join(self.tags)}]',
             "note" : self.note
         }
-    
-    @property
-    def markdown(self):
-        template = """| {type} | {title} | {description} | {message} | {tag_list} | {note} |"""
-        return template.format(**self.to_dict())
-
-
-def issue_table(violations : list[Violation]) -> str:
-    header = "| Type | Title | Description | Message | Tag list | Note |"
-    hline = "-"*len(header)
-    rows = [violation.markdown for violation in violations]
-    return "\n".join([header, hline, *rows, hline])
-
 
 @rule
 def check_datapackage(dataset_path : Path) -> list[RuleReturn]:
-    result : Report = validate(source=dataset_path)
+    datapackage_path = dataset_path / "datapackage.json"
+    if not datapackage_path.exists():
+        return [RuleReturn(
+            status=False,
+            name='File: datapackage.json[missing]',
+            message=f'Missing "datapackage.json" file, expected {datapackage_path}'
+        )]
+    
+    result : Report = validate(source=datapackage_path)
+    
     task_errors = {
         task.name : [Violation.from_error(error) for error in task.errors]
         for task in result.tasks
     }
+    
     ret : list[RuleReturn] = []
+    
+    for error in result.errors:
+        viol = Violation.from_error(error)
+        ret.append(RuleReturn(
+            status=False,
+            name=f'File: datapackage.json[{viol.type}]',
+            message=f'**frictionless[{viol.type}]: {viol.title}**\n{viol.message}\nNote: {viol.note}',
+            data=viol.to_dict()
+        ))
+        
     for task, errors in task_errors.items():
         for error in errors:
             error_data = error.to_dict()
             ret.append(RuleReturn(
                 status=False,
-                name=f'frictionless[{task}]: {error.title}',
-                help='\n  '.join(f'{k}: {v}' for k, v in error_data.items()),
+                name=f'File: datapackage.json[{task}]',
+                message=f'**frictionless[{task}]: {error.title}**\n' + '\n'.join(f'{k}: {v}' for k, v in error_data.items()),
                 data=error_data
             ))
-    return ret
-
+            
+    if ret:
+        return ret
+    
+    return [RuleReturn(
+        status=True,
+        name="File: datapackage.json[all]",
+        message='Dataset specification file "datapackage.json" passed `frictionless` validation.'
+    )]
 
 # ==========================================
 # 🚀 CORE EXECUTION LOGIC   
 # ==========================================
 
-def get_violations(datasets_dir: str):
+def check(datasets_dir: str):
     base_path = Path(datasets_dir)
     if not base_path.exists() or not base_path.is_dir():
-        return None, []
+        return None
 
-    violations = {}
-    dataset_names = []
+    checks = {}
     
     for dataset_path in base_path.iterdir():
         if not dataset_path.is_dir():
             continue 
         
-        name = dataset_path.name
-        dataset_names.append(name)
-        missing_items = []
-
-        # Run every registered rule against this dataset
+        items = []
         for run_rule in VALIDATION_RULES:
             result = run_rule(dataset_path)
             if isinstance(result, RuleReturn):
                 result = [result]
             for rrt in result:
-                if not rrt.status:
-                    missing_items.append(rrt.to_dict())
+                items.append(rrt.to_dict())
 
-        violations[name] = missing_items
+        checks[dataset_path.name] = items
             
-    return violations, dataset_names
+    return checks
 
 def main():
     parser = argparse.ArgumentParser()
@@ -181,31 +198,27 @@ def main():
     parser.add_argument("--format", choices=["text", "json"], default="text")
     args = parser.parse_args()
 
-    violations, all_datasets = get_violations(args.dir)
+    checks = check(args.dir)
     
-    if violations is None:
+    if checks is None:
         print(f"⚠️  Warning: Directory '{args.dir}' not found.", file=sys.stderr)
         sys.exit(1)
 
+    has_failures = any(not item["status"] for items in checks.values() for item in items)
+
     if args.format == "json":
-        # Output JSON payload
-        print(json.dumps({"violations": violations, "all_datasets": all_datasets}))
+        print(json.dumps(checks))
     else:
-        for ds, issues in violations.items():
-            if not issues:
-                print(
-                    f"✅ Dataset: {ds}\n"
-                    f"   All {len(all_datasets)} datasets passed {len(VALIDATION_RULES)} validation rules.\n"
-                )
-                continue
-            print(f"\n❌ Dataset: {ds}")
-            for issue in issues:
-                print(f"   - Failed: {issue['name']}")
-                if issue.get("help"):
-                    print(f"     💡 {"\n        ".join(map(str.strip, issue['help'].splitlines()))}")
+        for ds, rule_results in checks.items():
+            print(f"\nDataset: {ds}")
+            for result in rule_results:
+                status_str = "Success" if result.get("status", False) else "Failed"
+                print(f"   - {status_str}: {result['name']}")
+                if result.get("message", None):
+                    print(f"     💡 {' '.join(str(result['message']).splitlines())}")
             print()
     
-    sys.exit(1 if any(violations.values()) else 0)
+    sys.exit(1 if has_failures else 0)
 
 if __name__ == "__main__":
     main()
