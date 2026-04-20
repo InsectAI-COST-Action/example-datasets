@@ -1,3 +1,5 @@
+[![Dataset Standards Validation](https://github.com/InsectAI-COST-Action/example-datasets/actions/workflows/validate-datasets.yaml/badge.svg)](https://github.com/InsectAI-COST-Action/example-datasets/actions/workflows/validate-datasets.yaml)
+
 # InsectAI Example Datasets and Standards Development
 
 <img src="resources/insectAI.svg" alt="InsectAI Logo" width="300"/>

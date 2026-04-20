@@ -66,6 +66,7 @@ jobs:
         if: github.event_name != 'pull_request_target'
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
           RESULTS: ${{ steps.run_validation.outputs.results }}
         run: |
           python base-repo/.github/scripts/sync_issues.py --mode issues
