@@ -40,6 +40,7 @@ jobs:
         if: github.event_name == 'pull_request_target'
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           chmod +x base-repo/.github/scripts/validate_datasets.py
