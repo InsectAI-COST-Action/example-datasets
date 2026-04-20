@@ -3,8 +3,7 @@ Camtrap Data Package media module
 Modified to match the miniMon processing pipeline
 """
 from enum import Enum
-import os
-import utils
+from .utils import generate_uuid, generate_id
 from .minimonfile import MinimonFile
 
 
@@ -44,7 +43,7 @@ class Media:
         # @TODO: assert ISO time format of  `deploymentStart` and `deploymentEnd`
 
         if self.mediaID is None:
-            self.mediaID = utils.generate_id(4)
+            self.mediaID = generate_id(4)
 
     def __str__(self):
         return str(self.__dict__)
@@ -63,7 +62,7 @@ class Media:
 
     @staticmethod
     def from_minimonfile(deploymentID: str, minimonfile: MinimonFile):
-        mediaID = utils.generate_uuid()
+        mediaID = generate_uuid()
 
         return Media(mediaID=mediaID,
                      deploymentID=deploymentID,

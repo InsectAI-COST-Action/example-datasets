@@ -1,9 +1,5 @@
 import os
 
-from fileinput import filename
-from gettext import dpgettext
-
-import numpy as np
 import pandas as pd
 
 from pycamtrapdp import Deployment, Media, MinimonFile

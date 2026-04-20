@@ -1,6 +1,6 @@
 from .deployments import Deployment
 from .media import Media
-from .observations import Observation
 from .minimonfile import MinimonFile
+from .utils import *
 
-__all__ = ["Deployment", "Media", "Observation", "MinimonFile"]
+__all__ = ["Deployment", "Media", "MinimonFile", "utils"]

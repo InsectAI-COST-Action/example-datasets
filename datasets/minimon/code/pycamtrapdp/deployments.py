@@ -3,7 +3,7 @@ Camtrap Data Package deployment module
 Modified to match the miniMon processing pipeline
 """
 from enum import Enum
-import utils
+from .utils import generate_uuid
 import math
 
 class FeatureType(str, Enum):
@@ -80,7 +80,7 @@ class Deployment:
         # @TODO: assert ISO time format of  `deploymentStart` and `deploymentEnd`
 
         if self.deploymentID is None:
-            self.deploymentID = utils.generate_uuid()
+            self.deploymentID = generate_uuid()
 
         for k, v in self._valid_ranges.items():
             if self.__getattribute__(k) is not None:

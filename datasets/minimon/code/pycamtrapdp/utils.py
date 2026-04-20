@@ -1,16 +1,13 @@
 import os
-import uuid_utils
-from datetime import datetime, timedelta
-from xmlrpc.client import DateTime
+import uuid
 import pandas as pd
-import numpy as np
 from datetime import datetime
 
 def generate_id(length=8):
     return os.urandom(length).hex()
 
 def generate_uuid():
-    return uuid_utils.uuid7().hex
+    return uuid.uuid4().hex
 
 def parse_filename(filename):
         basename, extension = os.path.splitext(filename)
@@ -43,12 +40,8 @@ def datetime_from_ISO(isostr):
     return dt
 
 def obj_to_csv(obj_list, csvpath, overwrite=False):
-    # df = pd.DataFrame.from_dict(objlist)
 
     df = pd.DataFrame([o.as_dict() for o in obj_list])
-    # if os.path.exists(csvpath) and not overwrite:
-    #     old_df = pd.read_csv(csvpath)
-    #     df = pd.concat([old_df, df], axis=0, ignore_index=True)
     if not os.path.exists(csvpath) or overwrite:
         mode = 'w'
     else:
