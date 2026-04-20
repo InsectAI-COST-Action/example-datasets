@@ -148,19 +148,21 @@ def handle_issues(data, dry_run):
                 ], check=True)
 
 def handle_pr(data, dry_run):
-    """Handles posting a single formatted comment to the active Pull Request."""
+    """Handles posting or updating a single formatted comment on the active Pull Request."""
     pr_number = os.environ.get("PR_NUMBER")
+    
     if not pr_number and not dry_run:
         print("No PR_NUMBER found in environment.")
         return
 
     repo_flag = get_repo_flag()
+    signature = "<!---9a6162c9-b5ed-41a2-8b78-c54e9ffc8f19--->"
 
     if not data:
-        full_body = "❌❌❌ No datasets found to validate. ❌❌❌"
+        full_body = f"{signature}\n❌❌❌ No datasets found to validate. ❌❌❌"
     else:
         overview = generate_overview_table(data)
-        comments = [f"## 📊 Dataset Validation Overview\n\n{overview}"]
+        comments = [f"{signature}\n## 📊 Dataset Validation Overview\n\n{overview}"]
         
         for ds_name, ds_info in data.items():
             all_checks = [RuleReturn(**c) for c in ds_info.get("checks", [])]
@@ -177,10 +179,34 @@ def handle_pr(data, dry_run):
         print(f"\n{'='*50}\nDRY RUN: PR COMMENT\n{'='*50}")
         print(f"PR_NUMBER: {pr_number}\nBODY:\n{full_body}")
     else:
-        print(f"Commenting on PR #{pr_number}")
         with open("pr_comment_body.md", "w") as f:
             f.write(full_body)
-        subprocess.run(["gh", "pr", "comment", pr_number, *repo_flag, "--body-file", "pr_comment_body.md"], check=True)
+
+        assert len(repo_flag) == 2, f'Missing GITHUB_REPOSITORY in environment: {repo_flag=}'
+
+        # Check if we have already commented on this PR by looking for the signature
+        cmd_find = ["gh", "api", f"repos/{repo_flag[1]}/issues/{pr_number}/comments"]
+        res = subprocess.run(cmd_find, capture_output=True, text=True)
+        
+        target_comment_id = None
+        if res.returncode == 0:
+            try:
+                existing_comments = json.loads(res.stdout)
+                for c in existing_comments:
+                    if signature in c.get("body", ""):
+                        target_comment_id = c["id"]
+                        break
+            except json.JSONDecodeError:
+                pass
+
+        if target_comment_id:
+            print(f"Updating existing comment {target_comment_id} on PR #{pr_number}")
+            # Use the GitHub API to PATCH (update) the existing comment
+            subprocess.run(["gh", "api", "-X", "PATCH", f"repos/{repo_flag[1]}/issues/comments/{target_comment_id}", "-F", "body=@pr_comment_body.md"], check=True)
+        else:
+            print(f"Commenting on PR #{pr_number} for the first time")
+            # Create a brand new comment
+            subprocess.run(["gh", "pr", "comment", pr_number, *repo_flag, "--body-file", "pr_comment_body.md"], check=True)
 
 def handle_readme(data, dry_run):
     """Updates the README.md file with the latest dataset overview table."""
@@ -250,7 +276,7 @@ def main():
     match args.mode:
         case "pr":
             handle_pr(data, args.dry_run)
-        case "iisues":
+        case "issues":
             handle_issues(data, args.dry_run)
         case "readme":
             handle_readme(data, args.dry_run)
