@@ -25,3 +25,4 @@ Alle files for the different tables in json and csv format:
 
 - Link to bbox url if present missing?
 - What about measurement values taken with each image, e.g. temperature, light conditions, etc.? 
+- Methods for capturing, processing?
