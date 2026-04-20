@@ -12,11 +12,6 @@
 
 ## 📁 Example Dataset Progress
 
-
-
-
-
-
 <!-- START: DATASET PROGRESS TABLE -->
 <!-- Do NOT manually edit! -->
 
