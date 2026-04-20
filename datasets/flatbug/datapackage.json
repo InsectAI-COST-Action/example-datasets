@@ -1,0 +1,111 @@
+{
+    "resources": [
+        {
+            "name": "deployments",
+            "path": "deployments.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json"
+        },
+        {
+            "name": "media",
+            "path": "media.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json"
+        },
+        {
+            "name": "observations",
+            "path": "observations.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json"
+        }
+    ],
+    "name": "rangex-coco-insectai-datathon",
+    "created": "2026-04-18T15:13:06.717789+00:00",
+    "contributors": [
+        {
+            "title": "Lorenzo Girotti",
+            "role": "author"
+        }
+    ],
+    "licenses": [
+        {
+            "scope": "media",
+            "name": "CC-BY-4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Creative Commons Attribution 4.0 International"
+        }
+    ],
+    "project": {
+        "title": "RangeX COCO InsectAI Datathon",
+        "samplingDesign": "experimental",
+        "captureMethod": "timeLapse",
+        "individualAnimals": false,
+        "observationLevel": "media"
+    },
+    "spatial": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    4.013,
+                    50.699
+                ],
+                [
+                    5.659,
+                    50.699
+                ],
+                [
+                    5.659,
+                    51.496
+                ],
+                [
+                    4.013,
+                    51.496
+                ],
+                [
+                    4.013,
+                    50.699
+                ]
+            ]
+        ]
+    },
+    "temporal": {
+        "start": "2023-01-01",
+        "end": "2023-12-31"
+    },
+    "taxonomic": [
+        {
+            "scientificName": "Bombus"
+        },
+        {
+            "scientificName": "Anthophila"
+        },
+        {
+            "scientificName": "Formicidae"
+        },
+        {
+            "scientificName": "Hymenoptera"
+        },
+        {
+            "scientificName": "Syrphidae"
+        },
+        {
+            "scientificName": "Diptera"
+        },
+        {
+            "scientificName": "Lepidoptera"
+        },
+        {
+            "scientificName": "Coleoptera"
+        }
+    ]
+}

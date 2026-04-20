@@ -1,3 +1,4 @@
+<!-- Image: [path] -->
 # Invasive Alien Species (IAS) dataset 
 TODO
 

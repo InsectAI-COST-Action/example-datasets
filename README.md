@@ -8,8 +8,7 @@
 
 - `datasets/` – example datasets
 - `resources/` – logos and images for use in readmes, notebooks and presentations
-- `templates/` – generic R scripts to convert data to Camtrap DP or InsectAI extensions thereof
-- `slides/` – presentation materials for the datathon workshop
+- `templates/` – generic scripts to convert data to Camtrap DP or InsectAI extensions thereof
 - `README.md` – this readme!
 - `requirements.txt` – Python dependencies for running the conversion scripts
 - `*_template.csv` – reference files used to initialize the Camtrap DP CSVs. These contain all necessary headers to ensure the final output meets the data package specifications
@@ -26,7 +25,7 @@ Each individual dataset is located in a folder named `<DATASET_NAME>` with the f
 | Component | Description |
 | :--- | :--- |
 | `media/` | Folder containing all images, potentially organized into subdirectories. |
-| `raw_data/` | The original annotations in their source format (JSON, CSV, TXT, etc.). |
+| `raw-data/` | The original annotations in their source format (JSON, CSV, TXT, etc.). |
 | `code/` | Folder containing the conversion scripts (Jupyter, R, etc.) used to convert the dataset in raw format to the Camtrap DP standard. |
 | `README.md` | A readme file describing the dataset, its source, and any specific details about the conversion process. |
 | `deployments.csv` | **Generated:** Records of camera/sensor deployments. |
@@ -73,3 +72,4 @@ The "minidatasets" presented here demonstrate one or more of the common challeng
 Please consider contributing links to models and other resources for insect detection and classification below:
 
 [https://github.com/InsectAI-COST-Action/awesome-insectai.git]
+
