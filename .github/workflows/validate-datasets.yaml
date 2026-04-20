@@ -34,6 +34,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           path: base-repo
+          token: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
 
       - name: Checkout untrusted PR datasets
         if: github.event_name == 'pull_request_target'
@@ -50,7 +51,7 @@ jobs:
       - name: Run validation & Comment (PR Check)
         if: github.event_name == 'pull_request_target'
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
@@ -79,7 +80,7 @@ jobs:
       - name: Sync GitHub Issues
         if: github.event_name != 'pull_request_target'
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           RESULTS: ${{ steps.run_validation.outputs.results }}
         run: |
@@ -88,6 +89,7 @@ jobs:
       - name: Sync README.md Progress Table
         if: github.event_name != 'pull_request_target'
         env:
+          GH_TOKEN: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
           RESULTS: ${{ steps.run_validation.outputs.results }}
         run: |
           # Step into base repo, which contains the .git history and README

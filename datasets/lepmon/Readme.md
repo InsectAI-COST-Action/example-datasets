@@ -1,3 +1,4 @@
+<!-- Image: media/Lepmon#SN010030_TH_J_2025-07-02_T_2330.jpg -->
 # Sample dataset fromt the lepmon project
 
 <img src="media/Lepmon#SN010030_TH_J_2025-07-02_T_2330.jpg" alt="RangeX example image" width="300"/>

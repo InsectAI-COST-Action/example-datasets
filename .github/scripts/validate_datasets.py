@@ -181,7 +181,7 @@ def extract_readme_image(dataset_path: Path) -> str | None:
                 return None
             mtch = mtch.group(1)
             image_path = dataset_path.joinpath(*mtch.split("/"))
-            return str(image_path)
+            return "/" + str(image_path)
     except Exception:
         pass
     return None

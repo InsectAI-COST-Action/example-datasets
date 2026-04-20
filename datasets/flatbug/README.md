@@ -1,4 +1,4 @@
-<!-- Image: data/ALUS/Araneae_Unknown_2020_11_10_4723.jpg -->
+<!-- Image: raw-data/ALUS/Araneae_Unknown_2020_11_10_4723.jpg -->
 # flatbug dataset (COCO format)
 This is a subset of the [`flatbug` dataset](https://doi.org/10.5281/zenodo.14761447), which is a standardized insection detection and segmentation meta-dataset, compiled from 23 different sources. 
 
