@@ -26,6 +26,9 @@ class RuleReturn:
             "data": self.data
         }
     
+    def __bool__(self):
+        return self.status
+    
     @property
     def markdown(self):
         return f'| {"🟢" if self.status else "❌"} | **{self.name}** | {self.message.replace("\n", "<br>")} |'
@@ -36,6 +39,15 @@ def rule_check_table(checks : list[RuleReturn]) -> str:
     rows = [check.markdown for check in checks]
     return "\n".join([header, hline, *rows])
 
+
+STATUS_SYMBOLS = {
+    "failed" : "🔴",
+    "partial" : "🟠",
+    "almost" : "🟡",
+    "success" : "🟢",
+    "unknown" : "⚪"
+}
+
 def generate_overview_table(data: dict) -> str:
     """Generates a high-level summary table of all datasets and their statuses."""
     lines = ["| Dataset | Status | Example Image |", "|---|:---:|---|"]
@@ -43,13 +55,25 @@ def generate_overview_table(data: dict) -> str:
     for ds_name, ds_info in data.items():
         checks = [RuleReturn(**c) for c in ds_info.get("checks", [])]
         
-        all_passed = all(c.status for c in checks)
-        status_icon = "🟢 Pass" if all_passed else "❌ Fail"
+        n_chk = len(checks)
+        n_pass = sum(map(bool, checks))
+        if n_chk == 0:
+            status = "unknown"
+        elif n_pass == n_chk:
+            status = "success"
+        elif n_pass <= 1:
+            status = "failed"
+        elif (n_pass > n_chk / 2):
+            status = "almost"
+        else:
+            status = "partial"
+        status_icon = STATUS_SYMBOLS[status]
+        
         
         img_path = ds_info.get("image")
-        img_md = f'<img src="{img_path}" width="200">' if img_path else "_No image tag found_"
+        img_md = f'<center><img src="{img_path}" height="150"></center>' if img_path else "_No image tag found_"
         
-        lines.append(f"| **{ds_name}** | {status_icon} | {img_md} |")
+        lines.append(f"| [**{ds_name}**](/datasets/{ds_name}) | {status_icon} {status.capitalize()} ({n_pass}/{n_chk}) | {img_md} |")
         
     return "\n".join(lines)
 
