@@ -1,0 +1,754 @@
+{
+  "version": "1",
+  "photoBase": "20250128204650-snapshot",
+  "shapes": [
+    {
+      "patch_path": "patches/20250128204650-snapshot_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "cf_insulensis",
+      "score": 0.7603131532669067,
+      "direction": 9.752424240112305,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3722.09521484375,
+          1592.5997314453125
+        ],
+        [
+          3743.84912109375,
+          1469.9681396484375
+        ],
+        [
+          3615.97314453125,
+          1447.2840576171875
+        ],
+        [
+          3594.21923828125,
+          1569.9156494140625
+        ]
+      ],
+      "clusterID": 1245.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Geometridae",
+      "genus": "Idaea",
+      "species": "cf_insulensis",
+      "taxonID": "Idaea insulensis",
+      "taxonRank": "species",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770426555299
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.7405734062194824,
+      "direction": 26.399932861328125,
+      "shape_type": "rotation",
+      "points": [
+        [
+          905.039306640625,
+          961.976318359375
+        ],
+        [
+          970.2333984375,
+          831.03173828125
+        ],
+        [
+          831.5697021484375,
+          761.9945068359375
+        ],
+        [
+          766.3756103515625,
+          892.9390869140625
+        ]
+      ],
+      "clusterID": 845.2,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770548673471
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "glandulella",
+      "score": 0.7238427400588989,
+      "direction": 8.901715278625488,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3054.245361328125,
+          2098.39599609375
+        ],
+        [
+          3067.204345703125,
+          2015.955078125
+        ],
+        [
+          3003.892333984375,
+          2006.0029296875
+        ],
+        [
+          2990.933349609375,
+          2088.44384765625
+        ]
+      ],
+      "clusterID": 862.2,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Blastobasidae",
+      "genus": "Blastobasis",
+      "species": "glandulella",
+      "taxonID": "Blastobasis glandulella",
+      "taxonRank": "species",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770462811679
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_4_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "cf_gilvescentella",
+      "score": 0.6937183141708374,
+      "direction": 17.95616340637207,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2561.98486328125,
+          618.900146484375
+        ],
+        [
+          2596.82177734375,
+          511.008056640625
+        ],
+        [
+          2535.70751953125,
+          491.2750244140625
+        ],
+        [
+          2500.87060546875,
+          599.1671142578125
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Pyralidae",
+      "genus": "Ephestiodes",
+      "species": "cf_gilvescentella",
+      "taxonRank": "species",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770629224388
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_5_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "cf_Platynota_sp1",
+      "score": 0.6932902932167053,
+      "direction": 85.97801208496094,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2673.468505859375,
+          1610.1285400390625
+        ],
+        [
+          2770.416259765625,
+          1603.2227783203125
+        ],
+        [
+          2761.339599609375,
+          1475.7965087890625
+        ],
+        [
+          2664.391845703125,
+          1482.7022705078125
+        ]
+      ],
+      "clusterID": 809.2,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Tortricidae",
+      "genus": "Platynota",
+      "species": "cf_Platynota_sp1",
+      "taxonRank": "species",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770496329327
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_6_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "cf_Platynota_sp1",
+      "score": 0.6925062537193298,
+      "direction": 15.135835647583008,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2967.2470703125,
+          938.7330932617188
+        ],
+        [
+          3000.244140625,
+          816.6738891601562
+        ],
+        [
+          2879.95654296875,
+          784.1560668945312
+        ],
+        [
+          2846.95947265625,
+          906.2152709960938
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Tortricidae",
+      "genus": "Platynota",
+      "species": "cf_Platynota_sp1",
+      "taxonRank": "species",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770495829095
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_7_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diptera",
+      "score": 0.6723096370697021,
+      "direction": 86.633544921875,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3328.836669921875,
+          1223.4976806640625
+        ],
+        [
+          3362.088623046875,
+          1221.3345947265625
+        ],
+        [
+          3359.288818359375,
+          1178.2955322265625
+        ],
+        [
+          3326.036865234375,
+          1180.4586181640625
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770565606701
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_8_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hymenoptera",
+      "score": 0.665732741355896,
+      "direction": 9.462322235107422,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1906.2655029296875,
+          1459.86572265625
+        ],
+        [
+          1915.0809326171875,
+          1406.359619140625
+        ],
+        [
+          1851.5064697265625,
+          1395.88525390625
+        ],
+        [
+          1842.6910400390625,
+          1449.391357421875
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hymenoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770626029767
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_9_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.6625440716743469,
+      "direction": 4.455603122711182,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1347.440673828125,
+          507.2162170410156
+        ],
+        [
+          1352.172607421875,
+          440.0407409667969
+        ],
+        [
+          1275.35302734375,
+          434.6295471191406
+        ],
+        [
+          1270.62109375,
+          501.8050231933594
+        ]
+      ],
+      "clusterID": 607.3,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770567261410
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_10_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Insecta",
+      "score": 0.6439305543899536,
+      "direction": 1.4320961236953735,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2606.646240234375,
+          1839.2415771484375
+        ],
+        [
+          2607.090576171875,
+          1799.2298583984375
+        ],
+        [
+          2577.218017578125,
+          1798.8980712890625
+        ],
+        [
+          2576.773681640625,
+          1838.9097900390625
+        ]
+      ],
+      "clusterID": 1468.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 216,
+      "taxonRank": "class",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770400792981
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_14_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "glandulella",
+      "score": 0.5698327422142029,
+      "direction": 6.20344877243042,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2969.628662109375,
+          779.8552856445312
+        ],
+        [
+          2979.965576171875,
+          685.7586059570312
+        ],
+        [
+          2888.062744140625,
+          675.6625366210938
+        ],
+        [
+          2877.725830078125,
+          769.7592163085938
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Blastobasidae",
+      "genus": "Blastobasis",
+      "species": "glandulella",
+      "taxonID": "Blastobasis glandulella",
+      "taxonRank": "species",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770460756328
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_15_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.5521711111068726,
+      "direction": 4.184916019439697,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2617.99365234375,
+          1468.6719970703125
+        ],
+        [
+          2620.09033203125,
+          1434.0648193359375
+        ],
+        [
+          2579.38330078125,
+          1431.5985107421875
+        ],
+        [
+          2577.28662109375,
+          1466.2056884765625
+        ]
+      ],
+      "clusterID": 552.2,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770548521993
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_18_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Insecta",
+      "score": 0.5219963192939758,
+      "direction": 86.633544921875,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2380.467529296875,
+          1608.2813720703125
+        ],
+        [
+          2406.629150390625,
+          1606.7799072265625
+        ],
+        [
+          2404.681884765625,
+          1572.8536376953125
+        ],
+        [
+          2378.520263671875,
+          1574.3551025390625
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 216,
+      "taxonRank": "class",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770400792977
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_19_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Unidentifiable",
+      "score": 0.5218335390090942,
+      "direction": 1.9091525077819824,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1212.79296875,
+          691.3672485351562
+        ],
+        [
+          1213.388671875,
+          661.7145385742188
+        ],
+        [
+          1189.55712890625,
+          661.2359008789062
+        ],
+        [
+          1188.96142578125,
+          690.8886108398438
+        ]
+      ],
+      "clusterID": 1850.5,
+      "kingdom": "Unidentifiable",
+      "phylum": "Unidentifiable",
+      "class": "Unidentifiable",
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": "Unidentifiable",
+      "taxonRank": "class",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770418631935
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_20_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hymenoptera",
+      "score": 0.48793187737464905,
+      "direction": 2.2906100749969482,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2520.361328125,
+          406.3533935546875
+        ],
+        [
+          2521.5927734375,
+          362.0816650390625
+        ],
+        [
+          2471.27880859375,
+          360.68231201171875
+        ],
+        [
+          2470.04736328125,
+          404.95404052734375
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hymenoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770626029768
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_21_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Coleoptera",
+      "score": 0.4539905786514282,
+      "direction": 14.931416511535645,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2958.001708984375,
+          1523.1810302734375
+        ],
+        [
+          2969.115478515625,
+          1480.1781005859375
+        ],
+        [
+          2940.088134765625,
+          1472.6761474609375
+        ],
+        [
+          2928.974365234375,
+          1515.6790771484375
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770565118546
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_22_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Insecta",
+      "score": 0.41360315680503845,
+      "direction": 88.02507019042969,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2401.741455078125,
+          2106.566162109375
+        ],
+        [
+          2430.131591796875,
+          2105.423095703125
+        ],
+        [
+          2428.755615234375,
+          2071.249267578125
+        ],
+        [
+          2400.365478515625,
+          2072.392333984375
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 216,
+      "taxonRank": "class",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770400792977
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_23_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.4125312566757202,
+      "direction": 87.87889862060547,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1507.5118408203125,
+          863.5014038085938
+        ],
+        [
+          1533.8140869140625,
+          862.1013793945312
+        ],
+        [
+          1532.1307373046875,
+          830.4758911132812
+        ],
+        [
+          1505.8284912109375,
+          831.8759155273438
+        ]
+      ],
+      "clusterID": 1458.6,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770549083443
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_24_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ephyrata",
+      "score": 0.3933211863040924,
+      "direction": 17.8402042388916,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2617.050048828125,
+          338.49462890625
+        ],
+        [
+          2683.740966796875,
+          130.97044372558594
+        ],
+        [
+          2423.168212890625,
+          47.23136901855469
+        ],
+        [
+          2356.477294921875,
+          254.7555694580078
+        ]
+      ],
+      "clusterID": 311.2,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Geometridae",
+      "genus": "Patalene",
+      "species": "ephyrata",
+      "taxonID": "Patalene ephyrata",
+      "taxonRank": "species",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770459281833
+    },
+    {
+      "patch_path": "patches/20250128204650-snapshot_26_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Coleoptera",
+      "score": 0.3289288580417633,
+      "direction": 4.763641834259033,
+      "shape_type": "rotation",
+      "points": [
+        [
+          753.22900390625,
+          1086.6448974609375
+        ],
+        [
+          756.818115234375,
+          1050.7603759765625
+        ],
+        [
+          730.3564453125,
+          1048.1136474609375
+        ],
+        [
+          726.767333984375,
+          1083.9981689453125
+        ]
+      ],
+      "clusterID": 1029.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonRank": "order",
+      "species_list": "List",
+      "identifier_human": "Karl Questel",
+      "timestamp_ID_human": 1770564252234
+    }
+  ]
+}

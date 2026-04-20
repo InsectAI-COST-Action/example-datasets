@@ -1,0 +1,125 @@
+{
+    "version": "Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt",
+    "flags": {},
+    "imagePath": "C:\\Users\\alyduf\\UKCEH\\AMI-Anguilla DPlus203 - Documents\\Expert Labeling\\Fountain\\2026-01-01\\20250710185939-snapshot.jpg",
+    "imageHeight": 2160,
+    "imageWidth": 4096,
+    "description": "",
+    "imageData": null,
+    "shapes": [
+        {
+            "kie_linking": [],
+            "direction": 89.48213958740234,
+            "label": "creature",
+            "score": 0.3987797498703003,
+            "group_id": null,
+            "description": "",
+            "difficult": "false",
+            "shape_type": "rotation",
+            "flags": {},
+            "attributes": {},
+            "points": [
+                [
+                    3847.26416015625,
+                    741.2232666015625
+                ],
+                [
+                    4150.3330078125,
+                    738.5875244140625
+                ],
+                [
+                    4139.73974609375,
+                    -479.4647216796875
+                ],
+                [
+                    3836.6708984375,
+                    -476.82904052734375
+                ]
+            ],
+            "patch_path": "patches/20250710185939-snapshot_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+            "confidence_detection": 0.3987797498703003,
+            "identifier_bot": "",
+            "identifier_human": "",
+            "timestamp_detection": "2026-01-19__14_34_05_(+0000)",
+            "detector_bot": "Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt",
+            "clusterID": 31.1,
+            "timestamp_cluster": "2026-01-19__18_01_17_(+0000)"
+        },
+        {
+            "kie_linking": [],
+            "direction": 3.468229293823242,
+            "label": "creature",
+            "score": 0.39397069811820984,
+            "group_id": null,
+            "description": "",
+            "difficult": "false",
+            "shape_type": "rotation",
+            "flags": {},
+            "attributes": {},
+            "points": [
+                [
+                    1162.0538330078125,
+                    371.82232666015625
+                ],
+                [
+                    1164.0076904296875,
+                    339.16033935546875
+                ],
+                [
+                    1136.3865966796875,
+                    337.5079345703125
+                ],
+                [
+                    1134.4327392578125,
+                    370.169921875
+                ]
+            ],
+            "patch_path": "patches/20250710185939-snapshot_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+            "confidence_detection": 0.39397069811820984,
+            "identifier_bot": "",
+            "identifier_human": "",
+            "timestamp_detection": "2026-01-19__14_34_05_(+0000)",
+            "detector_bot": "Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt",
+            "clusterID": 1593.1,
+            "timestamp_cluster": "2026-01-19__18_01_17_(+0000)"
+        },
+        {
+            "kie_linking": [],
+            "direction": 87.45519256591797,
+            "label": "creature",
+            "score": 0.31095072627067566,
+            "group_id": null,
+            "description": "",
+            "difficult": "false",
+            "shape_type": "rotation",
+            "flags": {},
+            "attributes": {},
+            "points": [
+                [
+                    3274.846923828125,
+                    1891.77685546875
+                ],
+                [
+                    3309.868896484375,
+                    1889.730712890625
+                ],
+                [
+                    3307.223876953125,
+                    1844.45751953125
+                ],
+                [
+                    3272.201904296875,
+                    1846.503662109375
+                ]
+            ],
+            "patch_path": "patches/20250710185939-snapshot_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+            "confidence_detection": 0.31095072627067566,
+            "identifier_bot": "",
+            "identifier_human": "",
+            "timestamp_detection": "2026-01-19__14_34_05_(+0000)",
+            "detector_bot": "Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt",
+            "clusterID": 1644.3,
+            "timestamp_cluster": "2026-01-19__18_01_17_(+0000)"
+        }
+    ]
+}

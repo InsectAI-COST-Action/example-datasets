@@ -1,0 +1,12 @@
+[project]
+name = "insectai-flatbug-example"
+version = "0.1.0"
+description = "flatbug example dataset for datathon at InsectAI's 2026 annual meeting in Niš, Serbia"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "pandas>=3.0.2",
+    "remotezip>=0.12.3",
+    "requests>=2.33.1",
+]
