@@ -25,7 +25,7 @@ Each individual dataset is located in a folder named `<DATASET_NAME>` with the f
 | Component | Description |
 | :--- | :--- |
 | `media/` | Folder containing all images, potentially organized into subdirectories. |
-| `raw_labels/` | The original annotations in their source format (JSON, CSV, TXT, etc.). |
+| `raw_data/` | The original annotations, labels and metadata in their source format (JSON, CSV, TXT, etc.). |
 | `code/` | Folder containing the conversion scripts (Jupyter, R, etc.) used to convert the dataset in raw format to the Camtrap DP standard. |
 | `README.md` | A readme file describing the dataset, its source, and any specific details about the conversion process. |
 | `deployments.csv` | **Generated:** Records of camera/sensor deployments. |
