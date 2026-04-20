@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-This script serves as a template for mapping raw data Camera Trap Data Package (Camtrap DP) 1.0.2.
+This script serves as a template for mapping raw data to Camera Trap Data Package (Camtrap DP) 1.0.2.
 The script has not been used yet with data, so assume that some bugs are present. Please write an issue in case you find any, or even better, submit a pull request with improvements.
 Check https://camtrap-dp.tdwg.org/ for the specifications of Camtrap DP, and https://inbo.github.io/camtrapdp/ for the R package to work with Camtrap DP in R.
 
