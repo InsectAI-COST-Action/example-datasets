@@ -33,12 +33,123 @@
       "profile": "tabular-data-resource",
       "format": "csv",
       "mediatype": "text/csv",
-      "encoding": "utf-8"
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "detectionID"
+          },
+          {
+            "name": "deploymentID"
+          },
+          {
+            "name": "mediaID"
+          },
+          {
+            "name": "eventID"
+          },
+          {
+            "name": "eventStart"
+          },
+          {
+            "name": "eventEnd"
+          },
+          {
+            "name": "detectionLevel"
+          },
+          {
+            "name": "detectionType"
+          },
+          {
+            "name": "cameraSetupType"
+          },
+          {
+            "name": "scientificName"
+          },
+          {
+            "name": "count"
+          },
+          {
+            "name": "lifeStage"
+          },
+          {
+            "name": "sex"
+          },
+          {
+            "name": "behavior"
+          },
+          {
+            "name": "individualID"
+          },
+          {
+            "name": "individualPositionRadius"
+          },
+          {
+            "name": "individualPositionAngle"
+          },
+          {
+            "name": "individualSpeed"
+          },
+          {
+            "name": "bboxX"
+          },
+          {
+            "name": "bboxY"
+          },
+          {
+            "name": "bboxWidth"
+          },
+          {
+            "name": "bboxHeight"
+          },
+          {
+            "name": "classificationMethod"
+          },
+          {
+            "name": "classifiedBy"
+          },
+          {
+            "name": "classificationTimestamp"
+          },
+          {
+            "name": "classificationProbability"
+          },
+          {
+            "name": "detectionTags"
+          },
+          {
+            "name": "detectionComments"
+          },
+          {
+            "name": "sourceDetectionID"
+          },
+          {
+            "name": "modelID"
+          }
+        ],
+        "primaryKey": "detectionID",
+        "foreignKeys": [
+          {
+            "fields": "deploymentID",
+            "reference": {
+              "resource": "deployments",
+              "fields": "deploymentID"
+            }
+          },
+          {
+            "fields": "mediaID",
+            "reference": {
+              "resource": "media",
+              "fields": "mediaID"
+            }
+          }
+        ]
+      }
     }
   ],
   "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
   "name": "plant-pollinator-interactions-balearic-islands",
-  "created": "2026-04-21T14:28:43.525945+00:00",
+  "created": "2026-04-21T14:32:13.829206+00:00",
   "title": "Plant-pollinator interactions in the Balearic Islands",
   "description": "Camera trap images of pollinators visiting flowers, collected as part of a citizen science project in the Balearic Islands (Mediterranean ecosystem, Spain). Images were captured using Raspberry Pi cameras during active pollination events in natural field conditions.",
   "contributors": [
