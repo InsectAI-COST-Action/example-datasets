@@ -30,11 +30,11 @@
     ],
     "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
     "name": "rangex-coco-insectai-datathon",
-    "created": "2026-04-21T08:05:31.079302+00:00",
+    "created": "2026-04-21T13:39:13.916466+00:00",
     "contributors": [
         {
             "title": "Lorenzo Girotti",
-            "role": "author"
+            "role": "contact"
         }
     ],
     "licenses": [
@@ -43,14 +43,24 @@
             "name": "CC-BY-4.0",
             "path": "https://creativecommons.org/licenses/by/4.0/",
             "title": "Creative Commons Attribution 4.0 International"
+        },
+        {
+            "scope": "data",
+            "name": "CC-BY-4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Creative Commons Attribution 4.0 International"
         }
     ],
     "project": {
         "title": "RangeX COCO InsectAI Datathon",
         "samplingDesign": "experimental",
-        "captureMethod": "timeLapse",
+        "captureMethod": [
+            "timeLapse"
+        ],
         "individualAnimals": false,
-        "observationLevel": "media"
+        "observationLevel": [
+            "media"
+        ]
     },
     "spatial": {
         "type": "Polygon",

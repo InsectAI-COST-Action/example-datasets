@@ -16,7 +16,7 @@ import re
 from urllib.parse import quote_plus
 import os
 
-from frictionless import validate, Report, Error
+from frictionless import validate, Report, Error, Resource
 
 # ==========================================
 # 📐 DATA MODELS & REGISTRY
@@ -137,7 +137,32 @@ def check_datapackage(dataset_path : Path) -> list[RuleReturn]:
         return RuleReturn(
             status=False,
             name=f'File: datapackage.json[parsing_error]',
-            message=f'frictionless failed while parsing `datapackage.json` with error:\n{str(e)}'
+            message=f'frictionless failed while parsing "datapackage.json" with error:\n{str(e)}'
+        )
+    
+    try:
+        profile = Resource(datapackage_path).read_data().get("profile", None)
+    except Exception as e:
+        return RuleReturn(
+            status=False,
+            name=f'File: datapackage.json[parsing_error]',
+            message=f'Unable to read "datapackage.json" resource: `Resource("{datapackage_path}").read_data()` '
+        )
+
+    if profile is None:
+        return RuleReturn(
+            status=False,
+            name=f'File: datapackage.json[profile_missing]',
+            message=f'Missing `profile` in "datapackage.json": {datapackage_path}'
+        )
+    if profile != 'https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json':
+        return RuleReturn(
+            status=False,
+            name=f'File: datapackage.json[incorrect_profile_version]',
+            message=(
+                f'Incorrect `profile` version in "datapackage.json": {datapackage_path}.\n'
+                f'Expected "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json" but got "{profile}"'
+            )
         )
     
     task_errors = {

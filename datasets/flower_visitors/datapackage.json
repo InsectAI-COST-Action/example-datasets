@@ -1,0 +1,140 @@
+{
+    "resources": [
+        {
+            "name": "deployments",
+            "path": "deployments.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json"
+        },
+        {
+            "name": "media",
+            "path": "media.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json"
+        },
+        {
+            "name": "observations",
+            "path": "observations.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json"
+        }
+    ],
+    "name": "flower-visitors-insectai-datathon",
+    "created": "2026-04-21T12:07:43.141437+00:00",
+    "contributors": [
+        {
+            "title": "Valentin Ștefan",
+            "role": "author",
+            "email": "stefan.valentin87@yahoo.com"
+        },
+        {
+            "title": "Aspen Workman",
+            "role": "contributor"
+        },
+        {
+            "title": "Jared C. Cobain",
+            "role": "contributor"
+        },
+        {
+            "title": "Demetra Rakosy",
+            "role": "contributor"
+        },
+        {
+            "title": "Boryana Wild Stoykova",
+            "role": "contributor"
+        },
+        {
+            "title": "Elena Cyranka",
+            "role": "contributor"
+        },
+        {
+            "title": "Raquel Urrego Álvarez",
+            "role": "contributor"
+        },
+        {
+            "title": "Tiffany Knight",
+            "role": "principalInvestigator"
+        }
+    ],
+    "licenses": [
+        {
+            "scope": "media",
+            "name": "CC-BY-NC-SA-4.0",
+            "path": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+        },
+        {
+            "scope": "data",
+            "name": "CC-BY-NC-SA-4.0",
+            "path": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "title": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+        }
+    ],
+    "project": {
+        "title": "Flower visitors (smartphone time-lapse subset)",
+        "description": "Subset of arthropod flower-visit images collected via smartphone time-lapse photography in and around Leipzig/Halle, Germany. Full dataset: https://doi.org/10.5281/zenodo.15096610. Bounding boxes in observations.csv follow Camtrap DP 1.0 convention: normalized [0,1] coordinates (bboxX/Y/Width/Height) relative to the full-frame image, top-left anchor, xywh (x = left, y = top, width & height in the same normalized units). The original pixel bbox, the full-frame image dimensions, and the target-flower ROI crop region are preserved per-row in observationTags as bboxPx, imgSizePx, and roiPx. Insect identification credits: Hymenoptera by Aspen Workman; all other orders (Diptera, Araneae, etc.) by Jared C. Cobain.",
+        "samplingDesign": "targeted",
+        "captureMethod": "timeLapse",
+        "individualAnimals": true,
+        "observationLevel": "media"
+    },
+    "spatial": {
+        "type": "Point",
+        "coordinates": [
+            12.272399,
+            51.381921
+        ]
+    },
+    "temporal": {
+        "start": "2021-07-20",
+        "end": "2021-08-14"
+    },
+    "taxonomic": [
+        {
+            "scientificName": "Episyrphus balteatus",
+            "taxonRank": "species"
+        },
+        {
+            "scientificName": "Bombus",
+            "taxonRank": "genus"
+        },
+        {
+            "scientificName": "Araneae",
+            "taxonRank": "order"
+        },
+        {
+            "scientificName": "Formicidae",
+            "taxonRank": "family"
+        },
+        {
+            "scientificName": "Halictidae",
+            "taxonRank": "family"
+        },
+        {
+            "scientificName": "Myathropa florea",
+            "taxonRank": "species"
+        },
+        {
+            "scientificName": "Hylaeus",
+            "taxonRank": "genus"
+        },
+        {
+            "scientificName": "Syrphidae",
+            "taxonRank": "family"
+        },
+        {
+            "scientificName": "Sphaerophoria",
+            "taxonRank": "genus"
+        }
+    ],
+    "bibliographicCitation": "Ștefan, V., Workman, A., Cobain, J. C., Rakosy, D., Wild Stoykova, B., Cyranka, E., Urrego Álvarez, R., & Knight, T. (2025). Dataset of arthropod flower visits captured via smartphone time-lapse photography [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15096610"
+}
