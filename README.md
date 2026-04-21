@@ -16,6 +16,7 @@
 
 | <br>**Dataset**<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | <br>**Status**<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | <br>**Example Image**<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | ---: | :---: | :---: |
+| [**Mothbox**](/datasets/Mothbox) | 🟡 Almost (4/5) | _No image tag found_ |
 | [**amber**](/datasets/amber) | 🟡 Almost (3/5) | <img src="datasets/amber/media/raw_images/20241102032319-snapshot.jpg" height="150"> |
 | [**antenna**](/datasets/antenna) | 🟠 Partial (2/5) | _No image tag found_ |
 | [**diopsis**](/datasets/diopsis) | 🟡 Almost (4/5) | _No image tag found_ |
@@ -28,7 +29,7 @@
 | [**plant-pollinator-interactions**](/datasets/plant-pollinator-interactions) | 🟡 Almost (4/5) | <img src="datasets/plant-pollinator-interactions/media/5mp_300521_10_18_30_696493.jpg" height="150"> |
 | [**rangex**](/datasets/rangex) | 🟠 Partial (4/8) | <img src="datasets/rangex/media/HE22_01_83_2037_2.jpg" height="150"> |
 
-<!-- Last updated: 2026-04-21 13:13:01 UTC -->
+<!-- Last updated: 2026-04-21 13:16:22 UTC -->
 <!-- END: DATASET PROGRESS TABLE -->
 ---
 
