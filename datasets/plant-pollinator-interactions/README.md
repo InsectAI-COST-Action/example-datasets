@@ -22,7 +22,9 @@ For a full class distribution and image size breakdown, see dataset_summary.csv
 
 
 Dataset prepared for the InsectAI WG3 Datathon, Nis 2026.
+
 Data controller: Pau Enric Serra Marin (pau.enric.serra@gmail.com)
+
 Data wranglers: Wouter Koch, Fez Hasan
 
 
