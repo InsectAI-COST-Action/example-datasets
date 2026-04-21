@@ -1,9 +1,12 @@
 # Diopsis example dataset
 
+<img src="diopsis_soortherkenning_AI _231_2022_08_05_00_30_44.png" alt="Diopsis example image" width="300"/>  <img src="Diopsis_Camerading_in_bloemenveld_foto_Rotem_Zilber_1937204697.jpg" alt="Diopsis image" width="300"/>
+
+
 This folder contains a subset of Diopsis recordings and annotations used in following study:
 
 ### Effects of pressure drainage on invertebrate and plant diversity in the Alblasserwaard. 
-### Final report November 2025. By Youri Siemer, Naturalis Biodiversity Center.
+### Final report November 2025. By Youri Siemer, Naturalis Biodiversity Center <img src="logo.svg" alt="Diopsis image" width="7">
 
 This research examined how pressure drainage and water infiltration systems influence the diversity of invertebrates and plants within the Alblasserwaard region. The study compared control plots against plots equipped with drainage systems to analyze shifts in biomass and species composition. 
 

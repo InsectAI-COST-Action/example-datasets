@@ -1,3 +1,4 @@
+<!-- Image: raw/data/2026-04-16/2026-04-16_18-38-26/insdet-cam01_2026-04-16_18-38-41-142032.jpg -->
 # Insect Detect dataset
 
 This is an example dataset, captured with the [Insect Detect](https://maxsitt.github.io/insect-detect-docs/)

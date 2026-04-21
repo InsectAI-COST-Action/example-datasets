@@ -1,3 +1,5 @@
+<!-- Image: media/5mp_300521_10_18_30_696493.jpg -->
+
 # Plant-pollinator interactions — Balearic Islands
 
 <img src="media/5mp_300521_10_18_30_696493.jpg" alt="Plant-pollinator interactions example image" width="300"/>
@@ -18,5 +20,12 @@ Taxonomic resolution is mixed: some individuals are identified to species (e.g. 
 
 For a full class distribution and image size breakdown, see dataset_summary.csv
 
+
 Dataset prepared for the InsectAI WG3 Datathon, Nis 2026.
 Data controller: Pau Enric Serra Marin (pau.enric.serra@gmail.com)
+Data wranglers: Wouter Koch, Fez Hasan
+
+
+## Camtrap DP suggestions
+- Dealing with non-standardized scientific names: we consider resolving/mapping, but is ideally left to the dataset owner
+- Should crop and classification always be separate steps? (Linked through sourceDetectionId)
