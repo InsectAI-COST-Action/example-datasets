@@ -21,7 +21,7 @@
 | [**antenna**](/datasets/antenna) | 🟠 Partial (2/5) | _No image tag found_ |
 | [**diopsis**](/datasets/diopsis) | 🟡 Almost (4/5) | _No image tag found_ |
 | [**flatbug**](/datasets/flatbug) | 🟠 Partial (3/7) | <img src="datasets/flatbug/raw-data/ALUS/Araneae_Unknown_2020_11_10_4723.jpg" height="150"> |
-| [**flower_visitors**](/datasets/flower_visitors) | 🔴 Failed (1/5) | _No image tag found_ |
+| [**flower_visitors**](/datasets/flower_visitors) | 🟡 Almost (4/5) | <img src="datasets/flower_visitors/media/raw/2021-08-11_Achillea-millefolium-bs-01_IMG_20210811_114248.jpg" height="150"> |
 | [**ias**](/datasets/ias) | 🟡 Almost (3/5) | <img src="datasets/ias/raw-data/20250613022959-snapshot.jpg" height="150"> |
 | [**insect-detect**](/datasets/insect-detect) | 🔴 Failed (1/5) | <img src="datasets/insect-detect/raw/data/2026-04-16/2026-04-16_18-38-26/insdet-cam01_2026-04-16_18-38-41-142032.jpg" height="150"> |
 | [**lepmon**](/datasets/lepmon) | 🟢 Success (5/5) | <img src="datasets/lepmon/media/Lepmon%23SN010030_TH_J_2025-07-03_T_0308.jpg" height="150"> |
@@ -29,7 +29,7 @@
 | [**plant-pollinator-interactions**](/datasets/plant-pollinator-interactions) | 🟢 Success (5/5) | <img src="datasets/plant-pollinator-interactions/media/5mp_300521_10_18_30_696493.jpg" height="150"> |
 | [**rangex**](/datasets/rangex) | 🟢 Success (5/5) | <img src="datasets/rangex/media/HE22_01_83_2037_2.jpg" height="150"> |
 
-<!-- Last updated: 2026-04-21 13:42:42 UTC -->
+<!-- Last updated: 2026-04-21 13:51:17 UTC -->
 <!-- END: DATASET PROGRESS TABLE -->
 ---
 
