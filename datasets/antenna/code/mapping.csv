@@ -1,42 +1,26 @@
 src_field,dst_file,dst_field,notes
 id,observations.csv,observationID,
-event_id,,,Cannot map
-event_name,,,Cannot map
 deployment_id,deployments.csv,deploymentID,
 deployment_id,observations.csv,deploymentID,
 deployment_id,media.csv,deploymentID,
-deployment_name,,,Cannot map
 project_id,datapackage.json,project.id,
 project_name,datapackage.json,project.title,
-determination_id,,,Cannot map
-determination_name,observations.csv,scientificName,Not all determinations are scientific names
-determination_score,,,Cannot map
-verification_status,,,Cannot map
-best_machine_prediction_name,,,Cannot map
-best_machine_prediction_algorithm,,,Cannot map
-best_machine_prediction_score,,,Cannot map
-verified_by,,,Cannot map
-participant_count,,,Cannot map
-agreed_with_algorithm,,,Cannot map
-agreed_with_user,,,Cannot map
-determination_matches_machine_prediction,,,Cannot map
-detections_count,,,Cannot map
-first_appearance_timestamp,observations.csv,eventStart,
+determination_name,observations.csv,scientificName,
+first_appearance_timestamp,observations.csv,eventStart ,
 last_appearance_timestamp,observations.csv,eventEnd,
-duration,,,Cannot map
-best_detection_url,,,Cannot map
-best_detection_bbox,observations.csv,bboxX/bboxY,Has to be extracted from array
+best_detection_x,observations.csv,bboxX,
+best_detection_y,observations.csv,bboxY,
 best_detection_width,observations.csv,bboxWidth,
 best_detection_height,observations.csv,bboxHeight,
 best_detection_capture_url,media.csv,filePath,
-,deployments.csv,latitude,Add to export
-,deployments.csv,longitude,Add to export
-,deployments.csv,deploymentStart,Add to export
-,deployments.csv,deploymentEnd,Add to export
-,observations.csv,mediaID,Add to export
-,media.csv,mediaID,Add to export
-,media.csv,timestamp,Add to export
-,observations.csv,filePublic,Hardcode to true
-,observations.csv,fileMediatype,"Hardcode to ""image"""
-,observations.csv,observationLevel,"Hardcode to ""media"""
-,observations.csv,observationType,"Hardcode to ""animal"""
+latitude,deployments.csv,latitude,
+longitude,deployments.csv,longitude,
+deployment_start,deployments.csv,deploymentStart,
+deployment_end,deployments.csv,deploymentEnd,
+capture_id,observations.csv,mediaID,
+capture_id,media.csv,mediaID,
+timestamp,media.csv,timestamp,
+file_media_type,observations.csv,filePublic,
+file_media_type,observations.csv,fileMediatype,
+observation_level,observations.csv,observationLevel,
+observation_type,observations.csv,observationType,
