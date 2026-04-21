@@ -1,3 +1,4 @@
+<!-- Image: media/raw_images/20241102032319-snapshot.jpg -->
 # AMBER dataset
 
 This is a subset of the nocturnal insect images UKCEH has collected using the AMI (Automated Monitoring of Insects) system.
