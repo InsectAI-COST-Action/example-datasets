@@ -1,0 +1,38 @@
+src_field,dst_file,dst_field,notes
+id,observations.csv,observationID,
+event_id,observations.csv,eventID,
+,observations.csv,eventStart,Add to export
+,observations.csv,eventEnd,Add to export
+deployment_id,deployments.csv,deploymentID,
+deployment_id,observations.csv,deploymentID,
+deployment_id,media.csv,deploymentID,
+deployment_name,,,Cannot map
+project_id,datapackage.json,project.id,
+project_name,datapackage.json,project.title,
+determination_id,,,Cannot map
+determination_name,observations.csv,scientificName,Not all determinations are scientific names
+determination_score,,,Cannot map
+verification_status,,,Cannot map
+best_machine_prediction_name,,,Cannot map
+best_machine_prediction_algorithm,,,Cannot map
+best_machine_prediction_score,,,Cannot map
+verified_by,,,Cannot map
+participant_count,,,Cannot map
+agreed_with_algorithm,,,Cannot map
+agreed_with_user,,,Cannot map
+determination_matches_machine_prediction,,,
+detections_count,,,Cannot map
+first_appearance_timestamp,media.csv,timestamp,
+last_appearance_timestamp,,,Cannot map
+duration,,,Cannot map
+best_detection_url,,,Cannot map
+best_detection_bbox,observations.csv,bboxX/bboxY,Has to be extracted from array
+best_detection_width,observations.csv,bboxWidth,
+best_detection_height,observations.csv,bboxHeight,
+best_detection_capture_url,media.csv,filePath,
+,,latitude,Add to export
+,,longitude,Add to export
+,,deploymentStart,Add to export
+,,deploymentEnd,Add to export
+,,mediaID,Add to export
+,,filePublic,Add to export

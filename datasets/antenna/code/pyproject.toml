@@ -1,0 +1,15 @@
+[project]
+name = "antenna_remapping"
+version = "0.1.0"
+description = "Convert Antenna export to CamTrapDP"
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "numpy>=2.0",
+    "pandas",
+    "frictionless",
+    "PyYAML",
+    "ipykernel",
+    "ipywidgets",
+    "tqdm"
+]
