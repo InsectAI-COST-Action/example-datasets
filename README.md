@@ -25,10 +25,10 @@
 | [**insect-detect**](/datasets/insect-detect) | 🔴 Failed (1/5) | _No image tag found_ |
 | [**lepmon**](/datasets/lepmon) | 🟢 Success (5/5) | <img src="datasets/lepmon/media/Lepmon%23SN010030_TH_J_2025-07-03_T_0308.jpg" height="150"> |
 | [**minimon**](/datasets/minimon) | 🟡 Almost (3/5) | <img src="datasets/minimon/media/E41990/20250614/E41990_20250614094103_0105_012989.jpg" height="150"> |
-| [**plant-pollinator-interactions**](/datasets/plant-pollinator-interactions) | 🟡 Almost (4/5) | _No image tag found_ |
+| [**plant-pollinator-interactions**](/datasets/plant-pollinator-interactions) | 🟡 Almost (4/5) | <img src="datasets/plant-pollinator-interactions/media/5mp_300521_10_18_30_696493.jpg" height="150"> |
 | [**rangex**](/datasets/rangex) | 🟢 Success (5/5) | <img src="datasets/rangex/media/HE22_01_83_2037_2.jpg" height="150"> |
 
-<!-- Last updated: 2026-04-21 11:49:59 UTC -->
+<!-- Last updated: 2026-04-21 11:52:46 UTC -->
 <!-- END: DATASET PROGRESS TABLE -->
 ---
 
