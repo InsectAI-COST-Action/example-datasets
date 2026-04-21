@@ -4,6 +4,15 @@ Proposed Camtrap DP conversion for flower_visitors minidataset.
 This script was run locally from: .../example-datasets/datasets/flower_visitors/code/
 A Python enviornment with the packages listed in requirements.txt is required to run it end-to-end.
 
+Example of bash code in terminal (Linux - Ubuntu)
+```bash
+# Assuming 
+source /home/vs66tavy/Nextcloud/InsectAI_COST_Serbia/.venv/bin/activate
+cd example-datasets/datasets/flower_visitors/code/
+python3 data_conversion.py
+frictionless validate ../datapackage.json
+```
+
 Outputs (in the parent dataset folder .../example-datasets/datasets/flower_visitors/) are:
     - deployments.csv
     - media.csv
@@ -595,7 +604,7 @@ datapackage = {
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/deployments-table-schema.json",
         },
         {
             "name": "media",
@@ -604,7 +613,7 @@ datapackage = {
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/media-table-schema.json",
         },
         {
             "name": "observations",
@@ -613,15 +622,16 @@ datapackage = {
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/observations-table-schema.json",
         },
     ],
+    "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
     "name": "flower-visitors-insectai-datathon",
     "created": datetime.now(timezone.utc).isoformat(),
     "contributors": [
         {
             "title": "Valentin Ștefan",
-            "role": "author",
+            "role": "contact",
             "email": "valentin.stefan@idiv.de",
         },
         {"title": "Aspen Workman", "role": "contributor"},
@@ -663,9 +673,9 @@ datapackage = {
             "all other orders (Diptera, Araneae, etc.) by Jared C. Cobain."
         ),
         "samplingDesign": "targeted",
-        "captureMethod": "timeLapse",
+        "captureMethod": ["timeLapse"],
         "individualAnimals": True,
-        "observationLevel": "media",
+        "observationLevel": ["media"],
     },
     "spatial": {
         "type": "Point",
