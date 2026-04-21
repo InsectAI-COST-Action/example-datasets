@@ -1,0 +1,23 @@
+src_column,dst_table,dst_column,notes
+detectionid,Observations,observationID,Acts as the unique identifier for this specific AI detection (bounding box).
+taxonlevel,None,None,Camtrap DP handles taxonomic hierarchy internally or via external taxonomic providers. You can safely drop this or map it to observationTags.
+label,Observations,scientificName,"The assigned class. If this is a common name rather than scientific, it could technically go in observationComments, but scientificName is standard for taxon labels."
+labelid,None,None,External taxonomy ID. Could be appended to observationComments if strictly needed.
+score,Observations,classificationProbability,Map directly. Represents the AI's confidence score.
+abovethreshold,None,None,Internal algorithm logic. Safely ignored.
+algorithm,Observations,classifiedBy,"Captures the AI model name (e.g., ""fastai-species""). You should also hardcode classificationMethod = ""machine""."
+sourceimageid,MediaObservations,mediaIDmediaID,The unique ID of the image. Must exist in the Media table to be referenced by the Observation table.
+x1,Observations,bboxX,Top-left X coordinate.
+x2,Observations,bboxWidth,Requires transformation: bboxWidth = x2 - x1.
+y1,Observations,bboxY,Top-left Y coordinate.
+y2,Observations,bboxHeight,Requires transformation: bboxHeight = y2 - y1.
+cropurl,None,None,"Camtrap DP links to the full original image, not the crop."
+code,Deployment,locationName,"Acts as the human-readable site code (e.g., ""DK3"")."
+year,None,None,Redundant; the year will be extracted from the timestamp.
+partnerid,None,None,"Project-level metadata, doesn't belong in these core tables."
+projectid,None,None,Project-level metadata.
+wktposition,Deployment,longitudelatitude,"Requires parsing. POINT(X Y) extracts to longitude = X, latitude = Y."
+filename,Media,fileName,The raw name of the image file.
+deploymentid,DeploymentMediaObservations,deploymentID,The primary relational key tying all three tables together.
+url,Media,filePath,Use the URL as the file path if the images are hosted remotely (standard practice).
+timestamp,MediaObservations,timestampeventStart,"Requires transformation: Convert Unix epoch (1747708799) to ISO 8601 format (e.g., 2025-05-20T02:39:59Z)."
