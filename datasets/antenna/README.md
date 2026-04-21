@@ -1,3 +1,5 @@
+<!-- Image: https://object-arbutus.cloud.computecanada.ca/ami-trapdata/newfoundland/Unit-1/2024%20Snapshots/2024%20Ami%20Images-%20Unit%201%20Pasadena/01-20240709024649-snapshot.jpg -->
+
 # Antenna dataset
 
 This is a small subset of data from the project "NRCAN Moth Surveillance Solutions" on [Antenna](https://www.insectai.org/). This project is monitoring forest species in Canada, for example Choristoneura fumiferana, which is considered one of the most destructive forest pests in North America.
