@@ -1,0 +1,269 @@
+{
+  "profile": "data-package",
+  "name": "lepmon",
+  "title": "Lepmon Project",
+  "description": "Das Lepmon Projekt | Lepmon Urban Gradient Experiment | Alle Standorte des Lepmon Urban Gradien Experiment | Jena (J) Urban Gradient | Alle Fallen des Urban Gradient Experiments am Standort Jena",
+  "created": "2026-04-21T09:38:12Z",
+  "contributors": [
+    {
+      "title": "Paul Bodesheim",
+      "role": "author"
+    },
+    {
+      "title": "Dennis B\u00f6ttger",
+      "role": "author"
+    },
+    {
+      "title": "Christian Br\u00e4unig",
+      "role": "author"
+    },
+    {
+      "title": "Gunnar Brehm",
+      "role": "author"
+    },
+    {
+      "title": "Peter Grobe",
+      "role": "author"
+    },
+    {
+      "title": "Martin Planke",
+      "role": "author"
+    },
+    {
+      "title": "Julie Sheard",
+      "role": "author"
+    },
+    {
+      "title": "Roel van Klink",
+      "role": "author"
+    },
+    {
+      "title": "Hui Yu",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "deployments",
+      "path": "deployments.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "deployment_id"
+          },
+          {
+            "name": "longitude"
+          },
+          {
+            "name": "latitude"
+          },
+          {
+            "name": "locationName"
+          },
+          {
+            "name": "deployment_start"
+          },
+          {
+            "name": "deployment_end"
+          },
+          {
+            "name": "cameraID"
+          },
+          {
+            "name": "cameraModel"
+          },
+          {
+            "name": "cameraVersion"
+          },
+          {
+            "name": "detectionDistance"
+          },
+          {
+            "name": "baitUse"
+          },
+          {
+            "name": "baitType"
+          },
+          {
+            "name": "firmwareVersion"
+          },
+          {
+            "name": "firmwareDate"
+          }
+        ]
+      }
+    },
+    {
+      "name": "media",
+      "path": "media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "media_id"
+          },
+          {
+            "name": "deploymentID"
+          },
+          {
+            "name": "captureMethod"
+          },
+          {
+            "name": "timestamp"
+          },
+          {
+            "name": "filePath"
+          },
+          {
+            "name": "filePublic"
+          },
+          {
+            "name": "fileName"
+          },
+          {
+            "name": "fileMediatype"
+          }
+        ]
+      }
+    },
+    {
+      "name": "model",
+      "path": "model.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "modelID"
+          },
+          {
+            "name": "modelName"
+          },
+          {
+            "name": "modelVersion"
+          },
+          {
+            "name": "modelDescription"
+          },
+          {
+            "name": "modelPathRepository"
+          },
+          {
+            "name": "publicationDate"
+          },
+          {
+            "name": "modelTask"
+          }
+        ]
+      }
+    },
+    {
+      "name": "detections",
+      "path": "detections.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "deploymentID"
+          },
+          {
+            "name": "media_id"
+          },
+          {
+            "name": "eventStart"
+          },
+          {
+            "name": "eventEnd"
+          },
+          {
+            "name": "detectionLevel"
+          },
+          {
+            "name": "scientificName"
+          },
+          {
+            "name": "taxonRank"
+          },
+          {
+            "name": "count"
+          },
+          {
+            "name": "individualID"
+          },
+          {
+            "name": "bboxX"
+          },
+          {
+            "name": "bboxY"
+          },
+          {
+            "name": "bboxWidth"
+          },
+          {
+            "name": "bboxHeight"
+          },
+          {
+            "name": "bboxURL"
+          },
+          {
+            "name": "classificationProbability"
+          },
+          {
+            "name": "modelID"
+          },
+          {
+            "name": "classificationMethod"
+          },
+          {
+            "name": "classificationTimestamp"
+          }
+        ]
+      }
+    }
+  ],
+  "project": {
+    "identifier": "Lepmon",
+    "title": "Lepmon Project",
+    "description": "Das Lepmon Projekt | Lepmon Urban Gradient Experiment | Alle Standorte des Lepmon Urban Gradien Experiment | Jena (J) Urban Gradient | Alle Fallen des Urban Gradient Experiments am Standort Jena"
+  },
+  "temporal": {
+    "start": "2025-07-02T21:02:00.000",
+    "end": "2025-07-03T05:34:00.000"
+  },
+  "taxonomic": [
+    {
+      "scientificName": "Lepidoptera"
+    }
+  ],
+  "spatial": {
+    "type": "Point",
+    "coordinates": [
+      11.5366376,
+      50.9403329
+    ]
+  }
+}
