@@ -1,0 +1,81 @@
+{
+  "resources": [
+    {
+      "name": "deployments",
+      "path": "deployments.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json"
+    },
+    {
+      "name": "media",
+      "path": "media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json"
+    },
+    {
+      "name": "observations",
+      "path": "observations.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json"
+    }
+  ],
+  "name": "antenna-insectai-datathon",
+  "created": "2026-04-21",
+  "contributors": [
+    {
+      "title": "Joe Bowden",
+      "role": "collector"
+    },
+    {
+      "title": "Jamie Warren",
+      "role": "collector"
+    },
+    {
+      "title": "Asger Svenning",
+      "role": "author"
+    },
+    {
+      "title": "Anna Viklund",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "scope": "media",
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "project": {
+    "title": "Antenna InsectAI Datathon",
+    "samplingDesign": "experimental",
+    "captureMethod": "timeLapse",
+    "individualAnimals": false,
+    "observationLevel": "media"
+  },
+  "spatial": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [49.01392, -57.59865],
+        [48.95317, -57.94739],
+        [45.47945, -74.30196]
+      ]
+    ]
+  },
+  "temporal": {
+    "start": "2022-04-06",
+    "end": "2024-08-20"
+  },
+  "taxonomic": []
+}
