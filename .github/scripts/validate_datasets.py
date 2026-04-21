@@ -13,6 +13,7 @@ from pathlib import Path
 from dataclasses import dataclass
 from typing import Any, Callable
 import re
+from urllib.parse import quote_plus
 import os
 
 from frictionless import validate, Report, Error
@@ -179,9 +180,9 @@ def extract_readme_image(dataset_path: Path) -> str | None:
             mtch = re.match(image_path_embed_pattern, first_line)
             if not mtch:
                 return None
-            mtch = mtch.group(1)
+            mtch = mtch.group(1).strip()
             image_path = dataset_path.joinpath(*mtch.split("/"))
-            return "/" + str(image_path)
+            return "/".join(map(quote_plus, str(image_path).strip().split(os.sep)))
     except Exception:
         pass
     return None
