@@ -12,3 +12,7 @@ The raw images are provided to Mothbot, which automatically detects individual i
 
 ## Classifier-generated labels
 The raw images are cropped to individual insects using the flatbug model. Next, a binary classifier labels the insects as moth or non-moth. The moth crops are fed into a species classifier which labels them at species level. There is one output file for all images called dep000098_all_chunks_jasmin.csv, with one row per cropped insect.
+
+# Camtrap DP suggestions
+
+* Add pipelineID to detections.csv and models.csv. This will link together models that are run sequentially on the same piece of media. Ideally, also add positionInPipeline column to models.csv, to specify the order in which models are run in a pipeline.

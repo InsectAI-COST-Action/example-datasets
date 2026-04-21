@@ -1,0 +1,310 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_26__23_42_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_42_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Lepidoptera",
+      "score": 0.8335787653923035,
+      "direction": 6.55148458480835,
+      "shape_type": "rotation",
+      "points": [
+        [
+          5298.36376953125,
+          3900.539794921875
+        ],
+        [
+          5339.73876953125,
+          3543.532958984375
+        ],
+        [
+          5000.21337890625,
+          3504.183837890625
+        ],
+        [
+          4958.83837890625,
+          3861.190673828125
+        ]
+      ],
+      "clusterID": 52.4,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 797,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764813145584
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_42_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "melanocephala",
+      "score": 0.7985879778862,
+      "direction": 6.263489723205566,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3926.15771484375,
+          3158.851318359375
+        ],
+        [
+          3962.17431640625,
+          2831.328857421875
+        ],
+        [
+          3603.8291015625,
+          2791.922607421875
+        ],
+        [
+          3567.8125,
+          3119.445068359375
+        ]
+      ],
+      "clusterID": 10.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Scarabaeidae",
+      "genus": "Cyclocephala",
+      "species": "melanocephala",
+      "taxonID": 4994793,
+      "acceptedTaxonKey": 4994793,
+      "acceptedScientificName": "Cyclocephala melanocephala (Fabricius, 1775)",
+      "taxonRank": "species",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772420115044
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_42_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diptera",
+      "score": 0.7935062646865845,
+      "direction": 0.45592495799064636,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3000.71484375,
+          5656.91748046875
+        ],
+        [
+          3003.2353515625,
+          5279.60400390625
+        ],
+        [
+          2641.02978515625,
+          5277.18408203125
+        ],
+        [
+          2638.50927734375,
+          5654.49755859375
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 811,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765417171243
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_42_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.7919290065765381,
+      "direction": 10.261373519897461,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6670.3017578125,
+          4757.99365234375
+        ],
+        [
+          6691.3212890625,
+          4642.45263671875
+        ],
+        [
+          6609.6396484375,
+          4627.59326171875
+        ],
+        [
+          6588.6201171875,
+          4743.13427734375
+        ]
+      ],
+      "clusterID": 118.3,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 809,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765217937068
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_42_06_HDR0_4_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Lepidoptera",
+      "score": 0.7429174780845642,
+      "direction": 89.37724304199219,
+      "shape_type": "rotation",
+      "points": [
+        [
+          4923.95947265625,
+          3219.289794921875
+        ],
+        [
+          5175.23681640625,
+          3216.491455078125
+        ],
+        [
+          5172.16552734375,
+          2940.743408203125
+        ],
+        [
+          4920.88818359375,
+          2943.541748046875
+        ]
+      ],
+      "clusterID": 44.4,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 797,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764813145584
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_42_06_HDR0_5_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.740850567817688,
+      "direction": 23.629377365112305,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6549.70166015625,
+          4656.845703125
+        ],
+        [
+          6594.12548828125,
+          4555.83203125
+        ],
+        [
+          6466.84716796875,
+          4499.857421875
+        ],
+        [
+          6422.42333984375,
+          4600.87109375
+        ]
+      ],
+      "clusterID": 116.28,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765130728151
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_42_06_HDR0_6_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Lepidoptera",
+      "score": 0.6662896275520325,
+      "direction": 17.765411376953125,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2791.886474609375,
+          6731.34912109375
+        ],
+        [
+          3036.488037109375,
+          5968.42626953125
+        ],
+        [
+          2134.376708984375,
+          5679.19873046875
+        ],
+        [
+          1889.77490234375,
+          6442.12158203125
+        ]
+      ],
+      "clusterID": 2.8,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 797,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764813145584
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_42_06_HDR0_7_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diptera",
+      "score": 0.6538952589035034,
+      "direction": 3.7485036849975586,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6233.62451171875,
+          4814.1025390625
+        ],
+        [
+          6252.87060546875,
+          4524.8916015625
+        ],
+        [
+          5980.88916015625,
+          4506.79296875
+        ],
+        [
+          5961.64306640625,
+          4796.00390625
+        ]
+      ],
+      "clusterID": 73.4,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 811,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765417110063
+    }
+  ]
+}

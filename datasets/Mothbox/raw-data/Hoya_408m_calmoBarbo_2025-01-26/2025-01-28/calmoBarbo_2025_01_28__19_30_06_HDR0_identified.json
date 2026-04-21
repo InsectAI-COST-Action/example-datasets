@@ -1,0 +1,233 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_28__19_30_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__19_30_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Eulepidotis juncida",
+      "score": 0.8450713157653809,
+      "direction": 6.056130409240723,
+      "shape_type": "rotation",
+      "points": [
+        [
+          5419.9619140625,
+          5898.73974609375
+        ],
+        [
+          5467.369140625,
+          5455.77978515625
+        ],
+        [
+          4986.8251953125,
+          5404.35009765625
+        ],
+        [
+          4939.41796875,
+          5847.31005859375
+        ]
+      ],
+      "clusterID": 6.7,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Erebidae",
+      "genus": "Eulepidotis",
+      "species": "juncida",
+      "taxonID": 1763163,
+      "acceptedTaxonKey": 1763163,
+      "acceptedScientificName": "Eulepidotis juncida Guenée, 1852",
+      "taxonRank": "species",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772721971759
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__19_30_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diptera",
+      "score": 0.7953122854232788,
+      "direction": 9.332324981689453,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3230.91552734375,
+          4130.56494140625
+        ],
+        [
+          3277.728515625,
+          3844.864990234375
+        ],
+        [
+          3062.40478515625,
+          3809.583251953125
+        ],
+        [
+          3015.591796875,
+          4095.283447265625
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 811,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764876130519
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__19_30_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.6966456174850464,
+      "direction": 25.201122283935547,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6544.81591796875,
+          4664.62353515625
+        ],
+        [
+          6592.72314453125,
+          4563.15380859375
+        ],
+        [
+          6456.67919921875,
+          4498.92236328125
+        ],
+        [
+          6408.77197265625,
+          4600.39208984375
+        ]
+      ],
+      "clusterID": 56.9,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764872504198
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__19_30_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Lepidoptera",
+      "score": 0.5231990814208984,
+      "direction": 27.838083267211914,
+      "shape_type": "rotation",
+      "points": [
+        [
+          7797.3408203125,
+          2267.848388671875
+        ],
+        [
+          7844.53515625,
+          2178.578857421875
+        ],
+        [
+          7763.328125,
+          2135.647216796875
+        ],
+        [
+          7716.1337890625,
+          2224.916748046875
+        ]
+      ],
+      "clusterID": 44.5,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 797,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764876020901
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__19_30_06_HDR0_4_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Curculionidae",
+      "score": 0.5159193277359009,
+      "direction": 5.782392501831055,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2739.408935546875,
+          3973.1328125
+        ],
+        [
+          2745.576416015625,
+          3910.72705078125
+        ],
+        [
+          2667.098388671875,
+          3902.970703125
+        ],
+        [
+          2660.930908203125,
+          3965.37646484375
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Curculionidae",
+      "genus": null,
+      "species": null,
+      "taxonID": 4239,
+      "taxonRank": "family",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772315710127,
+      "morphospecies": "Curculionidae6"
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__19_30_06_HDR0_5_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.28244662284851074,
+      "direction": 85.42607879638672,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2014.792724609375,
+          4066.257080078125
+        ],
+        [
+          2098.699462890625,
+          4059.738037109375
+        ],
+        [
+          2090.943115234375,
+          3959.909423828125
+        ],
+        [
+          2007.036376953125,
+          3966.428466796875
+        ]
+      ],
+      "clusterID": 31.5,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764872504198
+    }
+  ]
+}

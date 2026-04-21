@@ -1,0 +1,80 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_26__23_06_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_06_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Lepidoptera",
+      "score": 0.7724162936210632,
+      "direction": 36.51222229003906,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2057.58447265625,
+          3470.956787109375
+        ],
+        [
+          2667.4013671875,
+          2646.830322265625
+        ],
+        [
+          1985.1229248046875,
+          2141.974853515625
+        ],
+        [
+          1375.3062744140625,
+          2966.101318359375
+        ]
+      ],
+      "clusterID": 26.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 797,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764813145584
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__23_06_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.6510990858078003,
+      "direction": 20.49734115600586,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6555.26904296875,
+          4660.208984375
+        ],
+        [
+          6595.46044921875,
+          4553.8720703125
+        ],
+        [
+          6463.90380859375,
+          4504.1484375
+        ],
+        [
+          6423.71240234375,
+          4610.4853515625
+        ]
+      ],
+      "clusterID": 116.19,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765130728151
+    }
+  ]
+}

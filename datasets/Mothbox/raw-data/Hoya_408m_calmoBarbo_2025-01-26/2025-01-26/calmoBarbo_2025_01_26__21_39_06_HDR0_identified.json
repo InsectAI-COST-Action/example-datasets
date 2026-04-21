@@ -1,0 +1,157 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_26__21_39_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__21_39_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Lepidoptera",
+      "score": 0.8777104616165161,
+      "direction": 4.052075386047363,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6566.66455078125,
+          3810.0595703125
+        ],
+        [
+          6609.82666015625,
+          3203.7216796875
+        ],
+        [
+          6143.93017578125,
+          3170.556640625
+        ],
+        [
+          6100.76806640625,
+          3776.89453125
+        ]
+      ],
+      "clusterID": 50.7,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 797,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764813145584
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__21_39_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.8061062097549438,
+      "direction": 4.9291229248046875,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2819.53076171875,
+          1540.240234375
+        ],
+        [
+          2861.86474609375,
+          1053.115966796875
+        ],
+        [
+          2415.65283203125,
+          1014.33740234375
+        ],
+        [
+          2373.31884765625,
+          1501.461669921875
+        ]
+      ],
+      "clusterID": 25.7,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 809,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765130815417
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__21_39_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.6909534931182861,
+      "direction": 24.717443466186523,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6552.15283203125,
+          4661.18408203125
+        ],
+        [
+          6596.79833984375,
+          4564.97607421875
+        ],
+        [
+          6470.85791015625,
+          4506.53369140625
+        ],
+        [
+          6426.21240234375,
+          4602.74169921875
+        ]
+      ],
+      "clusterID": 116.11,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765130728151
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__21_39_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Coleoptera11",
+      "score": 0.31342387199401855,
+      "direction": 2.0095536708831787,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1387.2435302734375,
+          4738.39990234375
+        ],
+        [
+          1389.5443115234375,
+          4681.97412109375
+        ],
+        [
+          1328.2371826171875,
+          4679.47412109375
+        ],
+        [
+          1325.9364013671875,
+          4735.89990234375
+        ]
+      ],
+      "clusterID": 121.6,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 1470,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772420528334,
+      "morphospecies": "Coleoptera11"
+    }
+  ]
+}

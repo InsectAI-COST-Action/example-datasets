@@ -1,0 +1,97 @@
+{
+  "resources": [
+    {
+      "name": "deployments",
+      "path": "deployments.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json"
+    },
+    {
+      "name": "media",
+      "path": "media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json"
+    },
+    {
+      "name": "observations",
+      "path": "observations.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json"
+    }
+  ],
+  "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/camtrap-dp-profile.json",
+  "name": "plant-pollinator-interactions-balearic-islands",
+  "created": "2026-04-21T12:08:28.386316+00:00",
+  "title": "Plant-pollinator interactions in the Balearic Islands",
+  "description": "Camera trap images of pollinators visiting flowers, collected as part of a citizen science project in the Balearic Islands (Mediterranean ecosystem, Spain). Images were captured using Raspberry Pi cameras during active pollination events in natural field conditions.",
+  "contributors": [
+    {
+      "title": "Pau Enric Serra Marin",
+      "role": "contact"
+    }
+  ],
+  "project": {
+    "title": "Plant-pollinator interactions in the Balearic Islands",
+    "captureMethod": [
+      "timeLapse"
+    ],
+    "individualAnimals": false,
+    "observationLevel": [
+      "media"
+    ]
+  },
+  "temporal": {
+    "start": "2020-02-13",
+    "end": "2021-05-30"
+  },
+  "taxonomic": [
+    {
+      "scientificName": "Apis mellifera"
+    },
+    {
+      "scientificName": "Beetle"
+    },
+    {
+      "scientificName": "Bombus terrestris"
+    },
+    {
+      "scientificName": "Butterfly"
+    },
+    {
+      "scientificName": "Eucera"
+    },
+    {
+      "scientificName": "Fly"
+    },
+    {
+      "scientificName": "Hoverfly"
+    },
+    {
+      "scientificName": "Osmia"
+    },
+    {
+      "scientificName": "Scaeva pyrastri"
+    },
+    {
+      "scientificName": "Unidentified insect"
+    },
+    {
+      "scientificName": "Vanessa cardui"
+    },
+    {
+      "scientificName": "Wasp"
+    },
+    {
+      "scientificName": "bee"
+    }
+  ]
+}

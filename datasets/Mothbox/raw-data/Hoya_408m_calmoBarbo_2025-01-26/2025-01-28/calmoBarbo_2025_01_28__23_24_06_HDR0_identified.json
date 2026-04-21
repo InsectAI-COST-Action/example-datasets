@@ -1,0 +1,157 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_28__23_24_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_24_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.7203817367553711,
+      "direction": 27.5972957611084,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6540.09033203125,
+          4664.45703125
+        ],
+        [
+          6590.44970703125,
+          4568.978515625
+        ],
+        [
+          6458.73193359375,
+          4499.5048828125
+        ],
+        [
+          6408.37255859375,
+          4594.9833984375
+        ]
+      ],
+      "clusterID": 56.44,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764872504198
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_24_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diptera",
+      "score": 0.5800378918647766,
+      "direction": 10.097503662109375,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1392.603271484375,
+          2083.665283203125
+        ],
+        [
+          1444.491455078125,
+          1791.6220703125
+        ],
+        [
+          1211.28125,
+          1750.18701171875
+        ],
+        [
+          1159.39306640625,
+          2042.230224609375
+        ]
+      ],
+      "clusterID": 39.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 811,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764812025502
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_24_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.5503637194633484,
+      "direction": 2.3137223720550537,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1246.780517578125,
+          5451.0517578125
+        ],
+        [
+          1250.4833984375,
+          5359.0224609375
+        ],
+        [
+          1151.539306640625,
+          5355.041015625
+        ],
+        [
+          1147.83642578125,
+          5447.0703125
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 809,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764872613250
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_24_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Curculionidae",
+      "score": 0.3077429533004761,
+      "direction": 83.33334350585938,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3115.494384765625,
+          1667.2310791015625
+        ],
+        [
+          3171.673095703125,
+          1660.6392822265625
+        ],
+        [
+          3162.649658203125,
+          1583.7349853515625
+        ],
+        [
+          3106.470947265625,
+          1590.3267822265625
+        ]
+      ],
+      "clusterID": 47.2,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Curculionidae",
+      "genus": null,
+      "species": null,
+      "taxonID": 4239,
+      "taxonRank": "family",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772315520349,
+      "morphospecies": "Curculionidae7"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+<!-- Image: raw/data/2026-04-16/2026-04-16_18-38-26/insdet-cam01_2026-04-16_18-38-41-142032.jpg -->
 # Insect Detect dataset
 
 This is an example dataset, captured with the [Insect Detect](https://maxsitt.github.io/insect-detect-docs/)
@@ -21,3 +22,12 @@ Two approaches:
 
 1) mapped every single field in the standard to the data
 2) used Gemini to do an automatic mapping (mapping_plan.md)
+
+## Suggestions
+
+Limiting attractantType to lure, light, and sound feels restrictive. Insect Detect uses a coloured platform to 
+attract pollinators, which doesn't seem to fit in these three categories. Similar attactants, such as artifical
+flowers, would likely also have the same problem. We haven't settled on a word that would encompass these
+attractants, but even something like an "other" category could allow this term to be more inclusive while still
+providing standardized names for the most common attractant types.
+

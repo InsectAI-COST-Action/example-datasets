@@ -34,3 +34,8 @@ To run the conversion scripts and work with these datasets, please set up a Pyth
    ```bash
    pip install -r requirements.txt
    ```
+
+## InsectAI Camtrap DP suggestions
+
+- not mentioned in the report yet, the `featureType` column in `deployments` should have different enum values, like `flower`, `soil`, `board` etc...
+- 

@@ -1,0 +1,60 @@
+{
+  "profile": "camtrap-dp",
+  "name": "mothbox-cerro-hoya",
+  "created": "2026-04-21T12:27:32Z",
+  "licenses": [
+    {
+      "scope": "data",
+      "name": "unknown",
+      "path": "",
+      "title": "Unknown"
+    }
+  ],
+  "resources": [
+    {
+      "name": "deployments",
+      "path": "deployments.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json",
+      "dialect": {
+        "csv": {
+          "header": true
+        }
+      },
+      "count": 3
+    },
+    {
+      "name": "media",
+      "path": "media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json",
+      "dialect": {
+        "csv": {
+          "header": true
+        }
+      },
+      "count": 13738
+    },
+    {
+      "name": "observations",
+      "path": "observations.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json",
+      "dialect": {
+        "csv": {
+          "header": true
+        }
+      },
+      "count": 13738
+    }
+  ]
+}

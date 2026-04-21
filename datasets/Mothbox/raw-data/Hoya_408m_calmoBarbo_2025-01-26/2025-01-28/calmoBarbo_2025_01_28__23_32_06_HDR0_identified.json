@@ -1,0 +1,234 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_28__23_32_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_32_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.7336762547492981,
+      "direction": 26.737110137939453,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6541.4306640625,
+          4663.32861328125
+        ],
+        [
+          6589.9970703125,
+          4566.57568359375
+        ],
+        [
+          6456.9912109375,
+          4499.81201171875
+        ],
+        [
+          6408.4248046875,
+          4596.56494140625
+        ]
+      ],
+      "clusterID": 56.47,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764872504198
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_32_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diptera",
+      "score": 0.6951783895492554,
+      "direction": 89.22578430175781,
+      "shape_type": "rotation",
+      "points": [
+        [
+          5587.58154296875,
+          2873.40576171875
+        ],
+        [
+          5658.47900390625,
+          2872.7255859375
+        ],
+        [
+          5657.76904296875,
+          2798.708984375
+        ],
+        [
+          5586.87158203125,
+          2799.38916015625
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 811,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764876130519
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_32_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diptera",
+      "score": 0.6371633410453796,
+      "direction": 9.344671249389648,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3482.994384765625,
+          4809.884765625
+        ],
+        [
+          3500.225830078125,
+          4705.982421875
+        ],
+        [
+          3421.614013671875,
+          4692.9453125
+        ],
+        [
+          3404.382568359375,
+          4796.84765625
+        ]
+      ],
+      "clusterID": 40.3,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 811,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764812025502
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_32_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Curculionidae",
+      "score": 0.622202455997467,
+      "direction": 3.1798300743103027,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2157.107421875,
+          1656.0916748046875
+        ],
+        [
+          2162.8916015625,
+          1548.4256591796875
+        ],
+        [
+          2078.34033203125,
+          1543.8831787109375
+        ],
+        [
+          2072.55615234375,
+          1651.5491943359375
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Curculionidae",
+      "genus": null,
+      "species": null,
+      "taxonID": 4239,
+      "taxonRank": "family",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772315584796,
+      "morphospecies": "Curculionidae7"
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_32_06_HDR0_4_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Coleoptera",
+      "score": 0.6177804470062256,
+      "direction": 2.009553909301758,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6702.0224609375,
+          3285.5078125
+        ],
+        [
+          6703.9658203125,
+          3227.7734375
+        ],
+        [
+          6628.443359375,
+          3225.2314453125
+        ],
+        [
+          6626.5,
+          3282.9658203125
+        ]
+      ],
+      "clusterID": 67.3,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 1470,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772315650475,
+      "morphospecies": "Tenebrionoidea2"
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_32_06_HDR0_5_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diptera",
+      "score": 0.5203530192375183,
+      "direction": 7.275004863739014,
+      "shape_type": "rotation",
+      "points": [
+        [
+          5674.8447265625,
+          2986.79150390625
+        ],
+        [
+          5683.4697265625,
+          2918.1748046875
+        ],
+        [
+          5636.982421875,
+          2912.33154296875
+        ],
+        [
+          5628.357421875,
+          2980.9482421875
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 811,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764872550878
+    }
+  ]
+}

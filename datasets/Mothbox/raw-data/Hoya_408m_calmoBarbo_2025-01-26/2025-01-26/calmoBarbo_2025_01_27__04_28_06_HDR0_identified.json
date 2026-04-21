@@ -1,0 +1,157 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_27__04_28_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_27__04_28_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diabrotica1",
+      "score": 0.7333556413650513,
+      "direction": 18.496097564697266,
+      "shape_type": "rotation",
+      "points": [
+        [
+          4892.0537109375,
+          1894.7401123046875
+        ],
+        [
+          4986.103515625,
+          1613.1849365234375
+        ],
+        [
+          4770.490234375,
+          1541.1624755859375
+        ],
+        [
+          4676.4404296875,
+          1822.7176513671875
+        ]
+      ],
+      "clusterID": 32.2,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Chrysomelidae",
+      "genus": "Diabrotica",
+      "species": null,
+      "taxonID": 1048495,
+      "taxonRank": "genus",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772421091890,
+      "morphospecies": "Diabrotica1"
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_27__04_28_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.6527279615402222,
+      "direction": 21.86857795715332,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6559.22802734375,
+          4670.30224609375
+        ],
+        [
+          6607.10791015625,
+          4551.53173828125
+        ],
+        [
+          6460.84033203125,
+          4492.56689453125
+        ],
+        [
+          6412.96044921875,
+          4611.33740234375
+        ]
+      ],
+      "clusterID": 116.57,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765130728151
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_27__04_28_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.5581677556037903,
+      "direction": 83.97246551513672,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1866.296630859375,
+          4823.18359375
+        ],
+        [
+          1989.232666015625,
+          4810.0458984375
+        ],
+        [
+          1972.05712890625,
+          4649.3310546875
+        ],
+        [
+          1849.12109375,
+          4662.46875
+        ]
+      ],
+      "clusterID": 70.2,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 809,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765217937068
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_27__04_28_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hymenoptera",
+      "score": 0.4560578763484955,
+      "direction": 12.094757080078125,
+      "shape_type": "rotation",
+      "points": [
+        [
+          5431.5908203125,
+          5287.28564453125
+        ],
+        [
+          5446.7255859375,
+          5217.59619140625
+        ],
+        [
+          5357.7080078125,
+          5198.26416015625
+        ],
+        [
+          5342.5732421875,
+          5267.95361328125
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hymenoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 1457,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765219456914
+    }
+  ]
+}

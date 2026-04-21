@@ -131,7 +131,14 @@ def check_datapackage(dataset_path : Path) -> list[RuleReturn]:
             message=f'Missing "datapackage.json" file, expected {datapackage_path}'
         )]
     
-    result : Report = validate(source=datapackage_path)
+    try:
+        result : Report = validate(source=datapackage_path)
+    except Exception as e:
+        return RuleReturn(
+            status=False,
+            name=f'File: datapackage.json[parsing_error]',
+            message=f'frictionless failed while parsing `datapackage.json` with error:\n{str(e)}'
+        )
     
     task_errors = {
         task.name : [Violation.from_error(error) for error in task.errors]
