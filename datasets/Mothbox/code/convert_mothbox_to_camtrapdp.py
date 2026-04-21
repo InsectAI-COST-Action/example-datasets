@@ -264,7 +264,7 @@ def create_readme() -> None:
 
 def create_datapackage(row_counts: Dict[str, int]) -> None:
     datapackage = {
-        "profile": "camtrap-dp",
+        "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
         "name": "mothbox-cerro-hoya",
         "created": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "licenses": [

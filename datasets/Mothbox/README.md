@@ -1,7 +1,7 @@
-<!-- Image: media/calmoBarbo_2025_01_27__04_53_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg -->
+<!-- Image: media/Hoya_408m_calmoBarbo_2025-01-26/2025-01-26/patches/calmoBarbo_2025_01_27__04_53_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg -->
 # 🐞 Mothbox dataset (Camtrap DP)
 
-<img src="media/calmoBarbo_2025_01_27__04_53_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg" alt="Mothbox example patch image" width="300"/>
+<img src="media/Hoya_408m_calmoBarbo_2025-01-26/2025-01-26/patches/calmoBarbo_2025_01_27__04_53_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg" alt="Mothbox example patch image" width="300"/>
 
 This dataset was generated from `Cerro_Hoya_Expedition` using a Python conversion script.
 
