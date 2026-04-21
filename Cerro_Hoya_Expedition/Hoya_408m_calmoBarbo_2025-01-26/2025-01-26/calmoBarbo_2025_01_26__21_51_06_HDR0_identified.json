@@ -1,0 +1,157 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_26__21_51_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__21_51_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Lepidoptera",
+      "score": 0.8832401037216187,
+      "direction": 6.340191841125488,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6554.74365234375,
+          3832.76171875
+        ],
+        [
+          6621.73095703125,
+          3229.806640625
+        ],
+        [
+          6139.12451171875,
+          3176.18994140625
+        ],
+        [
+          6072.13720703125,
+          3779.14501953125
+        ]
+      ],
+      "clusterID": 50.11,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 797,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764813145584
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__21_51_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Lepidoptera",
+      "score": 0.7174124717712402,
+      "direction": 20.179458618164062,
+      "shape_type": "rotation",
+      "points": [
+        [
+          7540.978515625,
+          4687.47900390625
+        ],
+        [
+          7626.857421875,
+          4453.90771484375
+        ],
+        [
+          7461.541015625,
+          4393.12451171875
+        ],
+        [
+          7375.662109375,
+          4626.69580078125
+        ]
+      ],
+      "clusterID": 75.4,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 797,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764813145585
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__21_51_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.6965476274490356,
+      "direction": 23.002595901489258,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6555.6533203125,
+          4662.6376953125
+        ],
+        [
+          6600.728515625,
+          4557.197265625
+        ],
+        [
+          6468.359375,
+          4500.611328125
+        ],
+        [
+          6423.2841796875,
+          4606.0517578125
+        ]
+      ],
+      "clusterID": 116.15,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765130728151
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_26__21_51_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Coleoptera11",
+      "score": 0.3638095259666443,
+      "direction": 4.653351306915283,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1395.25732421875,
+          4749.56005859375
+        ],
+        [
+          1401.302490234375,
+          4677.98388671875
+        ],
+        [
+          1315.44189453125,
+          4670.73193359375
+        ],
+        [
+          1309.396728515625,
+          4742.30810546875
+        ]
+      ],
+      "clusterID": 121.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 1470,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772420528334,
+      "morphospecies": "Coleoptera11"
+    }
+  ]
+}

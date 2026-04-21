@@ -1,0 +1,118 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_28__23_19_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_19_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.7735556960105896,
+      "direction": 81.94908142089844,
+      "shape_type": "rotation",
+      "points": [
+        [
+          2216.9580078125,
+          3557.294189453125
+        ],
+        [
+          2411.66552734375,
+          3529.575439453125
+        ],
+        [
+          2368.4482421875,
+          3226.000244140625
+        ],
+        [
+          2173.74072265625,
+          3253.718994140625
+        ]
+      ],
+      "clusterID": 3.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 809,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764974219662
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_19_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.6831210851669312,
+      "direction": 28.610462188720703,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6537.71240234375,
+          4663.38134765625
+        ],
+        [
+          6589.49462890625,
+          4568.33544921875
+        ],
+        [
+          6457.00537109375,
+          4496.15380859375
+        ],
+        [
+          6405.22314453125,
+          4591.19970703125
+        ]
+      ],
+      "clusterID": 56.42,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764872504198
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_19_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Hemiptera",
+      "score": 0.4618946313858032,
+      "direction": 2.2457425594329834,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1134.7166748046875,
+          5467.22021484375
+        ],
+        [
+          1138.9215087890625,
+          5365.50537109375
+        ],
+        [
+          1034.6807861328125,
+          5361.19580078125
+        ],
+        [
+          1030.4759521484375,
+          5462.91064453125
+        ]
+      ],
+      "clusterID": -1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 809,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764974372101
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_28__23_41_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_41_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.647301971912384,
+      "direction": 25.346174240112305,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6544.44873046875,
+          4661.05908203125
+        ],
+        [
+          6590.67626953125,
+          4563.30810546875
+        ],
+        [
+          6457.65087890625,
+          4500.39892578125
+        ],
+        [
+          6411.42333984375,
+          4598.14990234375
+        ]
+      ],
+      "clusterID": 56.49,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1764872504198
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_41_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Curculionidae",
+      "score": 0.6150278449058533,
+      "direction": 2.0454084873199463,
+      "shape_type": "rotation",
+      "points": [
+        [
+          3302.98486328125,
+          1417.462158203125
+        ],
+        [
+          3305.3857421875,
+          1334.7158203125
+        ],
+        [
+          3248.4921875,
+          1333.065185546875
+        ],
+        [
+          3246.09130859375,
+          1415.8115234375
+        ]
+      ],
+      "clusterID": 47.6,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Curculionidae",
+      "genus": null,
+      "species": null,
+      "taxonID": 4239,
+      "taxonRank": "family",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772315520350,
+      "morphospecies": "Curculionidae7"
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_28__23_41_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Coleoptera",
+      "score": 0.2701549828052521,
+      "direction": 1.2730298042297363,
+      "shape_type": "rotation",
+      "points": [
+        [
+          8068.076171875,
+          1975.5911865234375
+        ],
+        [
+          8070.3369140625,
+          1885.9547119140625
+        ],
+        [
+          8000.8173828125,
+          1884.2017822265625
+        ],
+        [
+          7998.556640625,
+          1973.8382568359375
+        ]
+      ],
+      "clusterID": 68.4,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 1470,
+      "taxonRank": "order",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772315650475,
+      "morphospecies": "Tenebrionoidea2"
+    }
+  ]
+}

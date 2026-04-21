@@ -1,0 +1,158 @@
+{
+  "version": "1",
+  "photoBase": "calmoBarbo_2025_01_27__04_42_06_HDR0",
+  "shapes": [
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_27__04_42_06_HDR0_0_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diabroticina1",
+      "score": 0.7531537413597107,
+      "direction": 16.139244079589844,
+      "shape_type": "rotation",
+      "points": [
+        [
+          1505.9007568359375,
+          5170.51025390625
+        ],
+        [
+          1584.5567626953125,
+          4897.46044921875
+        ],
+        [
+          1266.7674560546875,
+          4805.91650390625
+        ],
+        [
+          1188.1114501953125,
+          5078.96630859375
+        ]
+      ],
+      "clusterID": 32.6,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Chrysomelidae",
+      "genus": null,
+      "species": null,
+      "taxonID": 7780,
+      "taxonRank": "family",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772421109872,
+      "morphospecies": "Diabroticina1"
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_27__04_42_06_HDR0_1_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Diabrotica1",
+      "score": 0.721682608127594,
+      "direction": 57.38076400756836,
+      "shape_type": "rotation",
+      "points": [
+        [
+          5487.1513671875,
+          2842.142822265625
+        ],
+        [
+          5822.916015625,
+          2627.799072265625
+        ],
+        [
+          5663.58984375,
+          2378.218505859375
+        ],
+        [
+          5327.8251953125,
+          2592.562255859375
+        ]
+      ],
+      "clusterID": 32.6,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Chrysomelidae",
+      "genus": "Diabrotica",
+      "species": null,
+      "taxonID": 1048495,
+      "taxonRank": "genus",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1772421091890,
+      "morphospecies": "Diabrotica1"
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_27__04_42_06_HDR0_2_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "ERROR",
+      "score": 0.6655071377754211,
+      "direction": 21.063447952270508,
+      "shape_type": "rotation",
+      "points": [
+        [
+          6564.05419921875,
+          4667.48095703125
+        ],
+        [
+          6609.04541015625,
+          4550.51025390625
+        ],
+        [
+          6461.42724609375,
+          4493.73095703125
+        ],
+        [
+          6416.43603515625,
+          4610.70166015625
+        ]
+      ],
+      "clusterID": 116.61,
+      "kingdom": null,
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "is_error": true,
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765130728151
+    },
+    {
+      "patch_path": "patches/calmoBarbo_2025_01_27__04_42_06_HDR0_3_Mothbot_yolo11m_4500_imgsz1600_b1_2024-01-18.pt.jpg",
+      "label": "Insecta",
+      "score": 0.5020134449005127,
+      "direction": 10.619654655456543,
+      "shape_type": "rotation",
+      "points": [
+        [
+          7091.17529296875,
+          2597.10107421875
+        ],
+        [
+          7102.10107421875,
+          2538.62646484375
+        ],
+        [
+          7022.79052734375,
+          2523.80810546875
+        ],
+        [
+          7011.86474609375,
+          2582.28271484375
+        ]
+      ],
+      "clusterID": 124.1,
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "taxonID": 216,
+      "taxonRank": "class",
+      "species_list": "doi.org10.15468dl.6nxkw6.csv",
+      "identifier_human": "HS",
+      "timestamp_ID_human": 1765219617549
+    }
+  ]
+}
