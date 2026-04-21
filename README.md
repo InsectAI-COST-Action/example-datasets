@@ -22,7 +22,7 @@
 | [**diopsis**](/datasets/diopsis) | 🟡 Almost (4/5) | <img src="datasets/diopsis/raw-data/diopsis_soortherkenning_AI_231_2022_08_05_00_30_44.png" height="150"> |
 | [**flatbug**](/datasets/flatbug) | 🟡 Almost (3/5) | <img src="datasets/flatbug/raw-data/ALUS/Araneae_Unknown_2020_11_10_4723.jpg" height="150"> |
 | [**flower_visitors**](/datasets/flower_visitors) | 🟢 Success (5/5) | <img src="datasets/flower_visitors/media/raw/2021-08-11_Achillea-millefolium-bs-01_IMG_20210811_114248.jpg" height="150"> |
-| [**ias**](/datasets/ias) | 🟡 Almost (3/5) | <img src="datasets/ias/raw-data/20250613022959-snapshot.jpg" height="150"> |
+| [**ias**](/datasets/ias) | 🟢 Success (5/5) | <img src="datasets/ias/media/20250613022959-snapshot.jpg" height="150"> |
 | [**insect-detect**](/datasets/insect-detect) | 🔴 Failed (1/5) | <img src="datasets/insect-detect/raw/data/2026-04-16/2026-04-16_18-38-26/insdet-cam01_2026-04-16_18-38-41-142032.jpg" height="150"> |
 | [**lepmon**](/datasets/lepmon) | 🟡 Almost (4/5) | <img src="datasets/lepmon/media/Lepmon%23SN010030_TH_J_2025-07-03_T_0308.jpg" height="150"> |
 | [**minimon**](/datasets/minimon) | 🟡 Almost (3/5) | <img src="datasets/minimon/media/E41990/20250614/E41990_20250614094103_0105_012989.jpg" height="150"> |
