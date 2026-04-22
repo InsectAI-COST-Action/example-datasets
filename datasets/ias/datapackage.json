@@ -1,0 +1,77 @@
+{
+  "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
+  "resources": [
+    {
+      "name": "deployments",
+      "path": "deployments.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/deployments-table-schema.json"
+    },
+    {
+      "name": "media",
+      "path": "media.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/media-table-schema.json"
+    },
+    {
+      "name": "observations",
+      "path": "observations.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/observations-table-schema.json"
+    }
+  ],
+  "name": "ias-insectai-datathon",
+  "created": "2026-04-21T14:18:39+0000",
+  "contributors": [
+    {
+      "title": "Asger Svenning",
+      "role": "contributor"
+    }
+  ],
+  "licenses": [
+    {
+      "scope": "media",
+      "name": "CC-BY-NC-4.0",
+      "path": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "title": "Creative Commons Attribution-NonCommercial 4.0 International"
+    },
+    {
+      "scope": "data",
+      "name": "CC-BY-NC-4.0",
+      "path": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "title": "Creative Commons Attribution-NonCommercial 4.0 International"
+    }
+  ],
+  "project": {
+    "title": "IAS InsectAI Datathon",
+    "samplingDesign": "experimental",
+    "captureMethod": ["timeLapse"],
+    "individualAnimals": false,
+    "observationLevel": ["media"]
+  },
+  "spatial": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-57.59865, 49.01392],
+        [-57.94739, 48.95317],
+        [-74.30196, 45.47945],
+        [-57.59865, 49.01392]
+      ]
+    ]
+  },
+  "temporal": {
+    "start": "2022-04-06",
+    "end": "2024-08-20"
+  },
+  "taxonomic": []
+}
