@@ -2,14 +2,58 @@
   "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
   "name": "mothbox-cerro-hoya",
   "created": "2026-04-21T16:41:15Z",
-  "licenses": [
+  "contributors": [
     {
-      "scope": "data",
-      "name": "unknown",
-      "path": "",
-      "title": "Unknown"
+      "title": "Mothbox Team",
+      "role": "author"
     }
   ],
+  "licenses": [
+    {
+      "scope": "media",
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "project": {
+    "title": "Mothbox Cerro Hoya",
+    "samplingDesign": "experimental",
+    "captureMethod": "timeLapse",
+    "individualAnimals": false,
+    "observationLevel": "media"
+  },
+  "spatial": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -80.7806,
+          7.32393
+        ],
+        [
+          -80.74752,
+          7.32393
+        ],
+        [
+          -80.74752,
+          7.3455
+        ],
+        [
+          -80.7806,
+          7.3455
+        ],
+        [
+          -80.7806,
+          7.32393
+        ]
+      ]
+    ]
+  },
+  "temporal": {
+    "start": "2025-01-26",
+    "end": "2025-01-29"
+  },
   "resources": [
     {
       "name": "deployments",
@@ -18,13 +62,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json",
-      "dialect": {
-        "csv": {
-          "header": true
-        }
-      },
-      "count": 3
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json"
     },
     {
       "name": "media",
@@ -33,13 +71,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json",
-      "dialect": {
-        "csv": {
-          "header": true
-        }
-      },
-      "count": 13738
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json"
     },
     {
       "name": "observations",
@@ -48,13 +80,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json",
-      "dialect": {
-        "csv": {
-          "header": true
-        }
-      },
-      "count": 13738
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json"
     }
   ],
   "taxonomic": [
