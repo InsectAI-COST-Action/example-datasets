@@ -383,6 +383,20 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/1b/3a/e568ea129fbcf9ee0f148178c67f8a2fc4e88de3aa34c840a180bcce4775/frictionless-5.19.0-py3-none-any.whl", hash = "sha256:81436b94a950b1a5cf83e953921e64dc888c00f51400f783ea0aa824319a6d67", size = 535173, upload-time = "2026-04-13T13:05:50.897Z" },
 ]
 
+[package.optional-dependencies]
+parquet = [
+    { name = "pyarrow" },
+]
+
+[[package]]
+name = "geojson"
+version = "3.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/85/5a/33e761df75c732fcea94aaf01f993d823138581d10c91133da58bc231e63/geojson-3.2.0.tar.gz", hash = "sha256:b860baba1e8c6f71f8f5f6e3949a694daccf40820fa8f138b3f712bd85804903", size = 24574, upload-time = "2024-12-21T19:35:29.835Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/18/67/a7fa2d650602731c90e0a86279841b4586e14228199e8c09165ba4863e29/geojson-3.2.0-py3-none-any.whl", hash = "sha256:69d14156469e13c79479672eafae7b37e2dcd19bdfd77b53f74fa8fe29910b52", size = 15040, upload-time = "2024-12-21T19:37:02.149Z" },
+]
+
 [[package]]
 name = "humanize"
 version = "4.15.0"
@@ -404,9 +418,10 @@ wheels = [
 [[package]]
 name = "insectai-ias-example"
 version = "0.2.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
-    { name = "frictionless" },
+    { name = "frictionless", extra = ["parquet"] },
+    { name = "geojson" },
     { name = "ipykernel" },
     { name = "ipywidgets" },
     { name = "matplotlib" },
@@ -421,7 +436,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "frictionless" },
+    { name = "frictionless", extras = ["parquet"] },
+    { name = "geojson" },
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "ipywidgets" },
     { name = "matplotlib", specifier = ">=3.10.8" },

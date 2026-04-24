@@ -1,3 +1,9 @@
+# Notes
+
+* camtrap-package (GitLab)
+* Tools section twdg documentation
+* Make issue on camtrap or write to Karolina
+
 # Setup
 
 This example uses `uv` and **Python 3.13+**.
