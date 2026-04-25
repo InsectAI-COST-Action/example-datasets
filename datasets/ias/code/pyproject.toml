@@ -1,14 +1,31 @@
 [project]
 name = "insectai-ias-example"
-version = "0.1.0"
+version = "0.2.0"
 description = "ias example dataset for datathon at InsectAI's 2026 annual meeting in Niš, Serbia"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "numpy>=2.0",
     "ipykernel>=7.2.0",
     "matplotlib>=3.10.8",
     "pandas>=3.0.2",
     "pyarrow>=23.0.1",
     "requests>=2.33.1",
     "seaborn>=0.13.2",
+    "geojson",
+    "frictionless[parquet]",
+    "PyYAML",
+    "ipywidgets",
+    "tqdm",
+    "trap-schema>=0.1.1",
 ]
+
+
+[tool.ruff]
+target-version = "py313"
+line-length = 140
+
+[tool.ruff.lint]
+# E: pycodestyle, F: Pyflakes, UP: pyupgrade, I: isort (sorts imports cleanly)
+select = ["E", "F", "UP", "I"]
+

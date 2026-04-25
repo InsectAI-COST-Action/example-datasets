@@ -14,7 +14,7 @@ Sampled images & annotation files:
   - `media/raw/`                       full-frame smartphone images
   - `media/cropped/`                   ROI-cropped images around the target flower (ROI = Region of Interest: target flower / part of inflorescence)
   - `media/backgrounds/`               frames without flower visitors (negative images)
-  - `raw_data/annotations_subset.tsv`  subset of annotations_full_frames.txt
+  - `raw-data/annotations_subset.tsv`  subset of annotations_full_frames.txt
 
 Code:
   - `code/data_conversion.py`          Python code used for data conversion
