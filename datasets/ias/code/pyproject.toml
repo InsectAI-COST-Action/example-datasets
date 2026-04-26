@@ -18,6 +18,7 @@ dependencies = [
     "ipywidgets",
     "tqdm",
     "trap-schema>=0.1.1",
+    "nbconvert>=7.17.1",
 ]
 
 
@@ -28,4 +29,3 @@ line-length = 140
 [tool.ruff.lint]
 # E: pycodestyle, F: Pyflakes, UP: pyupgrade, I: isort (sorts imports cleanly)
 select = ["E", "F", "UP", "I"]
-

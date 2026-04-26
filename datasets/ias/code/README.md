@@ -22,6 +22,37 @@ uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=jupyt
 
 ## Usage
 
+### CLI
+
+The easiest way to run this example is via the CLI:
+
+```bash
+uv run ipython -c "%run main.ipynb"
+```
+
+If it works you should see an output like:
+
+```txt
+───────────────────── Dataset ─────────────────────
+                      dataset                       
+┏━━━━━━━━━━━━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━┓
+┃ name         ┃ type  ┃ path             ┃ status ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━┩
+│ deployments  │ table │ deployments.csv  │ VALID  │
+│ media        │ table │ media.csv        │ VALID  │
+│ observations │ table │ observations.csv │ VALID  │
+└──────────────┴───────┴──────────────────┴────────┘
+```
+
+> [!NOTE]
+> There might be an error like:
+> ```txt
+> ... DeprecationWarning: Automatically retrieving remote references can be a security vulnerability and is discouraged by the JSON Schema specifications. ...
+> ```
+> which you can safely ignore.
+
+### Notebook
+
 To start using the notebooks first start a Jupyter server with `uv`:
 
 ```bash

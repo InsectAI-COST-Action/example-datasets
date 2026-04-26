@@ -1,1 +1,2809 @@
-{"resources": [{"name": "deployments", "path": "deployments.csv", "profile": "tabular-data-resource", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8", "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/deployments-table-schema.json"}, {"name": "media", "path": "media.csv", "profile": "tabular-data-resource", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8", "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/media-table-schema.json"}, {"name": "observations", "path": "observations.csv", "profile": "tabular-data-resource", "format": "csv", "mediatype": "text/csv", "encoding": "utf-8", "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/observations-table-schema.json"}], "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json", "name": "demo-ias-camtrap-dp-1.0.2", "id": "3e3c506f-fd0d-8ed8-ad89-9dd5d1c44651", "created": "2026-04-25T23:41:42.015231+00:00", "title": "Demo IAS (Invasive Alien Species) dataset in CamTrapDP 1.0.2", "contributors": [{"title": "Toke Thomas H\u00f8je", "path": "https://pure.au.dk/portal/en/persons/tth%40ecos.au.dk/", "email": "tth@ecos.au.dk", "role": "principalInvestigator", "organization": "Aarhus University, Department of Ecoscience"}, {"title": "Lars Dalby", "path": "https://pure.au.dk/portal/da/persons/lars%40ecos.au.dk/", "email": "lars@ecos.au.dk", "role": "contributor", "organization": "Aarhus University, Department of Ecoscience"}, {"title": "Asger Svenning", "path": "https://asgersvenning.com", "email": "asgersvenning@ecos.au.dk", "role": "contributor", "organization": "Aarhus University, Department of Ecoscience"}], "description": "\"Demo of a standardized IAS (Invasive Alien Species) dataset.\n    Constructed based on a relatively arbitrary dump from the IAS database.\n    Created for Workgroup 3 datathon (workshop) in the InsectAI COST Action at the annual meeting in 2026, Ni\u0161, Serbia.\n    The demo and the associated worked example has been created mainly by Asger Svenning in collaboration with Lars Dalby and others.", "version": "0.1.0", "keywords": ["ias", "insectai", "camtrapdp", "demo", "timelapse", "ami"], "sources": [{"title": "IAS database"}], "licenses": [{"name": "CC0-1.0", "scope": "data"}, {"path": "http://creativecommons.org/licenses/by/4.0/", "scope": "media"}], "project": {"title": "Invasive Alien Species", "acronym": "IAS", "samplingDesign": "systematicRandom", "captureMethod": ["timeLapse"], "individualAnimals": false, "observationLevel": ["media"]}, "spatial": {"type": "Polygon", "coordinates": [[[10.373683, 55.378067], [10.373683, 55.378067], [10.373683, 55.378067], [10.373683, 55.378067], [10.373683, 55.378067]]]}, "temporal": {"start": "2025-05-20", "end": "2025-06-14"}, "taxonomic": [{"scientificName": "Aglaope infausta", "taxonID": "1754183", "taxonRank": "species"}, {"scientificName": "Stigmella", "taxonID": "1735652", "taxonRank": "genus"}, {"scientificName": "Nepticulidae", "taxonID": "7014", "taxonRank": "family"}, {"scientificName": "Coleoptera", "taxonID": "1", "taxonRank": "order"}, {"scientificName": "Endrosis sarcitrella", "taxonID": "883", "taxonRank": "species"}, {"scientificName": "Reisserita chrysopterella", "taxonID": "1857785", "taxonRank": "species"}, {"scientificName": "Tineola", "taxonID": "1857624", "taxonRank": "genus"}, {"scientificName": "Gracillariidae", "taxonID": "5487", "taxonRank": "family"}, {"scientificName": "Diptera Nematocera", "taxonID": "3", "taxonRank": "order"}, {"scientificName": "Pterophorus pentadactyla", "taxonID": "2195", "taxonRank": "species"}, {"scientificName": "Micropterix aruncella", "taxonID": "7646066", "taxonRank": "species"}, {"scientificName": "Micropterix", "taxonID": "1939616", "taxonRank": "genus"}, {"scientificName": "Micropterigidae", "taxonID": "9408", "taxonRank": "family"}, {"scientificName": "Acentria ephemerella", "taxonID": "1834", "taxonRank": "species"}, {"scientificName": "Operophtera brumata", "taxonID": "1972449", "taxonRank": "species"}, {"scientificName": "Borkhausenia", "taxonID": "12031311", "taxonRank": "genus"}, {"scientificName": "Geometridae", "taxonID": "6950", "taxonRank": "family"}, {"scientificName": "Rhodometra sacraria", "taxonID": "1476", "taxonRank": "species"}, {"scientificName": "Ptilophora plumigera", "taxonID": "5119143", "taxonRank": "species"}, {"scientificName": "Caloptilia", "taxonID": "1750339", "taxonRank": "genus"}, {"scientificName": "Noctuidae", "taxonID": "7015", "taxonRank": "family"}, {"scientificName": "Diptera Brachycera", "taxonID": "2", "taxonRank": "order"}, {"scientificName": "Lyonetia clerkella", "taxonID": "1829322", "taxonRank": "species"}, {"scientificName": "Agriphila straminella", "taxonID": "1343", "taxonRank": "species"}, {"scientificName": "Borkhausenia nefrax", "taxonID": "1838811", "taxonRank": "species"}, {"scientificName": "Oecophoridae", "taxonID": "9689", "taxonRank": "family"}, {"scientificName": "Hofmannophila pseudospretella", "taxonID": "882", "taxonRank": "species"}, {"scientificName": "Caloptilia stigmatella", "taxonID": "5104891", "taxonRank": "species"}, {"scientificName": "Coenonympha", "taxonID": "1911078", "taxonRank": "genus"}, {"scientificName": "Limnaecia phragmitella", "taxonID": "5120396", "taxonRank": "species"}, {"scientificName": "Limnaecia", "taxonID": "1842261", "taxonRank": "genus"}, {"scientificName": "Tortricidae", "taxonID": "5343", "taxonRank": "family"}, {"scientificName": "Phyllonorycter quercifoliella", "taxonID": "395", "taxonRank": "species"}, {"scientificName": "Lyonetia", "taxonID": "1829298", "taxonRank": "genus"}, {"scientificName": "Lyonetiidae", "taxonID": "9410", "taxonRank": "family"}, {"scientificName": "Tineola bisselliella", "taxonID": "1857626", "taxonRank": "species"}, {"scientificName": "Epinotia", "taxonID": "1745549", "taxonRank": "genus"}, {"scientificName": "Endrosis", "taxonID": "1837168", "taxonRank": "genus"}, {"scientificName": "Acrobasis marmorea", "taxonID": "4531158", "taxonRank": "species"}, {"scientificName": "Eriocrania", "taxonID": "1731817", "taxonRank": "genus"}, {"scientificName": "Eriocraniidae", "taxonID": "6946", "taxonRank": "family"}, {"scientificName": "Dyseriocrania subpurpurella", "taxonID": "6", "taxonRank": "species"}, {"scientificName": "Phragmatobia fuliginosa", "taxonID": "1804071", "taxonRank": "species"}, {"scientificName": "Phragmatobia", "taxonID": "1803951", "taxonRank": "genus"}, {"scientificName": "Erebidae", "taxonID": "4532185", "taxonRank": "family"}, {"scientificName": "Tinea", "taxonID": "1858055", "taxonRank": "genus"}, {"scientificName": "Tineidae", "taxonID": "9412", "taxonRank": "family"}, {"scientificName": "Lyonetia clerkella", "taxonID": "786", "taxonRank": "species"}, {"scientificName": "Euspilapteryx auroguttella", "taxonID": "5104759", "taxonRank": "species"}, {"scientificName": "Euspilapteryx", "taxonID": "5104758", "taxonRank": "genus"}, {"scientificName": "Cosmopterigidae", "taxonID": "8839", "taxonRank": "family"}, {"scientificName": "Plodia interpunctella", "taxonID": "1873079", "taxonRank": "species"}, {"scientificName": "Synanthedon", "taxonID": "1940500", "taxonRank": "genus"}, {"scientificName": "Crassa tinctella", "taxonID": "4528692", "taxonRank": "species"}, {"scientificName": "Antigastra catalaunalis", "taxonID": "2525", "taxonRank": "species"}, {"scientificName": "Agriphila inquinatella", "taxonID": "1344", "taxonRank": "species"}, {"scientificName": "Coleophora", "taxonID": "1843897", "taxonRank": "genus"}, {"scientificName": "Acrocercops brongniardella", "taxonID": "1751051", "taxonRank": "species"}, {"scientificName": "Phyllonorycter ulmifoliella", "taxonID": "1749744", "taxonRank": "species"}, {"scientificName": "Phyllonorycter", "taxonID": "1749732", "taxonRank": "genus"}, {"scientificName": "Tineola bisselliella", "taxonID": "1177", "taxonRank": "species"}, {"scientificName": "Nomophila noctuella", "taxonID": "1369", "taxonRank": "species"}, {"scientificName": "Bohemannia quadrimaculella", "taxonID": "5102596", "taxonRank": "species"}, {"scientificName": "Araneae", "taxonID": "0", "taxonRank": "order"}, {"scientificName": "Nymphalis xanthomelas", "taxonID": "5130587", "taxonRank": "species"}, {"scientificName": "Nymphalis", "taxonID": "5130576", "taxonRank": "genus"}, {"scientificName": "Gelechiidae", "taxonID": "3553", "taxonRank": "family"}, {"scientificName": "Dysstroma truncata", "taxonID": "1962434", "taxonRank": "species"}, {"scientificName": "Dysstroma", "taxonID": "1962369", "taxonRank": "genus"}, {"scientificName": "Lepidoptera Macros", "taxonID": "10", "taxonRank": "order"}, {"scientificName": "Dysstroma truncata", "taxonID": "1514", "taxonRank": "species"}, {"scientificName": "Hemiptera", "taxonID": "7", "taxonRank": "order"}, {"scientificName": "Aphomia sociella", "taxonID": "1270", "taxonRank": "species"}, {"scientificName": "Aproaerema anthyllidella", "taxonID": "1848219", "taxonRank": "species"}, {"scientificName": "Aproaerema", "taxonID": "1848217", "taxonRank": "genus"}, {"scientificName": "Hemaris fuciformis", "taxonID": "1861797", "taxonRank": "species"}, {"scientificName": "Acrobasis", "taxonID": "1874152", "taxonRank": "genus"}, {"scientificName": "Plodia interpunctella", "taxonID": "1289", "taxonRank": "species"}, {"scientificName": "Hofmannophila pseudospretella", "taxonID": "1836899", "taxonRank": "species"}, {"scientificName": "Hofmannophila", "taxonID": "1836898", "taxonRank": "genus"}, {"scientificName": "Lepidoptera Micros", "taxonID": "11", "taxonRank": "order"}, {"scientificName": "Schiffermuelleria schaefferella", "taxonID": "1835393", "taxonRank": "species"}, {"scientificName": "Acrocercops brongniardella", "taxonID": "412", "taxonRank": "species"}, {"scientificName": "Emmelina monodactyla", "taxonID": "1859046", "taxonRank": "species"}, {"scientificName": "Emmelina", "taxonID": "1859036", "taxonRank": "genus"}, {"scientificName": "Pterophoridae", "taxonID": "8863", "taxonRank": "family"}, {"scientificName": "Diptera Tipulidae", "taxonID": "4", "taxonRank": "order"}, {"scientificName": "Bucculatrix", "taxonID": "1751227", "taxonRank": "genus"}, {"scientificName": "Bucculatricidae", "taxonID": "4867", "taxonRank": "family"}, {"scientificName": "Thera britannica", "taxonID": "5148424", "taxonRank": "species"}, {"scientificName": "Thera", "taxonID": "1980342", "taxonRank": "genus"}, {"scientificName": "Thera obeliscata", "taxonID": "2289", "taxonRank": "species"}, {"scientificName": "Tinea pellionella", "taxonID": "1858163", "taxonRank": "species"}, {"scientificName": "Depressaria", "taxonID": "1837338", "taxonRank": "genus"}, {"scientificName": "Ypsolopha", "taxonID": "3257328", "taxonRank": "genus"}, {"scientificName": "Ephemeroptera", "taxonID": "6", "taxonRank": "order"}, {"scientificName": "Stigmella aurella", "taxonID": "5769709", "taxonRank": "species"}, {"scientificName": "Korscheltellus lupulina", "taxonID": "2376", "taxonRank": "species"}, {"scientificName": "Amata phegea", "taxonID": "1808450", "taxonRank": "species"}, {"scientificName": "Amata", "taxonID": "1808097", "taxonRank": "genus"}, {"scientificName": "Teleiopsis diffinis", "taxonID": "1045", "taxonRank": "species"}, {"scientificName": "Helcystogramma lamprostoma", "taxonID": "1850640", "taxonRank": "species"}, {"scientificName": "Helcystogramma", "taxonID": "1850525", "taxonRank": "genus"}, {"scientificName": "Zygaena", "taxonID": "1755294", "taxonRank": "genus"}, {"scientificName": "Opiliones", "taxonID": "13", "taxonRank": "order"}, {"scientificName": "Zygaenidae", "taxonID": "8875", "taxonRank": "family"}, {"scientificName": "Cauchas rufimitrella", "taxonID": "4522886", "taxonRank": "species"}, {"scientificName": "Ectoedemia occultella", "taxonID": "4527235", "taxonRank": "species"}, {"scientificName": "Ectoedemia", "taxonID": "1735814", "taxonRank": "genus"}, {"scientificName": "Tortricodes alternella", "taxonID": "313", "taxonRank": "species"}, {"scientificName": "Micropterix calthella", "taxonID": "1939677", "taxonRank": "species"}, {"scientificName": "Crambidae", "taxonID": "8841", "taxonRank": "family"}, {"scientificName": "Zygaena erythrus", "taxonID": "7909858", "taxonRank": "species"}, {"scientificName": "Diurnea fagella", "taxonID": "932", "taxonRank": "species"}, {"scientificName": "Adela croesella", "taxonID": "1860979", "taxonRank": "species"}, {"scientificName": "Elachista", "taxonID": "1832810", "taxonRank": "genus"}, {"scientificName": "Incurvariidae", "taxonID": "3528", "taxonRank": "family"}, {"scientificName": "Pasiphila rectangulata", "taxonID": "1718", "taxonRank": "species"}, {"scientificName": "Ypsolophidae", "taxonID": "5345", "taxonRank": "family"}, {"scientificName": "Hymenoptera Other", "taxonID": "8", "taxonRank": "order"}, {"scientificName": "Plutella xylostella", "taxonID": "1831136", "taxonRank": "species"}, {"scientificName": "Plutella", "taxonID": "1831127", "taxonRank": "genus"}, {"scientificName": "Mompha subbistrigella", "taxonID": "959", "taxonRank": "species"}, {"scientificName": "Oxypteryx wilkella", "taxonID": "11080751", "taxonRank": "species"}, {"scientificName": "Aspilapteryx tringipennella", "taxonID": "1748890", "taxonRank": "species"}, {"scientificName": "Aspilapteryx", "taxonID": "1748889", "taxonRank": "genus"}, {"scientificName": "Hemaris", "taxonID": "1861796", "taxonRank": "genus"}, {"scientificName": "Caloptilia elongella", "taxonID": "5105158", "taxonRank": "species"}, {"scientificName": "Aglaope", "taxonID": "1754176", "taxonRank": "genus"}, {"scientificName": "Ypsolopha parenthesella", "taxonID": "4525510", "taxonRank": "species"}, {"scientificName": "Aproaerema cinctella", "taxonID": "10450501", "taxonRank": "species"}, {"scientificName": "Phylloporia bistrigella", "taxonID": "5123582", "taxonRank": "species"}, {"scientificName": "Phylloporia", "taxonID": "1860720", "taxonRank": "genus"}, {"scientificName": "Yponomeuta evonymella", "taxonID": "823", "taxonRank": "species"}, {"scientificName": "Oncocera semirubella", "taxonID": "1875120", "taxonRank": "species"}, {"scientificName": "Oncocera", "taxonID": "1875103", "taxonRank": "genus"}, {"scientificName": "Pyralidae", "taxonID": "5336", "taxonRank": "family"}, {"scientificName": "Trichoptera", "taxonID": "14", "taxonRank": "order"}, {"scientificName": "Laothoe populi", "taxonID": "5124007", "taxonRank": "species"}, {"scientificName": "Argyroploce", "taxonID": "1745086", "taxonRank": "genus"}, {"scientificName": "Oncocera semirubella", "taxonID": "1305", "taxonRank": "species"}, {"scientificName": "Scopula", "taxonID": "1970574", "taxonRank": "genus"}, {"scientificName": "Zelleria hepariella", "taxonID": "5119513", "taxonRank": "species"}, {"scientificName": "Zelleria", "taxonID": "1830036", "taxonRank": "genus"}, {"scientificName": "Yponomeutidae", "taxonID": "8874", "taxonRank": "family"}, {"scientificName": "Opostega salaciella", "taxonID": "17", "taxonRank": "species"}, {"scientificName": "Euproctis chrysorrhoea", "taxonID": "759", "taxonRank": "species"}, {"scientificName": "Zygaena minos", "taxonID": "5107829", "taxonRank": "species"}, {"scientificName": "Eupithecia intricata", "taxonID": "1630", "taxonRank": "species"}, {"scientificName": "Stigmella salicis", "taxonID": "5769751", "taxonRank": "species"}, {"scientificName": "Lamoria anella", "taxonID": "1290", "taxonRank": "species"}, {"scientificName": "Semioscopis steinkellneriana", "taxonID": "879", "taxonRank": "species"}, {"scientificName": "Pelosia muscerda", "taxonID": "2079", "taxonRank": "species"}, {"scientificName": "Bohemannia", "taxonID": "1735877", "taxonRank": "genus"}, {"scientificName": "Blastobasis lacticolella", "taxonID": "1125", "taxonRank": "species"}, {"scientificName": "Bucculatrix nigricomella", "taxonID": "1751298", "taxonRank": "species"}, {"scientificName": "Graellsia isabellae", "taxonID": "5124512", "taxonRank": "species"}, {"scientificName": "Graellsia", "taxonID": "1865361", "taxonRank": "genus"}, {"scientificName": "Zygaena sarpedon", "taxonID": "8111395", "taxonRank": "species"}, {"scientificName": "Opogona omoscopa", "taxonID": "1173", "taxonRank": "species"}, {"scientificName": "Mompha langiella", "taxonID": "4528818", "taxonRank": "species"}, {"scientificName": "Mompha", "taxonID": "1846094", "taxonRank": "genus"}, {"scientificName": "Zygaena purpuralis", "taxonID": "7410701", "taxonRank": "species"}, {"scientificName": "Rhyacionia", "taxonID": "1739336", "taxonRank": "genus"}, {"scientificName": "Acrolepia pygmaeana", "taxonID": "1829588", "taxonRank": "species"}, {"scientificName": "Monochroa", "taxonID": "1846636", "taxonRank": "genus"}, {"scientificName": "Diurnea lipsiella", "taxonID": "4528593", "taxonRank": "species"}, {"scientificName": "Diurnea", "taxonID": "1841294", "taxonRank": "genus"}, {"scientificName": "Mompha ochraceella", "taxonID": "963", "taxonRank": "species"}, {"scientificName": "Bankesia conspurcatella", "taxonID": "1854237", "taxonRank": "species"}, {"scientificName": "Bankesia", "taxonID": "7494486", "taxonRank": "genus"}, {"scientificName": "Psychidae", "taxonID": "8861", "taxonRank": "family"}, {"scientificName": "Caloptilia stigmatella", "taxonID": "2001", "taxonRank": "species"}, {"scientificName": "Zygaena exulans", "taxonID": "7955974", "taxonRank": "species"}, {"scientificName": "Cochylis flaviciliana", "taxonID": "191", "taxonRank": "species"}, {"scientificName": "Pieridae", "taxonID": "5481", "taxonRank": "family"}, {"scientificName": "Tortrix viridana", "taxonID": "1992", "taxonRank": "species"}, {"scientificName": "Plodia", "taxonID": "1873074", "taxonRank": "genus"}, {"scientificName": "Synanthedon tipuliformis", "taxonID": "1940575", "taxonRank": "species"}, {"scientificName": "Acontia aprica", "taxonID": "2018", "taxonRank": "species"}, {"scientificName": "Wittia sororcula", "taxonID": "7596232", "taxonRank": "species"}, {"scientificName": "Wittia", "taxonID": "3257694", "taxonRank": "genus"}, {"scientificName": "Eilema sororcula", "taxonID": "2075", "taxonRank": "species"}, {"scientificName": "Ypsolophus ustella", "taxonID": "1831002", "taxonRank": "species"}, {"scientificName": "Ypsolophus", "taxonID": "1830909", "taxonRank": "genus"}, {"scientificName": "Plutellidae", "taxonID": "8860", "taxonRank": "family"}, {"scientificName": "Cochylis dubitana", "taxonID": "1741633", "taxonRank": "species"}, {"scientificName": "Crassa unitella", "taxonID": "4528694", "taxonRank": "species"}, {"scientificName": "Monochroa tenebrella", "taxonID": "1846729", "taxonRank": "species"}, {"scientificName": "Sesiidae", "taxonID": "5340", "taxonRank": "family"}, {"scientificName": "Monopis", "taxonID": "1857825", "taxonRank": "genus"}, {"scientificName": "Aglais io", "taxonID": "4535827", "taxonRank": "species"}, {"scientificName": "Deilephila", "taxonID": "1864355", "taxonRank": "genus"}, {"scientificName": "Phyllonorycter harrisella", "taxonID": "376", "taxonRank": "species"}, {"scientificName": "Ethmia quadrillella", "taxonID": "4529566", "taxonRank": "species"}, {"scientificName": "Pyrausta", "taxonID": "1890369", "taxonRank": "genus"}, {"scientificName": "Sphingidae", "taxonID": "8868", "taxonRank": "family"}, {"scientificName": "Cydia", "taxonID": "1737701", "taxonRank": "genus"}, {"scientificName": "Hyphantria cunea", "taxonID": "1817797", "taxonRank": "species"}, {"scientificName": "Hyphantria", "taxonID": "1817786", "taxonRank": "genus"}, {"scientificName": "Scythris limbella", "taxonID": "1841813", "taxonRank": "species"}, {"scientificName": "Coleophoridae", "taxonID": "8838", "taxonRank": "family"}, {"scientificName": "Glyphipterix simpliciella", "taxonID": "1829776", "taxonRank": "species"}, {"scientificName": "Deuterotinea", "taxonID": "1855231", "taxonRank": "genus"}, {"scientificName": "Eriocottidae", "taxonID": "6947", "taxonRank": "family"}, {"scientificName": "Indalia albicosta", "taxonID": "11513018", "taxonRank": "species"}, {"scientificName": "Indalia", "taxonID": "11495707", "taxonRank": "genus"}, {"scientificName": "Pleurota", "taxonID": "1839730", "taxonRank": "genus"}, {"scientificName": "Pericallia matronula", "taxonID": "1803824", "taxonRank": "species"}, {"scientificName": "Pericallia", "taxonID": "1803812", "taxonRank": "genus"}, {"scientificName": "Stigmella prunetorum", "taxonID": "5102495", "taxonRank": "species"}, {"scientificName": "Cosmopterix pulchrimella", "taxonID": "4301036", "taxonRank": "species"}, {"scientificName": "Cosmopterix", "taxonID": "1842479", "taxonRank": "genus"}, {"scientificName": "Coleophora striatipennella", "taxonID": "2483", "taxonRank": "species"}, {"scientificName": "Hypatima rhomboidella", "taxonID": "1851555", "taxonRank": "species"}, {"scientificName": "Oinophila v-flava", "taxonID": "10055273", "taxonRank": "species"}, {"scientificName": "Oinophila", "taxonID": "1855383", "taxonRank": "genus"}, {"scientificName": "Catocala", "taxonID": "1797073", "taxonRank": "genus"}, {"scientificName": "Prays curtisella", "taxonID": "1830838", "taxonRank": "species"}, {"scientificName": "Prays", "taxonID": "9021546", "taxonRank": "genus"}, {"scientificName": "Praydidae", "taxonID": "4525436", "taxonRank": "family"}, {"scientificName": "Spoladea recurvalis", "taxonID": "1402", "taxonRank": "species"}, {"scientificName": "Caloptilia azaleella", "taxonID": "5104903", "taxonRank": "species"}, {"scientificName": "Synanthedon formicaeformis", "taxonID": "1940510", "taxonRank": "species"}, {"scientificName": "Plutella xylostella", "taxonID": "838", "taxonRank": "species"}, {"scientificName": "Rhodophaea formosa", "taxonID": "1872315", "taxonRank": "species"}, {"scientificName": "Yponomeuta padella", "taxonID": "1830457", "taxonRank": "species"}, {"scientificName": "Yponomeuta", "taxonID": "1830379", "taxonRank": "genus"}, {"scientificName": "Eriocrania semipurpurella", "taxonID": "1731826", "taxonRank": "species"}, {"scientificName": "Opogona omoscopa", "taxonID": "1857143", "taxonRank": "species"}, {"scientificName": "Opogona", "taxonID": "1857014", "taxonRank": "genus"}, {"scientificName": "Thecla betulae", "taxonID": "1930110", "taxonRank": "species"}, {"scientificName": "Thecla", "taxonID": "1929768", "taxonRank": "genus"}, {"scientificName": "Lycaenidae", "taxonID": "5473", "taxonRank": "family"}, {"scientificName": "Emmelina monodactyla", "taxonID": "1207", "taxonRank": "species"}, {"scientificName": "Micropterix mansuetella", "taxonID": "1939680", "taxonRank": "species"}, {"scientificName": "Cornifrons ulceratalis", "taxonID": "1348", "taxonRank": "species"}, {"scientificName": "Adela", "taxonID": "1856563", "taxonRank": "genus"}, {"scientificName": "Coptotriche marginea", "taxonID": "4525189", "taxonRank": "species"}, {"scientificName": "Costaconvexa centrostrigaria", "taxonID": "1723", "taxonRank": "species"}, {"scientificName": "Mompha idaei", "taxonID": "1846133", "taxonRank": "species"}, {"scientificName": "Leucoptera malifoliella", "taxonID": "5769255", "taxonRank": "species"}, {"scientificName": "Leucoptera", "taxonID": "1829391", "taxonRank": "genus"}, {"scientificName": "Agrius convolvuli", "taxonID": "1240", "taxonRank": "species"}, {"scientificName": "Hyles livornica", "taxonID": "1248", "taxonRank": "species"}, {"scientificName": "Adelidae", "taxonID": "4538", "taxonRank": "family"}, {"scientificName": "Tischeriidae", "taxonID": "8871", "taxonRank": "family"}, {"scientificName": "Proutia betulina", "taxonID": "1854792", "taxonRank": "species"}, {"scientificName": "Proutia", "taxonID": "1854789", "taxonRank": "genus"}, {"scientificName": "Aglais", "taxonID": "1894779", "taxonRank": "genus"}, {"scientificName": "Agriphila geniculea", "taxonID": "1832", "taxonRank": "species"}, {"scientificName": "Adela cuprella", "taxonID": "1860983", "taxonRank": "species"}, {"scientificName": "Cydalima perspectalis", "taxonID": "4532122", "taxonRank": "species"}, {"scientificName": "Notodontidae", "taxonID": "7016", "taxonRank": "family"}, {"scientificName": "Momphidae", "taxonID": "8855", "taxonRank": "family"}, {"scientificName": "Synanthedon andrenaeformis", "taxonID": "1940717", "taxonRank": "species"}, {"scientificName": "Canephora hirsuta", "taxonID": "5122439", "taxonRank": "species"}, {"scientificName": "Canephora", "taxonID": "1854459", "taxonRank": "genus"}, {"scientificName": "Sphrageidus similis", "taxonID": "1819268", "taxonRank": "species"}, {"scientificName": "Cauchas", "taxonID": "4404934", "taxonRank": "genus"}, {"scientificName": "Dialectica imperialella", "taxonID": "1750317", "taxonRank": "species"}, {"scientificName": "Batia lunaris", "taxonID": "1841159", "taxonRank": "species"}, {"scientificName": "Glyphipterix", "taxonID": "1829702", "taxonRank": "genus"}, {"scientificName": "Mompha subbistrigella", "taxonID": "1846111", "taxonRank": "species"}, {"scientificName": "Macrosaccus robiniella", "taxonID": "8741260", "taxonRank": "species"}, {"scientificName": "Spodoptera eridania", "taxonID": "2035", "taxonRank": "species"}, {"scientificName": "Alucita hexadactyla", "taxonID": "1689", "taxonRank": "species"}, {"scientificName": "Trichophaga tapetzella", "taxonID": "1857577", "taxonRank": "species"}, {"scientificName": "Trichophaga", "taxonID": "1857569", "taxonRank": "genus"}, {"scientificName": "Phyllocnistis saligna", "taxonID": "350", "taxonRank": "species"}, {"scientificName": "Scythris", "taxonID": "1841529", "taxonRank": "genus"}, {"scientificName": "Platytes cerusella", "taxonID": "5126217", "taxonRank": "species"}, {"scientificName": "Platytes", "taxonID": "1879494", "taxonRank": "genus"}, {"scientificName": "Tischeria", "taxonID": "1939401", "taxonRank": "genus"}, {"scientificName": "Yponomeuta plumbella", "taxonID": "825", "taxonRank": "species"}, {"scientificName": "Batia", "taxonID": "1841152", "taxonRank": "genus"}, {"scientificName": "Agonopterix", "taxonID": "1840273", "taxonRank": "genus"}, {"scientificName": "Erebia", "taxonID": "1913456", "taxonRank": "genus"}, {"scientificName": "Hesperiidae", "taxonID": "6953", "taxonRank": "family"}, {"scientificName": "Cerura", "taxonID": "1825121", "taxonRank": "genus"}, {"scientificName": "Notodonta ziczac", "taxonID": "4534909", "taxonRank": "species"}, {"scientificName": "Notodonta", "taxonID": "1825076", "taxonRank": "genus"}, {"scientificName": "Amblyptilia acanthadactyla", "taxonID": "1212", "taxonRank": "species"}, {"scientificName": "Nephopterix angustella", "taxonID": "1873411", "taxonRank": "species"}, {"scientificName": "Agonopterix alstroemeriana", "taxonID": "1840346", "taxonRank": "species"}, {"scientificName": "Acleris", "taxonID": "1739724", "taxonRank": "genus"}, {"scientificName": "Phthorimaea absoluta", "taxonID": "4528100", "taxonRank": "species"}, {"scientificName": "Mythimna litoralis", "taxonID": "2362", "taxonRank": "species"}, {"scientificName": "Epirrita dilutata", "taxonID": "4523564", "taxonRank": "species"}, {"scientificName": "Nematopogon adansoniella\u00a0Vill.", "taxonID": "1702", "taxonRank": "species"}, {"scientificName": "Tinea semifulvella", "taxonID": "1858074", "taxonRank": "species"}, {"scientificName": "Cryptoblabes bistriga", "taxonID": "1873048", "taxonRank": "species"}, {"scientificName": "Cryptoblabes", "taxonID": "1873021", "taxonRank": "genus"}, {"scientificName": "Homoeosoma electellum", "taxonID": "2215", "taxonRank": "species"}, {"scientificName": "Phyllonorycter apparella", "taxonID": "407", "taxonRank": "species"}, {"scientificName": "Pennisetia hylaeiformis", "taxonID": "1940807", "taxonRank": "species"}, {"scientificName": "Phragmataecia castaneae", "taxonID": "1", "taxonRank": "species"}, {"scientificName": "Apterona helicoidella", "taxonID": "4526180", "taxonRank": "species"}, {"scientificName": "Macrothylacia rubi", "taxonID": "1732416", "taxonRank": "species"}, {"scientificName": "Coscinia cribraria", "taxonID": "2076", "taxonRank": "species"}, {"scientificName": "Synanthedon myopaeformis", "taxonID": "4525777", "taxonRank": "species"}, {"scientificName": "Euproctis similis", "taxonID": "760", "taxonRank": "species"}, {"scientificName": "Zygaena punctum", "taxonID": "5106249", "taxonRank": "species"}, {"scientificName": "Ectoedemia albifasciella", "taxonID": "1735844", "taxonRank": "species"}, {"scientificName": "Orgyia antiqua", "taxonID": "1819873", "taxonRank": "species"}, {"scientificName": "Orgyia", "taxonID": "1819865", "taxonRank": "genus"}, {"scientificName": "Limnaecia phragmitella", "taxonID": "2093", "taxonRank": "species"}, {"scientificName": "Adela viridella", "taxonID": "1860987", "taxonRank": "species"}, {"scientificName": "Stigmella ruficapitella", "taxonID": "5102474", "taxonRank": "species"}, {"scientificName": "Ypsolopha parenthesella", "taxonID": "1753", "taxonRank": "species"}, {"scientificName": "Epirrita", "taxonID": "4302289", "taxonRank": "genus"}, {"scientificName": "Bucculatrix ulmella", "taxonID": "1751368", "taxonRank": "species"}, {"scientificName": "Synaphe punctalis", "taxonID": "1274", "taxonRank": "species"}, {"scientificName": "Ancylis uncella", "taxonID": "5771256", "taxonRank": "species"}, {"scientificName": "Ancylis", "taxonID": "7236046", "taxonRank": "genus"}, {"scientificName": "Orgyia recens", "taxonID": "7657803", "taxonRank": "species"}, {"scientificName": "Ptilodon", "taxonID": "1828161", "taxonRank": "genus"}, {"scientificName": "Phyllonorycter lautella", "taxonID": "1750244", "taxonRank": "species"}, {"scientificName": "Idaea", "taxonID": "1973909", "taxonRank": "genus"}, {"scientificName": "Mompha epilobiella", "taxonID": "1846112", "taxonRank": "species"}, {"scientificName": "Palpita vitrealis", "taxonID": "1423", "taxonRank": "species"}, {"scientificName": "Agriphila deliella\u00a0Hb.", "taxonID": "1345", "taxonRank": "species"}, {"scientificName": "Coleophora serratella", "taxonID": "5121517", "taxonRank": "species"}, {"scientificName": "Ypsolopha scabrella", "taxonID": "4525562", "taxonRank": "species"}, {"scientificName": "Mythimna unipuncta", "taxonID": "2357", "taxonRank": "species"}, {"scientificName": "Lathronympha strigana", "taxonID": "1736800", "taxonRank": "species"}, {"scientificName": "Lathronympha", "taxonID": "1736793", "taxonRank": "genus"}, {"scientificName": "Lathronympha strigana", "taxonID": "46", "taxonRank": "species"}, {"scientificName": "Parectopa robiniella", "taxonID": "1748922", "taxonRank": "species"}, {"scientificName": "Rhodophaea", "taxonID": "9108102", "taxonRank": "genus"}, {"scientificName": "Lyonetia prunifoliella", "taxonID": "1829363", "taxonRank": "species"}, {"scientificName": "Endothenia quadrimaculana", "taxonID": "1741752", "taxonRank": "species"}, {"scientificName": "Clostera", "taxonID": "1822778", "taxonRank": "genus"}, {"scientificName": "Platytes alpinella", "taxonID": "5126212", "taxonRank": "species"}, {"scientificName": "Borkhausenia fuscescens", "taxonID": "1838691", "taxonRank": "species"}, {"scientificName": "Ennomos subsignaria", "taxonID": "1495", "taxonRank": "species"}, {"scientificName": "Nemapogon", "taxonID": "1856650", "taxonRank": "genus"}, {"scientificName": "Coptotriche", "taxonID": "4406291", "taxonRank": "genus"}, {"scientificName": "Zygaena rubicundus", "taxonID": "7586742", "taxonRank": "species"}, {"scientificName": "Homoeosoma", "taxonID": "1877650", "taxonRank": "genus"}, {"scientificName": "Deuterotinea casanella", "taxonID": "1855241", "taxonRank": "species"}, {"scientificName": "Caloptilia alchimiella", "taxonID": "5104940", "taxonRank": "species"}, {"scientificName": "Catoptria verellus", "taxonID": "1394", "taxonRank": "species"}, {"scientificName": "Archiearis parthenias", "taxonID": "1975733", "taxonRank": "species"}, {"scientificName": "Celypha rufana", "taxonID": "4529908", "taxonRank": "species"}, {"scientificName": "Danaus plexippus", "taxonID": "5133088", "taxonRank": "species"}, {"scientificName": "Danaus", "taxonID": "5133087", "taxonRank": "genus"}, {"scientificName": "Anerastia lotella", "taxonID": "1268", "taxonRank": "species"}, {"scientificName": "Scythropia crataegella", "taxonID": "1830632", "taxonRank": "species"}, {"scientificName": "Cochylis", "taxonID": "1741585", "taxonRank": "genus"}, {"scientificName": "Syricoris lacunana", "taxonID": "1744593", "taxonRank": "species"}, {"scientificName": "Syricoris", "taxonID": "1744587", "taxonRank": "genus"}, {"scientificName": "Orthotaenia undulana", "taxonID": "227", "taxonRank": "species"}, {"scientificName": "Deilephila elpenor", "taxonID": "1864377", "taxonRank": "species"}, {"scientificName": "Ypsolopha mucronella", "taxonID": "1752", "taxonRank": "species"}, {"scientificName": "Phyllonorycter quercifoliella", "taxonID": "1750143", "taxonRank": "species"}, {"scientificName": "Nymphalidae", "taxonID": "7017", "taxonRank": "family"}, {"scientificName": "Pempelia malacella", "taxonID": "1875680", "taxonRank": "species"}, {"scientificName": "Stigmella microtheriella", "taxonID": "5769761", "taxonRank": "species"}, {"scientificName": "Depressariidae", "taxonID": "4705755", "taxonRank": "family"}, {"scientificName": "Paysandisia archon", "taxonID": "1941864", "taxonRank": "species"}, {"scientificName": "Eudonia angustea", "taxonID": "1356", "taxonRank": "species"}, {"scientificName": "Synanthedon formicaeformis", "taxonID": "1454", "taxonRank": "species"}, {"scientificName": "Scythropia", "taxonID": "1830630", "taxonRank": "genus"}, {"scientificName": "Macroglossum stellatarum", "taxonID": "1864652", "taxonRank": "species"}, {"scientificName": "Macroglossum", "taxonID": "1864584", "taxonRank": "genus"}, {"scientificName": "Atolmis rubricollis", "taxonID": "1810099", "taxonRank": "species"}, {"scientificName": "Earias clorana", "taxonID": "734", "taxonRank": "species"}, {"scientificName": "Endothenia", "taxonID": "1741717", "taxonRank": "genus"}, {"scientificName": "Hyphantria cunea", "taxonID": "753", "taxonRank": "species"}, {"scientificName": "Argyresthia pruniella", "taxonID": "808", "taxonRank": "species"}, {"scientificName": "Callima formosella", "taxonID": "5119893", "taxonRank": "species"}, {"scientificName": "Coleophora pennella", "taxonID": "2403", "taxonRank": "species"}, {"scientificName": "Lomographa temerata", "taxonID": "1660", "taxonRank": "species"}, {"scientificName": "Nephopterix", "taxonID": "1873408", "taxonRank": "genus"}, {"scientificName": "Stigmella sorbi", "taxonID": "5769729", "taxonRank": "species"}, {"scientificName": "Brachmia dimidiella", "taxonID": "1848378", "taxonRank": "species"}, {"scientificName": "Pammene", "taxonID": "1744761", "taxonRank": "genus"}, {"scientificName": "Scythris sinensis", "taxonID": "1841946", "taxonRank": "species"}, {"scientificName": "Chloroclystis v-ata", "taxonID": "1680", "taxonRank": "species"}, {"scientificName": "Ptilophora", "taxonID": "1827279", "taxonRank": "genus"}, {"scientificName": "Lomographa bimaculata", "taxonID": "1659", "taxonRank": "species"}, {"scientificName": "Selenia lunularia", "taxonID": "1962268", "taxonRank": "species"}, {"scientificName": "Chlorochlamys chloroleucaria", "taxonID": "2375", "taxonRank": "species"}, {"scientificName": "Endothenia nigricostana", "taxonID": "1741756", "taxonRank": "species"}, {"scientificName": "Celypha rufana", "taxonID": "1796", "taxonRank": "species"}, {"scientificName": "Phyllonorycter leucographella", "taxonID": "1750159", "taxonRank": "species"}, {"scientificName": "Clepsis consimilana", "taxonID": "2420", "taxonRank": "species"}, {"scientificName": "Sphrageidus", "taxonID": "1819252", "taxonRank": "genus"}, {"scientificName": "Ypsolopha nemorella", "taxonID": "1754", "taxonRank": "species"}, {"scientificName": "Nomophila nearctica", "taxonID": "1370", "taxonRank": "species"}, {"scientificName": "Coenonympha corinna", "taxonID": "1911182", "taxonRank": "species"}, {"scientificName": "Fomoria septembrella", "taxonID": "9359597", "taxonRank": "species"}, {"scientificName": "Earias insulana", "taxonID": "733", "taxonRank": "species"}, {"scientificName": "Zygaena rhadamanthus", "taxonID": "7870336", "taxonRank": "species"}, {"scientificName": "Tachystola acroxantha", "taxonID": "4528702", "taxonRank": "species"}, {"scientificName": "Tachystola", "taxonID": "1838956", "taxonRank": "genus"}, {"scientificName": "Ocnogyna boeticum", "taxonID": "1805110", "taxonRank": "species"}, {"scientificName": "Ocnogyna", "taxonID": "1805088", "taxonRank": "genus"}, {"scientificName": "Acronicta leporina", "taxonID": "580", "taxonRank": "species"}, {"scientificName": "Diplopseustis perieresalis", "taxonID": "1381", "taxonRank": "species"}, {"scientificName": "Eublemma", "taxonID": "9118632", "taxonRank": "genus"}, {"scientificName": "Eucosma", "taxonID": "1742419", "taxonRank": "genus"}, {"scientificName": "Apterona", "taxonID": "1853482", "taxonRank": "genus"}, {"scientificName": "Cataclysta lemnata", "taxonID": "1281", "taxonRank": "species"}, {"scientificName": "Ancylis obtusana", "taxonID": "5771227", "taxonRank": "species"}, {"scientificName": "Erebia pronoe", "taxonID": "7798382", "taxonRank": "species"}, {"scientificName": "Scoliopteryx libatrix", "taxonID": "1798449", "taxonRank": "species"}, {"scientificName": "Eupithecia", "taxonID": "1982367", "taxonRank": "genus"}, {"scientificName": "Jodis lactearia", "taxonID": "1595", "taxonRank": "species"}, {"scientificName": "Libythea celtis", "taxonID": "1909838", "taxonRank": "species"}, {"scientificName": "Crambus pratella", "taxonID": "1880139", "taxonRank": "species"}, {"scientificName": "Endromis versicolora", "taxonID": "1861395", "taxonRank": "species"}, {"scientificName": "Endromis", "taxonID": "1861387", "taxonRank": "genus"}, {"scientificName": "Lasiocampidae", "taxonID": "3530", "taxonRank": "family"}, {"scientificName": "Phyllonorycter platani", "taxonID": "1749936", "taxonRank": "species"}, {"scientificName": "Streblote", "taxonID": "1733670", "taxonRank": "genus"}, {"scientificName": "Phyllonorycter muelleriella", "taxonID": "1749975", "taxonRank": "species"}, {"scientificName": "Smerinthus ocellata", "taxonID": "1862580", "taxonRank": "species"}, {"scientificName": "Smerinthus", "taxonID": "1862568", "taxonRank": "genus"}, {"scientificName": "Scoliopteryx", "taxonID": "1798440", "taxonRank": "genus"}, {"scientificName": "Hipparchia", "taxonID": "1918607", "taxonRank": "genus"}, {"scientificName": "Cydia pomonella", "taxonID": "1737847", "taxonRank": "species"}, {"scientificName": "Epinotia tenerana", "taxonID": "1745705", "taxonRank": "species"}, {"scientificName": "Dyseriocrania subpurpurella", "taxonID": "1731860", "taxonRank": "species"}, {"scientificName": "Nymphalis polychloros", "taxonID": "7762841", "taxonRank": "species"}, {"scientificName": "Leucospilapteryx omissella", "taxonID": "347", "taxonRank": "species"}, {"scientificName": "Cerura vinula", "taxonID": "1825156", "taxonRank": "species"}, {"scientificName": "Parectopa", "taxonID": "1748902", "taxonRank": "genus"}, {"scientificName": "Argyresthia pruniella", "taxonID": "1830191", "taxonRank": "species"}, {"scientificName": "Argyresthia", "taxonID": "1830118", "taxonRank": "genus"}, {"scientificName": "Coleophora albitarsella", "taxonID": "5120916", "taxonRank": "species"}, {"scientificName": "Ypsolopha horridella", "taxonID": "4525500", "taxonRank": "species"}, {"scientificName": "Celypha", "taxonID": "1743762", "taxonRank": "genus"}, {"scientificName": "Danaus chrysippus", "taxonID": "7642610", "taxonRank": "species"}, {"scientificName": "Acleris notana", "taxonID": "1740374", "taxonRank": "species"}, {"scientificName": "Phyllonorycter corylifoliella", "taxonID": "1749921", "taxonRank": "species"}, {"scientificName": "Acleris hastiana", "taxonID": "1740392", "taxonRank": "species"}, {"scientificName": "Amblyptilia acanthadactyla", "taxonID": "1859285", "taxonRank": "species"}, {"scientificName": "Stigmella plagicolella", "taxonID": "5769760", "taxonRank": "species"}, {"scientificName": "Ochsenheimeria taurella", "taxonID": "1831780", "taxonRank": "species"}, {"scientificName": "Phycitodes", "taxonID": "1875890", "taxonRank": "genus"}, {"scientificName": "Epirrita christyi", "taxonID": "4523556", "taxonRank": "species"}, {"scientificName": "Rhopobota naevana", "taxonID": "8086347", "taxonRank": "species"}, {"scientificName": "Sitochroa palealis", "taxonID": "1404", "taxonRank": "species"}, {"scientificName": "Thaumetopoea processionea", "taxonID": "1824113", "taxonRank": "species"}, {"scientificName": "Thaumetopoea", "taxonID": "1824090", "taxonRank": "genus"}, {"scientificName": "Colocasia coryli", "taxonID": "5114198", "taxonRank": "species"}, {"scientificName": "Archips crataegana", "taxonID": "1746910", "taxonRank": "species"}, {"scientificName": "Archips", "taxonID": "1746749", "taxonRank": "genus"}, {"scientificName": "Eccopisa effractella", "taxonID": "1871826", "taxonRank": "species"}, {"scientificName": "Eccopisa", "taxonID": "1871825", "taxonRank": "genus"}, {"scientificName": "Carpatolechia alburnella", "taxonID": "1849284", "taxonRank": "species"}, {"scientificName": "Carpatolechia", "taxonID": "1849256", "taxonRank": "genus"}, {"scientificName": "Endotricha flammealis", "taxonID": "2212", "taxonRank": "species"}, {"scientificName": "Paysandisia", "taxonID": "1941863", "taxonRank": "genus"}, {"scientificName": "Phyllocnistis unipunctella", "taxonID": "352", "taxonRank": "species"}, {"scientificName": "Crambus pascuella", "taxonID": "1362", "taxonRank": "species"}, {"scientificName": "Psychoides filicivora", "taxonID": "1855620", "taxonRank": "species"}, {"scientificName": "Xestia", "taxonID": "1783394", "taxonRank": "genus"}, {"scientificName": "Cabera pusaria", "taxonID": "2231", "taxonRank": "species"}, {"scientificName": "Stigmella aceris", "taxonID": "7698610", "taxonRank": "species"}, {"scientificName": "Phymatopus hecta", "taxonID": "4525610", "taxonRank": "species"}, {"scientificName": "Phymatopus", "taxonID": "9026655", "taxonRank": "genus"}, {"scientificName": "Hepialidae", "taxonID": "3556", "taxonRank": "family"}, {"scientificName": "Myelois circumvoluta", "taxonID": "1320", "taxonRank": "species"}, {"scientificName": "Hypatima", "taxonID": "1851496", "taxonRank": "genus"}, {"scientificName": "Lymantria dispar", "taxonID": "1820406", "taxonRank": "species"}, {"scientificName": "Phyllonorycter heegeriella", "taxonID": "369", "taxonRank": "species"}, {"scientificName": "Bucculatrix thoracella", "taxonID": "1751457", "taxonRank": "species"}, {"scientificName": "Pyralis farinalis", "taxonID": "1285", "taxonRank": "species"}, {"scientificName": "Endrosis sarcitrella", "taxonID": "1837172", "taxonRank": "species"}, {"scientificName": "Psyche casta", "taxonID": "1854202", "taxonRank": "species"}, {"scientificName": "Bucculatrix bechsteinella", "taxonID": "4535884", "taxonRank": "species"}, {"scientificName": "Etainia decentella", "taxonID": "9530977", "taxonRank": "species"}, {"scientificName": "Schiffermuelleria", "taxonID": "1835366", "taxonRank": "genus"}, {"scientificName": "Etainia", "taxonID": "1735869", "taxonRank": "genus"}, {"scientificName": "Tischeria dodonaea", "taxonID": "1939449", "taxonRank": "species"}, {"scientificName": "Agdistis bennetii", "taxonID": "1859421", "taxonRank": "species"}, {"scientificName": "Stenoptilia", "taxonID": "1858722", "taxonRank": "genus"}, {"scientificName": "Phyllodesma tremulifolia", "taxonID": "1732685", "taxonRank": "species"}, {"scientificName": "Iphiclides podalirius", "taxonID": "1938214", "taxonRank": "species"}, {"scientificName": "Cosmopterix scribaiella", "taxonID": "1842542", "taxonRank": "species"}, {"scientificName": "Notocelia uddmanniana", "taxonID": "1741341", "taxonRank": "species"}, {"scientificName": "Notocelia", "taxonID": "1741338", "taxonRank": "genus"}, {"scientificName": "Notocelia uddmanniana", "taxonID": "180", "taxonRank": "species"}, {"scientificName": "Gracillaria syringella", "taxonID": "354", "taxonRank": "species"}, {"scientificName": "Schreckensteinia festaliella", "taxonID": "7734292", "taxonRank": "species"}, {"scientificName": "Schreckensteinia", "taxonID": "1736266", "taxonRank": "genus"}, {"scientificName": "Schreckensteiniidae", "taxonID": "8865", "taxonRank": "family"}, {"scientificName": "Lyonetia prunifoliella", "taxonID": "788", "taxonRank": "species"}, {"scientificName": "Papilionidae", "taxonID": "9417", "taxonRank": "family"}, {"scientificName": "Rivula sericealis", "taxonID": "1769897", "taxonRank": "species"}, {"scientificName": "Rivula", "taxonID": "1769819", "taxonRank": "genus"}, {"scientificName": "Rivula sericealis", "taxonID": "496", "taxonRank": "species"}, {"scientificName": "Coleophora deauratella", "taxonID": "5121613", "taxonRank": "species"}, {"scientificName": "Pararge", "taxonID": "1894469", "taxonRank": "genus"}, {"scientificName": "Acanthophila alacella", "taxonID": "11287091", "taxonRank": "species"}, {"scientificName": "Acanthophila", "taxonID": "3257500", "taxonRank": "genus"}, {"scientificName": "Catarhoe", "taxonID": "1964175", "taxonRank": "genus"}, {"scientificName": "Calybites phasianipennella", "taxonID": "334", "taxonRank": "species"}, {"scientificName": "Scrobipalpa", "taxonID": "1849663", "taxonRank": "genus"}, {"scientificName": "Stigmella hemargyrella", "taxonID": "5769789", "taxonRank": "species"}, {"scientificName": "Dichrorampha acuminatana", "taxonID": "1738839", "taxonRank": "species"}, {"scientificName": "Bryotropha", "taxonID": "1848677", "taxonRank": "genus"}, {"scientificName": "Ypsolopha scabrella", "taxonID": "1758", "taxonRank": "species"}, {"scientificName": "Cryptoblabes bistriga", "taxonID": "1287", "taxonRank": "species"}, {"scientificName": "Scythrididae", "taxonID": "8866", "taxonRank": "family"}, {"scientificName": "Dialectica", "taxonID": "1750313", "taxonRank": "genus"}, {"scientificName": "Zygaena laeta", "taxonID": "5106115", "taxonRank": "species"}, {"scientificName": "Glyphipterix thrasonella", "taxonID": "1829785", "taxonRank": "species"}, {"scientificName": "Parapoynx stratiotata", "taxonID": "1398", "taxonRank": "species"}, {"scientificName": "Nematopogon", "taxonID": "1861151", "taxonRank": "genus"}, {"scientificName": "Lindera tessellatella", "taxonID": "2193", "taxonRank": "species"}, {"scientificName": "Ancylis laetana", "taxonID": "5103121", "taxonRank": "species"}, {"scientificName": "Ancylis laetana", "taxonID": "1971", "taxonRank": "species"}, {"scientificName": "Esperia sulphurella", "taxonID": "5770913", "taxonRank": "species"}, {"scientificName": "Stauropus fagi", "taxonID": "5118996", "taxonRank": "species"}, {"scientificName": "Elachista adscitella", "taxonID": "1832915", "taxonRank": "species"}, {"scientificName": "Elachistidae", "taxonID": "7297", "taxonRank": "family"}, {"scientificName": "Sesia bembeciformis", "taxonID": "5141501", "taxonRank": "species"}, {"scientificName": "Calamia tridens", "taxonID": "2038", "taxonRank": "species"}, {"scientificName": "Coenonympha hero", "taxonID": "1911168", "taxonRank": "species"}, {"scientificName": "Nemapogon clematella", "taxonID": "1856730", "taxonRank": "species"}, {"scientificName": "Aspitates ochrearia", "taxonID": "1551", "taxonRank": "species"}, {"scientificName": "Phyllonorycter issikii", "taxonID": "1750166", "taxonRank": "species"}, {"scientificName": "Tortricodes alternella", "taxonID": "1747050", "taxonRank": "species"}, {"scientificName": "Ypsolopha mucronella", "taxonID": "4525505", "taxonRank": "species"}, {"scientificName": "Nematopogon swammerdamella", "taxonID": "1703", "taxonRank": "species"}, {"scientificName": "Argyresthia trifasciata", "taxonID": "1830271", "taxonRank": "species"}, {"scientificName": "Micropterix tunbergella", "taxonID": "1939658", "taxonRank": "species"}, {"scientificName": "Nemophora minimella", "taxonID": "7961640", "taxonRank": "species"}, {"scientificName": "Nemophora", "taxonID": "7236091", "taxonRank": "genus"}, {"scientificName": "Cameraria ohridella", "taxonID": "1749449", "taxonRank": "species"}, {"scientificName": "Caloptilia populetorum", "taxonID": "5105088", "taxonRank": "species"}, {"scientificName": "Phyllonorycter kuhlweiniella", "taxonID": "371", "taxonRank": "species"}]}
+{
+ "resources": [
+  {
+   "name": "deployments",
+   "path": "deployments.csv",
+   "profile": "tabular-data-resource",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/deployments-table-schema.json"
+  },
+  {
+   "name": "media",
+   "path": "media.csv",
+   "profile": "tabular-data-resource",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/media-table-schema.json"
+  },
+  {
+   "name": "observations",
+   "path": "observations.csv",
+   "profile": "tabular-data-resource",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/observations-table-schema.json"
+  }
+ ],
+ "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
+ "name": "demo-ias-camtrap-dp-1.0.2",
+ "id": "6faecdf8-a699-8f4c-90f0-e93f40cfec01",
+ "created": "2026-04-26T15:55:07.517858+00:00",
+ "title": "Demo IAS (Invasive Alien Species) dataset in CamTrapDP 1.0.2",
+ "contributors": [
+  {
+   "title": "Toke Thomas H\u00f8je",
+   "path": "https://pure.au.dk/portal/en/persons/tth%40ecos.au.dk/",
+   "email": "tth@ecos.au.dk",
+   "role": "principalInvestigator",
+   "organization": "Aarhus University, Department of Ecoscience"
+  },
+  {
+   "title": "Lars Dalby",
+   "path": "https://pure.au.dk/portal/da/persons/lars%40ecos.au.dk/",
+   "email": "lars@ecos.au.dk",
+   "role": "contributor",
+   "organization": "Aarhus University, Department of Ecoscience"
+  },
+  {
+   "title": "Asger Svenning",
+   "path": "https://asgersvenning.com",
+   "email": "asgersvenning@ecos.au.dk",
+   "role": "contributor",
+   "organization": "Aarhus University, Department of Ecoscience"
+  }
+ ],
+ "description": "\"Demo of a standardized IAS (Invasive Alien Species) dataset.\n    Constructed based on a relatively arbitrary dump from the IAS database.\n    Created for Workgroup 3 datathon (workshop) in the InsectAI COST Action at the annual meeting in 2026, Ni\u0161, Serbia.\n    The demo and the associated worked example has been created mainly by Asger Svenning in collaboration with Lars Dalby and others.",
+ "version": "0.1.0",
+ "keywords": [
+  "ias",
+  "insectai",
+  "camtrapdp",
+  "demo",
+  "timelapse",
+  "ami"
+ ],
+ "sources": [
+  {
+   "title": "IAS database"
+  }
+ ],
+ "licenses": [
+  {
+   "name": "CC0-1.0",
+   "scope": "data"
+  },
+  {
+   "path": "http://creativecommons.org/licenses/by/4.0/",
+   "scope": "media"
+  }
+ ],
+ "project": {
+  "title": "Invasive Alien Species",
+  "acronym": "IAS",
+  "samplingDesign": "systematicRandom",
+  "captureMethod": [
+   "timeLapse"
+  ],
+  "individualAnimals": false,
+  "observationLevel": [
+   "media"
+  ]
+ },
+ "spatial": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     10.373683,
+     55.378067
+    ],
+    [
+     10.373683,
+     55.378067
+    ],
+    [
+     10.373683,
+     55.378067
+    ],
+    [
+     10.373683,
+     55.378067
+    ],
+    [
+     10.373683,
+     55.378067
+    ]
+   ]
+  ]
+ },
+ "temporal": {
+  "start": "2025-05-20",
+  "end": "2025-06-14"
+ },
+ "taxonomic": [
+  {
+   "scientificName": "Aglaope infausta",
+   "taxonID": "1754183",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Stigmella",
+   "taxonID": "1735652",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Nepticulidae",
+   "taxonID": "7014",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Coleoptera",
+   "taxonID": "1",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Endrosis sarcitrella",
+   "taxonID": "883",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Reisserita chrysopterella",
+   "taxonID": "1857785",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Tineola",
+   "taxonID": "1857624",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Gracillariidae",
+   "taxonID": "5487",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Diptera Nematocera",
+   "taxonID": "3",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Pterophorus pentadactyla",
+   "taxonID": "2195",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Micropterix aruncella",
+   "taxonID": "7646066",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Micropterix",
+   "taxonID": "1939616",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Micropterigidae",
+   "taxonID": "9408",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Acentria ephemerella",
+   "taxonID": "1834",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Operophtera brumata",
+   "taxonID": "1972449",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Borkhausenia",
+   "taxonID": "12031311",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Geometridae",
+   "taxonID": "6950",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Rhodometra sacraria",
+   "taxonID": "1476",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ptilophora plumigera",
+   "taxonID": "5119143",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Caloptilia",
+   "taxonID": "1750339",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Noctuidae",
+   "taxonID": "7015",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Diptera Brachycera",
+   "taxonID": "2",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Lyonetia clerkella",
+   "taxonID": "1829322",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Agriphila straminella",
+   "taxonID": "1343",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Borkhausenia nefrax",
+   "taxonID": "1838811",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Oecophoridae",
+   "taxonID": "9689",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Hofmannophila pseudospretella",
+   "taxonID": "882",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Caloptilia stigmatella",
+   "taxonID": "5104891",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coenonympha",
+   "taxonID": "1911078",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Limnaecia phragmitella",
+   "taxonID": "5120396",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Limnaecia",
+   "taxonID": "1842261",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Tortricidae",
+   "taxonID": "5343",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Phyllonorycter quercifoliella",
+   "taxonID": "395",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Lyonetia",
+   "taxonID": "1829298",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lyonetiidae",
+   "taxonID": "9410",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Tineola bisselliella",
+   "taxonID": "1857626",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Epinotia",
+   "taxonID": "1745549",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Endrosis",
+   "taxonID": "1837168",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Acrobasis marmorea",
+   "taxonID": "4531158",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Eriocrania",
+   "taxonID": "1731817",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Eriocraniidae",
+   "taxonID": "6946",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Dyseriocrania subpurpurella",
+   "taxonID": "6",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phragmatobia fuliginosa",
+   "taxonID": "1804071",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phragmatobia",
+   "taxonID": "1803951",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Erebidae",
+   "taxonID": "4532185",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Tinea",
+   "taxonID": "1858055",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Tineidae",
+   "taxonID": "9412",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Lyonetia clerkella",
+   "taxonID": "786",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Euspilapteryx auroguttella",
+   "taxonID": "5104759",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Euspilapteryx",
+   "taxonID": "5104758",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Cosmopterigidae",
+   "taxonID": "8839",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Plodia interpunctella",
+   "taxonID": "1873079",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Synanthedon",
+   "taxonID": "1940500",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Crassa tinctella",
+   "taxonID": "4528692",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Antigastra catalaunalis",
+   "taxonID": "2525",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Agriphila inquinatella",
+   "taxonID": "1344",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coleophora",
+   "taxonID": "1843897",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Acrocercops brongniardella",
+   "taxonID": "1751051",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter ulmifoliella",
+   "taxonID": "1749744",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter",
+   "taxonID": "1749732",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Tineola bisselliella",
+   "taxonID": "1177",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nomophila noctuella",
+   "taxonID": "1369",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Bohemannia quadrimaculella",
+   "taxonID": "5102596",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Araneae",
+   "taxonID": "0",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Nymphalis xanthomelas",
+   "taxonID": "5130587",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nymphalis",
+   "taxonID": "5130576",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Gelechiidae",
+   "taxonID": "3553",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Dysstroma truncata",
+   "taxonID": "1962434",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Dysstroma",
+   "taxonID": "1962369",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lepidoptera Macros",
+   "taxonID": "10",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Dysstroma truncata",
+   "taxonID": "1514",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Hemiptera",
+   "taxonID": "7",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Aphomia sociella",
+   "taxonID": "1270",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Aproaerema anthyllidella",
+   "taxonID": "1848219",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Aproaerema",
+   "taxonID": "1848217",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Hemaris fuciformis",
+   "taxonID": "1861797",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Acrobasis",
+   "taxonID": "1874152",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Plodia interpunctella",
+   "taxonID": "1289",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Hofmannophila pseudospretella",
+   "taxonID": "1836899",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Hofmannophila",
+   "taxonID": "1836898",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lepidoptera Micros",
+   "taxonID": "11",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Schiffermuelleria schaefferella",
+   "taxonID": "1835393",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Acrocercops brongniardella",
+   "taxonID": "412",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Emmelina monodactyla",
+   "taxonID": "1859046",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Emmelina",
+   "taxonID": "1859036",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Pterophoridae",
+   "taxonID": "8863",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Diptera Tipulidae",
+   "taxonID": "4",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Bucculatrix",
+   "taxonID": "1751227",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Bucculatricidae",
+   "taxonID": "4867",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Thera britannica",
+   "taxonID": "5148424",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Thera",
+   "taxonID": "1980342",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Thera obeliscata",
+   "taxonID": "2289",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Tinea pellionella",
+   "taxonID": "1858163",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Depressaria",
+   "taxonID": "1837338",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Ypsolopha",
+   "taxonID": "3257328",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Ephemeroptera",
+   "taxonID": "6",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Stigmella aurella",
+   "taxonID": "5769709",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Korscheltellus lupulina",
+   "taxonID": "2376",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Amata phegea",
+   "taxonID": "1808450",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Amata",
+   "taxonID": "1808097",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Teleiopsis diffinis",
+   "taxonID": "1045",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Helcystogramma lamprostoma",
+   "taxonID": "1850640",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Helcystogramma",
+   "taxonID": "1850525",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Zygaena",
+   "taxonID": "1755294",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Opiliones",
+   "taxonID": "13",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Zygaenidae",
+   "taxonID": "8875",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Cauchas rufimitrella",
+   "taxonID": "4522886",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ectoedemia occultella",
+   "taxonID": "4527235",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ectoedemia",
+   "taxonID": "1735814",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Tortricodes alternella",
+   "taxonID": "313",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Micropterix calthella",
+   "taxonID": "1939677",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Crambidae",
+   "taxonID": "8841",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Zygaena erythrus",
+   "taxonID": "7909858",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Diurnea fagella",
+   "taxonID": "932",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Adela croesella",
+   "taxonID": "1860979",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Elachista",
+   "taxonID": "1832810",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Incurvariidae",
+   "taxonID": "3528",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Pasiphila rectangulata",
+   "taxonID": "1718",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ypsolophidae",
+   "taxonID": "5345",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Hymenoptera Other",
+   "taxonID": "8",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Plutella xylostella",
+   "taxonID": "1831136",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Plutella",
+   "taxonID": "1831127",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Mompha subbistrigella",
+   "taxonID": "959",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Oxypteryx wilkella",
+   "taxonID": "11080751",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Aspilapteryx tringipennella",
+   "taxonID": "1748890",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Aspilapteryx",
+   "taxonID": "1748889",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Hemaris",
+   "taxonID": "1861796",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Caloptilia elongella",
+   "taxonID": "5105158",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Aglaope",
+   "taxonID": "1754176",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Ypsolopha parenthesella",
+   "taxonID": "4525510",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Aproaerema cinctella",
+   "taxonID": "10450501",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phylloporia bistrigella",
+   "taxonID": "5123582",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phylloporia",
+   "taxonID": "1860720",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Yponomeuta evonymella",
+   "taxonID": "823",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Oncocera semirubella",
+   "taxonID": "1875120",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Oncocera",
+   "taxonID": "1875103",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Pyralidae",
+   "taxonID": "5336",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Trichoptera",
+   "taxonID": "14",
+   "taxonRank": "order"
+  },
+  {
+   "scientificName": "Laothoe populi",
+   "taxonID": "5124007",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Argyroploce",
+   "taxonID": "1745086",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Oncocera semirubella",
+   "taxonID": "1305",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Scopula",
+   "taxonID": "1970574",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Zelleria hepariella",
+   "taxonID": "5119513",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Zelleria",
+   "taxonID": "1830036",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Yponomeutidae",
+   "taxonID": "8874",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Opostega salaciella",
+   "taxonID": "17",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Euproctis chrysorrhoea",
+   "taxonID": "759",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Zygaena minos",
+   "taxonID": "5107829",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Eupithecia intricata",
+   "taxonID": "1630",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Stigmella salicis",
+   "taxonID": "5769751",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Lamoria anella",
+   "taxonID": "1290",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Semioscopis steinkellneriana",
+   "taxonID": "879",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Pelosia muscerda",
+   "taxonID": "2079",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Bohemannia",
+   "taxonID": "1735877",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Blastobasis lacticolella",
+   "taxonID": "1125",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Bucculatrix nigricomella",
+   "taxonID": "1751298",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Graellsia isabellae",
+   "taxonID": "5124512",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Graellsia",
+   "taxonID": "1865361",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Zygaena sarpedon",
+   "taxonID": "8111395",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Opogona omoscopa",
+   "taxonID": "1173",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Mompha langiella",
+   "taxonID": "4528818",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Mompha",
+   "taxonID": "1846094",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Zygaena purpuralis",
+   "taxonID": "7410701",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Rhyacionia",
+   "taxonID": "1739336",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Acrolepia pygmaeana",
+   "taxonID": "1829588",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Monochroa",
+   "taxonID": "1846636",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Diurnea lipsiella",
+   "taxonID": "4528593",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Diurnea",
+   "taxonID": "1841294",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Mompha ochraceella",
+   "taxonID": "963",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Bankesia conspurcatella",
+   "taxonID": "1854237",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Bankesia",
+   "taxonID": "7494486",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Psychidae",
+   "taxonID": "8861",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Caloptilia stigmatella",
+   "taxonID": "2001",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Zygaena exulans",
+   "taxonID": "7955974",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cochylis flaviciliana",
+   "taxonID": "191",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Pieridae",
+   "taxonID": "5481",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Tortrix viridana",
+   "taxonID": "1992",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Plodia",
+   "taxonID": "1873074",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Synanthedon tipuliformis",
+   "taxonID": "1940575",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Acontia aprica",
+   "taxonID": "2018",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Wittia sororcula",
+   "taxonID": "7596232",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Wittia",
+   "taxonID": "3257694",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Eilema sororcula",
+   "taxonID": "2075",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ypsolophus ustella",
+   "taxonID": "1831002",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ypsolophus",
+   "taxonID": "1830909",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Plutellidae",
+   "taxonID": "8860",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Cochylis dubitana",
+   "taxonID": "1741633",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Crassa unitella",
+   "taxonID": "4528694",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Monochroa tenebrella",
+   "taxonID": "1846729",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Sesiidae",
+   "taxonID": "5340",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Monopis",
+   "taxonID": "1857825",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Aglais io",
+   "taxonID": "4535827",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Deilephila",
+   "taxonID": "1864355",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Phyllonorycter harrisella",
+   "taxonID": "376",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ethmia quadrillella",
+   "taxonID": "4529566",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Pyrausta",
+   "taxonID": "1890369",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Sphingidae",
+   "taxonID": "8868",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Cydia",
+   "taxonID": "1737701",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Hyphantria cunea",
+   "taxonID": "1817797",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Hyphantria",
+   "taxonID": "1817786",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Scythris limbella",
+   "taxonID": "1841813",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coleophoridae",
+   "taxonID": "8838",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Glyphipterix simpliciella",
+   "taxonID": "1829776",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Deuterotinea",
+   "taxonID": "1855231",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Eriocottidae",
+   "taxonID": "6947",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Indalia albicosta",
+   "taxonID": "11513018",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Indalia",
+   "taxonID": "11495707",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Pleurota",
+   "taxonID": "1839730",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Pericallia matronula",
+   "taxonID": "1803824",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Pericallia",
+   "taxonID": "1803812",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Stigmella prunetorum",
+   "taxonID": "5102495",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cosmopterix pulchrimella",
+   "taxonID": "4301036",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cosmopterix",
+   "taxonID": "1842479",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Coleophora striatipennella",
+   "taxonID": "2483",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Hypatima rhomboidella",
+   "taxonID": "1851555",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Oinophila v-flava",
+   "taxonID": "10055273",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Oinophila",
+   "taxonID": "1855383",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Catocala",
+   "taxonID": "1797073",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Prays curtisella",
+   "taxonID": "1830838",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Prays",
+   "taxonID": "9021546",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Praydidae",
+   "taxonID": "4525436",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Spoladea recurvalis",
+   "taxonID": "1402",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Caloptilia azaleella",
+   "taxonID": "5104903",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Synanthedon formicaeformis",
+   "taxonID": "1940510",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Plutella xylostella",
+   "taxonID": "838",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Rhodophaea formosa",
+   "taxonID": "1872315",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Yponomeuta padella",
+   "taxonID": "1830457",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Yponomeuta",
+   "taxonID": "1830379",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Eriocrania semipurpurella",
+   "taxonID": "1731826",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Opogona omoscopa",
+   "taxonID": "1857143",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Opogona",
+   "taxonID": "1857014",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Thecla betulae",
+   "taxonID": "1930110",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Thecla",
+   "taxonID": "1929768",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lycaenidae",
+   "taxonID": "5473",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Emmelina monodactyla",
+   "taxonID": "1207",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Micropterix mansuetella",
+   "taxonID": "1939680",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cornifrons ulceratalis",
+   "taxonID": "1348",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Adela",
+   "taxonID": "1856563",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Coptotriche marginea",
+   "taxonID": "4525189",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Costaconvexa centrostrigaria",
+   "taxonID": "1723",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Mompha idaei",
+   "taxonID": "1846133",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Leucoptera malifoliella",
+   "taxonID": "5769255",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Leucoptera",
+   "taxonID": "1829391",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Agrius convolvuli",
+   "taxonID": "1240",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Hyles livornica",
+   "taxonID": "1248",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Adelidae",
+   "taxonID": "4538",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Tischeriidae",
+   "taxonID": "8871",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Proutia betulina",
+   "taxonID": "1854792",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Proutia",
+   "taxonID": "1854789",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Aglais",
+   "taxonID": "1894779",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Agriphila geniculea",
+   "taxonID": "1832",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Adela cuprella",
+   "taxonID": "1860983",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cydalima perspectalis",
+   "taxonID": "4532122",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Notodontidae",
+   "taxonID": "7016",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Momphidae",
+   "taxonID": "8855",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Synanthedon andrenaeformis",
+   "taxonID": "1940717",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Canephora hirsuta",
+   "taxonID": "5122439",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Canephora",
+   "taxonID": "1854459",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Sphrageidus similis",
+   "taxonID": "1819268",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cauchas",
+   "taxonID": "4404934",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Dialectica imperialella",
+   "taxonID": "1750317",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Batia lunaris",
+   "taxonID": "1841159",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Glyphipterix",
+   "taxonID": "1829702",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Mompha subbistrigella",
+   "taxonID": "1846111",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Macrosaccus robiniella",
+   "taxonID": "8741260",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Spodoptera eridania",
+   "taxonID": "2035",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Alucita hexadactyla",
+   "taxonID": "1689",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Trichophaga tapetzella",
+   "taxonID": "1857577",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Trichophaga",
+   "taxonID": "1857569",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Phyllocnistis saligna",
+   "taxonID": "350",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Scythris",
+   "taxonID": "1841529",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Platytes cerusella",
+   "taxonID": "5126217",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Platytes",
+   "taxonID": "1879494",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Tischeria",
+   "taxonID": "1939401",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Yponomeuta plumbella",
+   "taxonID": "825",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Batia",
+   "taxonID": "1841152",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Agonopterix",
+   "taxonID": "1840273",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Erebia",
+   "taxonID": "1913456",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Hesperiidae",
+   "taxonID": "6953",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Cerura",
+   "taxonID": "1825121",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Notodonta ziczac",
+   "taxonID": "4534909",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Notodonta",
+   "taxonID": "1825076",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Amblyptilia acanthadactyla",
+   "taxonID": "1212",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nephopterix angustella",
+   "taxonID": "1873411",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Agonopterix alstroemeriana",
+   "taxonID": "1840346",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Acleris",
+   "taxonID": "1739724",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Phthorimaea absoluta",
+   "taxonID": "4528100",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Mythimna litoralis",
+   "taxonID": "2362",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Epirrita dilutata",
+   "taxonID": "4523564",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nematopogon adansoniella\u00a0Vill.",
+   "taxonID": "1702",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Tinea semifulvella",
+   "taxonID": "1858074",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cryptoblabes bistriga",
+   "taxonID": "1873048",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cryptoblabes",
+   "taxonID": "1873021",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Homoeosoma electellum",
+   "taxonID": "2215",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter apparella",
+   "taxonID": "407",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Pennisetia hylaeiformis",
+   "taxonID": "1940807",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phragmataecia castaneae",
+   "taxonID": "1",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Apterona helicoidella",
+   "taxonID": "4526180",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Macrothylacia rubi",
+   "taxonID": "1732416",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coscinia cribraria",
+   "taxonID": "2076",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Synanthedon myopaeformis",
+   "taxonID": "4525777",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Euproctis similis",
+   "taxonID": "760",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Zygaena punctum",
+   "taxonID": "5106249",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ectoedemia albifasciella",
+   "taxonID": "1735844",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Orgyia antiqua",
+   "taxonID": "1819873",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Orgyia",
+   "taxonID": "1819865",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Limnaecia phragmitella",
+   "taxonID": "2093",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Adela viridella",
+   "taxonID": "1860987",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Stigmella ruficapitella",
+   "taxonID": "5102474",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ypsolopha parenthesella",
+   "taxonID": "1753",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Epirrita",
+   "taxonID": "4302289",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Bucculatrix ulmella",
+   "taxonID": "1751368",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Synaphe punctalis",
+   "taxonID": "1274",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ancylis uncella",
+   "taxonID": "5771256",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ancylis",
+   "taxonID": "7236046",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Orgyia recens",
+   "taxonID": "7657803",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ptilodon",
+   "taxonID": "1828161",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Phyllonorycter lautella",
+   "taxonID": "1750244",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Idaea",
+   "taxonID": "1973909",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Mompha epilobiella",
+   "taxonID": "1846112",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Palpita vitrealis",
+   "taxonID": "1423",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Agriphila deliella\u00a0Hb.",
+   "taxonID": "1345",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coleophora serratella",
+   "taxonID": "5121517",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ypsolopha scabrella",
+   "taxonID": "4525562",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Mythimna unipuncta",
+   "taxonID": "2357",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Lathronympha strigana",
+   "taxonID": "1736800",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Lathronympha",
+   "taxonID": "1736793",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lathronympha strigana",
+   "taxonID": "46",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Parectopa robiniella",
+   "taxonID": "1748922",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Rhodophaea",
+   "taxonID": "9108102",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lyonetia prunifoliella",
+   "taxonID": "1829363",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Endothenia quadrimaculana",
+   "taxonID": "1741752",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Clostera",
+   "taxonID": "1822778",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Platytes alpinella",
+   "taxonID": "5126212",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Borkhausenia fuscescens",
+   "taxonID": "1838691",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ennomos subsignaria",
+   "taxonID": "1495",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nemapogon",
+   "taxonID": "1856650",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Coptotriche",
+   "taxonID": "4406291",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Zygaena rubicundus",
+   "taxonID": "7586742",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Homoeosoma",
+   "taxonID": "1877650",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Deuterotinea casanella",
+   "taxonID": "1855241",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Caloptilia alchimiella",
+   "taxonID": "5104940",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Catoptria verellus",
+   "taxonID": "1394",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Archiearis parthenias",
+   "taxonID": "1975733",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Celypha rufana",
+   "taxonID": "4529908",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Danaus plexippus",
+   "taxonID": "5133088",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Danaus",
+   "taxonID": "5133087",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Anerastia lotella",
+   "taxonID": "1268",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Scythropia crataegella",
+   "taxonID": "1830632",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cochylis",
+   "taxonID": "1741585",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Syricoris lacunana",
+   "taxonID": "1744593",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Syricoris",
+   "taxonID": "1744587",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Orthotaenia undulana",
+   "taxonID": "227",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Deilephila elpenor",
+   "taxonID": "1864377",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ypsolopha mucronella",
+   "taxonID": "1752",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter quercifoliella",
+   "taxonID": "1750143",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nymphalidae",
+   "taxonID": "7017",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Pempelia malacella",
+   "taxonID": "1875680",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Stigmella microtheriella",
+   "taxonID": "5769761",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Depressariidae",
+   "taxonID": "4705755",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Paysandisia archon",
+   "taxonID": "1941864",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Eudonia angustea",
+   "taxonID": "1356",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Synanthedon formicaeformis",
+   "taxonID": "1454",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Scythropia",
+   "taxonID": "1830630",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Macroglossum stellatarum",
+   "taxonID": "1864652",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Macroglossum",
+   "taxonID": "1864584",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Atolmis rubricollis",
+   "taxonID": "1810099",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Earias clorana",
+   "taxonID": "734",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Endothenia",
+   "taxonID": "1741717",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Hyphantria cunea",
+   "taxonID": "753",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Argyresthia pruniella",
+   "taxonID": "808",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Callima formosella",
+   "taxonID": "5119893",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coleophora pennella",
+   "taxonID": "2403",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Lomographa temerata",
+   "taxonID": "1660",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nephopterix",
+   "taxonID": "1873408",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Stigmella sorbi",
+   "taxonID": "5769729",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Brachmia dimidiella",
+   "taxonID": "1848378",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Pammene",
+   "taxonID": "1744761",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Scythris sinensis",
+   "taxonID": "1841946",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Chloroclystis v-ata",
+   "taxonID": "1680",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ptilophora",
+   "taxonID": "1827279",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lomographa bimaculata",
+   "taxonID": "1659",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Selenia lunularia",
+   "taxonID": "1962268",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Chlorochlamys chloroleucaria",
+   "taxonID": "2375",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Endothenia nigricostana",
+   "taxonID": "1741756",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Celypha rufana",
+   "taxonID": "1796",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter leucographella",
+   "taxonID": "1750159",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Clepsis consimilana",
+   "taxonID": "2420",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Sphrageidus",
+   "taxonID": "1819252",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Ypsolopha nemorella",
+   "taxonID": "1754",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nomophila nearctica",
+   "taxonID": "1370",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coenonympha corinna",
+   "taxonID": "1911182",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Fomoria septembrella",
+   "taxonID": "9359597",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Earias insulana",
+   "taxonID": "733",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Zygaena rhadamanthus",
+   "taxonID": "7870336",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Tachystola acroxantha",
+   "taxonID": "4528702",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Tachystola",
+   "taxonID": "1838956",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Ocnogyna boeticum",
+   "taxonID": "1805110",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ocnogyna",
+   "taxonID": "1805088",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Acronicta leporina",
+   "taxonID": "580",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Diplopseustis perieresalis",
+   "taxonID": "1381",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Eublemma",
+   "taxonID": "9118632",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Eucosma",
+   "taxonID": "1742419",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Apterona",
+   "taxonID": "1853482",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Cataclysta lemnata",
+   "taxonID": "1281",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ancylis obtusana",
+   "taxonID": "5771227",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Erebia pronoe",
+   "taxonID": "7798382",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Scoliopteryx libatrix",
+   "taxonID": "1798449",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Eupithecia",
+   "taxonID": "1982367",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Jodis lactearia",
+   "taxonID": "1595",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Libythea celtis",
+   "taxonID": "1909838",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Crambus pratella",
+   "taxonID": "1880139",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Endromis versicolora",
+   "taxonID": "1861395",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Endromis",
+   "taxonID": "1861387",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lasiocampidae",
+   "taxonID": "3530",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Phyllonorycter platani",
+   "taxonID": "1749936",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Streblote",
+   "taxonID": "1733670",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Phyllonorycter muelleriella",
+   "taxonID": "1749975",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Smerinthus ocellata",
+   "taxonID": "1862580",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Smerinthus",
+   "taxonID": "1862568",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Scoliopteryx",
+   "taxonID": "1798440",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Hipparchia",
+   "taxonID": "1918607",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Cydia pomonella",
+   "taxonID": "1737847",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Epinotia tenerana",
+   "taxonID": "1745705",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Dyseriocrania subpurpurella",
+   "taxonID": "1731860",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nymphalis polychloros",
+   "taxonID": "7762841",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Leucospilapteryx omissella",
+   "taxonID": "347",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cerura vinula",
+   "taxonID": "1825156",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Parectopa",
+   "taxonID": "1748902",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Argyresthia pruniella",
+   "taxonID": "1830191",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Argyresthia",
+   "taxonID": "1830118",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Coleophora albitarsella",
+   "taxonID": "5120916",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ypsolopha horridella",
+   "taxonID": "4525500",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Celypha",
+   "taxonID": "1743762",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Danaus chrysippus",
+   "taxonID": "7642610",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Acleris notana",
+   "taxonID": "1740374",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter corylifoliella",
+   "taxonID": "1749921",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Acleris hastiana",
+   "taxonID": "1740392",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Amblyptilia acanthadactyla",
+   "taxonID": "1859285",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Stigmella plagicolella",
+   "taxonID": "5769760",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ochsenheimeria taurella",
+   "taxonID": "1831780",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phycitodes",
+   "taxonID": "1875890",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Epirrita christyi",
+   "taxonID": "4523556",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Rhopobota naevana",
+   "taxonID": "8086347",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Sitochroa palealis",
+   "taxonID": "1404",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Thaumetopoea processionea",
+   "taxonID": "1824113",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Thaumetopoea",
+   "taxonID": "1824090",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Colocasia coryli",
+   "taxonID": "5114198",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Archips crataegana",
+   "taxonID": "1746910",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Archips",
+   "taxonID": "1746749",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Eccopisa effractella",
+   "taxonID": "1871826",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Eccopisa",
+   "taxonID": "1871825",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Carpatolechia alburnella",
+   "taxonID": "1849284",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Carpatolechia",
+   "taxonID": "1849256",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Endotricha flammealis",
+   "taxonID": "2212",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Paysandisia",
+   "taxonID": "1941863",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Phyllocnistis unipunctella",
+   "taxonID": "352",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Crambus pascuella",
+   "taxonID": "1362",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Psychoides filicivora",
+   "taxonID": "1855620",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Xestia",
+   "taxonID": "1783394",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Cabera pusaria",
+   "taxonID": "2231",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Stigmella aceris",
+   "taxonID": "7698610",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phymatopus hecta",
+   "taxonID": "4525610",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phymatopus",
+   "taxonID": "9026655",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Hepialidae",
+   "taxonID": "3556",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Myelois circumvoluta",
+   "taxonID": "1320",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Hypatima",
+   "taxonID": "1851496",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lymantria dispar",
+   "taxonID": "1820406",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter heegeriella",
+   "taxonID": "369",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Bucculatrix thoracella",
+   "taxonID": "1751457",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Pyralis farinalis",
+   "taxonID": "1285",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Endrosis sarcitrella",
+   "taxonID": "1837172",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Psyche casta",
+   "taxonID": "1854202",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Bucculatrix bechsteinella",
+   "taxonID": "4535884",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Etainia decentella",
+   "taxonID": "9530977",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Schiffermuelleria",
+   "taxonID": "1835366",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Etainia",
+   "taxonID": "1735869",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Tischeria dodonaea",
+   "taxonID": "1939449",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Agdistis bennetii",
+   "taxonID": "1859421",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Stenoptilia",
+   "taxonID": "1858722",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Phyllodesma tremulifolia",
+   "taxonID": "1732685",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Iphiclides podalirius",
+   "taxonID": "1938214",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cosmopterix scribaiella",
+   "taxonID": "1842542",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Notocelia uddmanniana",
+   "taxonID": "1741341",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Notocelia",
+   "taxonID": "1741338",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Notocelia uddmanniana",
+   "taxonID": "180",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Gracillaria syringella",
+   "taxonID": "354",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Schreckensteinia festaliella",
+   "taxonID": "7734292",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Schreckensteinia",
+   "taxonID": "1736266",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Schreckensteiniidae",
+   "taxonID": "8865",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Lyonetia prunifoliella",
+   "taxonID": "788",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Papilionidae",
+   "taxonID": "9417",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Rivula sericealis",
+   "taxonID": "1769897",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Rivula",
+   "taxonID": "1769819",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Rivula sericealis",
+   "taxonID": "496",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coleophora deauratella",
+   "taxonID": "5121613",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Pararge",
+   "taxonID": "1894469",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Acanthophila alacella",
+   "taxonID": "11287091",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Acanthophila",
+   "taxonID": "3257500",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Catarhoe",
+   "taxonID": "1964175",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Calybites phasianipennella",
+   "taxonID": "334",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Scrobipalpa",
+   "taxonID": "1849663",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Stigmella hemargyrella",
+   "taxonID": "5769789",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Dichrorampha acuminatana",
+   "taxonID": "1738839",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Bryotropha",
+   "taxonID": "1848677",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Ypsolopha scabrella",
+   "taxonID": "1758",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Cryptoblabes bistriga",
+   "taxonID": "1287",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Scythrididae",
+   "taxonID": "8866",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Dialectica",
+   "taxonID": "1750313",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Zygaena laeta",
+   "taxonID": "5106115",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Glyphipterix thrasonella",
+   "taxonID": "1829785",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Parapoynx stratiotata",
+   "taxonID": "1398",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nematopogon",
+   "taxonID": "1861151",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Lindera tessellatella",
+   "taxonID": "2193",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ancylis laetana",
+   "taxonID": "5103121",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ancylis laetana",
+   "taxonID": "1971",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Esperia sulphurella",
+   "taxonID": "5770913",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Stauropus fagi",
+   "taxonID": "5118996",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Elachista adscitella",
+   "taxonID": "1832915",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Elachistidae",
+   "taxonID": "7297",
+   "taxonRank": "family"
+  },
+  {
+   "scientificName": "Sesia bembeciformis",
+   "taxonID": "5141501",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Calamia tridens",
+   "taxonID": "2038",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Coenonympha hero",
+   "taxonID": "1911168",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nemapogon clematella",
+   "taxonID": "1856730",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Aspitates ochrearia",
+   "taxonID": "1551",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter issikii",
+   "taxonID": "1750166",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Tortricodes alternella",
+   "taxonID": "1747050",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Ypsolopha mucronella",
+   "taxonID": "4525505",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nematopogon swammerdamella",
+   "taxonID": "1703",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Argyresthia trifasciata",
+   "taxonID": "1830271",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Micropterix tunbergella",
+   "taxonID": "1939658",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nemophora minimella",
+   "taxonID": "7961640",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Nemophora",
+   "taxonID": "7236091",
+   "taxonRank": "genus"
+  },
+  {
+   "scientificName": "Cameraria ohridella",
+   "taxonID": "1749449",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Caloptilia populetorum",
+   "taxonID": "5105088",
+   "taxonRank": "species"
+  },
+  {
+   "scientificName": "Phyllonorycter kuhlweiniella",
+   "taxonID": "371",
+   "taxonRank": "species"
+  }
+ ]
+}
