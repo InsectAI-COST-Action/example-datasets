@@ -237,12 +237,13 @@ def check(dataset: str | None=None):
     if not base_path.exists() or not base_path.is_dir():
         return None
 
-    exceptions = EXCEPTIONS[dataset] if dataset in EXCEPTIONS else tuple()
     checks = {}
     
     for dataset_path in base_path.iterdir():
         if not dataset_path.is_dir() or (dataset is not None and dataset_path.name != dataset):
             continue 
+
+        exceptions = EXCEPTIONS[dataset_path.name] if dataset_path.name in EXCEPTIONS else tuple()
         
         items = []
         for run_rule in VALIDATION_RULES:
