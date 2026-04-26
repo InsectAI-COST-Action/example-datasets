@@ -213,8 +213,12 @@ def extract_readme_image(dataset_path: Path) -> str | None:
             if not mtch:
                 return None
             mtch = mtch.group(1).strip()
-            image_path = dataset_path.joinpath(*mtch.split("/"))
-            return "/".join(map(quote_plus, str(image_path).strip().split(os.sep)))
+            if mtch.startswith("https://"):
+                return mtch
+            else:
+                image_path = dataset_path.joinpath(*mtch.split("/"))  
+                return "/".join(map(quote_plus, str(image_path).strip().split(os.sep)))
+            
     except Exception:
         pass
     return None
