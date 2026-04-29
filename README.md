@@ -18,17 +18,17 @@
 | ---: | :---: | :---: |
 | [**Mothbox**](/datasets/Mothbox) | 🟠 Partial (4/13) | _No image tag found_ |
 | [**amber**](/datasets/amber) | 🟡 Almost (3/5) | <img src="datasets/amber/media/raw_images/20241102032319-snapshot.jpg" height="150"> |
-| [**antenna**](/datasets/antenna) | 🟢 Success (4/4) | <img src="https://object-arbutus.cloud.computecanada.ca/ami-trapdata/newfoundland/Unit-1/2024%20Snapshots/2024%20Ami%20Images-%20Unit%201%20Pasadena/01-20240709024649-snapshot.jpg" height="150"> |
+| [**antenna**](/datasets/antenna) | 🟡 Almost (3/4) | <img src="https://object-arbutus.cloud.computecanada.ca/ami-trapdata/newfoundland/Unit-1/2024%20Snapshots/2024%20Ami%20Images-%20Unit%201%20Pasadena/01-20240709024649-snapshot.jpg" height="150"> |
 | [**diopsis**](/datasets/diopsis) | 🟡 Almost (4/5) | <img src="datasets/diopsis/raw-data/diopsis_soortherkenning_AI_231_2022_08_05_00_30_44.png" height="150"> |
-| [**flower_visitors**](/datasets/flower_visitors) | 🟢 Success (5/5) | <img src="datasets/flower_visitors/media/raw/2021-08-11_Achillea-millefolium-bs-01_IMG_20210811_114248.jpg" height="150"> |
-| [**ias**](/datasets/ias) | 🟢 Success (5/5) | <img src="datasets/ias/media/20250613022959-snapshot.jpg" height="150"> |
+| [**flower_visitors**](/datasets/flower_visitors) | 🟡 Almost (4/5) | <img src="datasets/flower_visitors/media/raw/2021-08-11_Achillea-millefolium-bs-01_IMG_20210811_114248.jpg" height="150"> |
+| [**ias**](/datasets/ias) | 🟡 Almost (4/5) | <img src="datasets/ias/media/20250613022959-snapshot.jpg" height="150"> |
 | [**insect-detect**](/datasets/insect-detect) | 🔴 Failed (1/5) | <img src="datasets/insect-detect/raw/data/2026-04-16/2026-04-16_18-38-26/insdet-cam01_2026-04-16_18-38-41-142032.jpg" height="150"> |
 | [**lepmon**](/datasets/lepmon) | 🟡 Almost (4/5) | <img src="datasets/lepmon/media/Lepmon%23SN010030_TH_J_2025-07-03_T_0308.jpg" height="150"> |
 | [**minimon**](/datasets/minimon) | 🟡 Almost (3/5) | <img src="datasets/minimon/media/E41990/20250614/E41990_20250614094103_0105_012989.jpg" height="150"> |
 | [**plant-pollinator-interactions**](/datasets/plant-pollinator-interactions) | 🟢 Success (5/5) | <img src="datasets/plant-pollinator-interactions/media/5mp_300521_10_18_30_696493.jpg" height="150"> |
-| [**rangex**](/datasets/rangex) | 🟢 Success (5/5) | <img src="datasets/rangex/media/HE22_01_83_2037_2.jpg" height="150"> |
+| [**rangex**](/datasets/rangex) | 🟡 Almost (4/5) | <img src="datasets/rangex/media/HE22_01_83_2037_2.jpg" height="150"> |
 
-<!-- Last updated: 2026-04-29 02:12:46 UTC -->
+<!-- Last updated: 2026-04-29 13:30:42 UTC -->
 <!-- END: DATASET PROGRESS TABLE -->
 ---
 
