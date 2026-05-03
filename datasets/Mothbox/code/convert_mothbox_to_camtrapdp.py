@@ -213,8 +213,8 @@ def load_bbox_index() -> Dict[str, Dict[str, str]]:
             width = max(xs) - min_x
             height = max(ys) - min_y
             bbox[patch_name] = {
-                "bboxX": f"{min_x:.3f}",
-                "bboxY": f"{min_y:.3f}",
+                "bboxX": f"{(min_x / IMAGE_WIDTH):.6f}",
+                "bboxY": f"{(min_y / IMAGE_HEIGHT):.6f}",
                 "bboxWidth": f"{(width / IMAGE_WIDTH):.6f}",
                 "bboxHeight": f"{(height / IMAGE_HEIGHT):.6f}",
             }
@@ -269,13 +269,10 @@ def build_taxonomic_entries(scientific_names: Iterable[str]) -> List[Dict[str, s
 
 
 def create_datapackage(row_counts: Dict[str, int], scientific_names: Iterable[str]) -> None:
+    _ = row_counts  # counts omitted from descriptor (not part of Camtrap DP resource schema)
+    schema_base = "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2"
     datapackage = {
         "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
-        "name": "mothbox-cerro-hoya",
-        "created": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-        "licenses": [
-            {"scope": "data", "name": "unknown", "path": "", "title": "Unknown"}
-        ],
         "resources": [
             {
                 "name": "deployments",
@@ -284,9 +281,7 @@ def create_datapackage(row_counts: Dict[str, int], scientific_names: Iterable[st
                 "format": "csv",
                 "mediatype": "text/csv",
                 "encoding": "utf-8",
-                "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/deployments-table-schema.json",
-                "dialect": {"csv": {"header": True}},
-                "count": row_counts.get("deployments", 0),
+                "schema": f"{schema_base}/deployments-table-schema.json",
             },
             {
                 "name": "media",
@@ -295,9 +290,7 @@ def create_datapackage(row_counts: Dict[str, int], scientific_names: Iterable[st
                 "format": "csv",
                 "mediatype": "text/csv",
                 "encoding": "utf-8",
-                "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/media-table-schema.json",
-                "dialect": {"csv": {"header": True}},
-                "count": row_counts.get("media", 0),
+                "schema": f"{schema_base}/media-table-schema.json",
             },
             {
                 "name": "observations",
@@ -306,11 +299,39 @@ def create_datapackage(row_counts: Dict[str, int], scientific_names: Iterable[st
                 "format": "csv",
                 "mediatype": "text/csv",
                 "encoding": "utf-8",
-                "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0/observations-table-schema.json",
-                "dialect": {"csv": {"header": True}},
-                "count": row_counts.get("observations", 0),
+                "schema": f"{schema_base}/observations-table-schema.json",
             },
         ],
+        "name": "mothbox-cerro-hoya",
+        "created": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "contributors": [{"title": "Mothbox Cerro Hoya expedition", "role": "contributor"}],
+        "licenses": [
+            {
+                "scope": "data",
+                "name": "CC-BY-4.0",
+                "path": "https://creativecommons.org/licenses/by/4.0/",
+                "title": "Creative Commons Attribution 4.0 International",
+            },
+            {
+                "scope": "media",
+                "name": "CC-BY-4.0",
+                "path": "https://creativecommons.org/licenses/by/4.0/",
+                "title": "Creative Commons Attribution 4.0 International",
+            },
+        ],
+        "project": {
+            "title": "Mothbox Cerro Hoya",
+            "description": (
+                "Example Camtrap DP dataset derived from the Cerro_Hoya_Expedition Mothbox deployment "
+                "at the 408 m site (mature forest), Veraguas, Panama."
+            ),
+            "samplingDesign": "targeted",
+            "captureMethod": ["timeLapse"],
+            "individualAnimals": False,
+            "observationLevel": ["media"],
+        },
+        "spatial": {"type": "Point", "coordinates": [-80.77756, 7.34419]},
+        "temporal": {"start": "2025-01-26", "end": "2025-01-29"},
         "taxonomic": build_taxonomic_entries(scientific_names),
     }
     (DATASET_DIR / "datapackage.json").write_text(json.dumps(datapackage, indent=2), encoding="utf-8")
@@ -457,7 +478,7 @@ def main() -> None:
                     "captureMethod": "timeLapse",
                     "timestamp": parse_patch_timestamp(patch_name),
                     "filePath": rel_media_path,
-                    "filePublic": "",
+                    "filePublic": "true",
                     "fileName": Path(rel_media_path).name,
                     "fileMediatype": "image/jpeg",
                     "exifData": "",
@@ -496,7 +517,7 @@ def main() -> None:
                         "eventStart": (iso_from_date(md.deployment_date) if md else ""),
                         "eventEnd": (iso_from_date(md.collect_date, end_of_day=True) if md else ""),
                         "observationLevel": "media",
-                        "observationType": "machine_observation",
+                        "observationType": "animal",
                         "cameraSetupType": "",
                         "scientificName": name_value,
                         "count": "",
