@@ -16,7 +16,7 @@
 
 | <br>**Dataset**<br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | <br>**Status**<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | <br>**Example Image**<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | ---: | :---: | :---: |
-| [**Mothbox**](/datasets/Mothbox) | 🟢 Success (5/5) | <img src="datasets/Mothbox/raw-data/Mothbox+cover+photo.jpg" height="150"> |
+| [**Mothbox**](/datasets/Mothbox) | 🟢 Success (5/5) | <img src="datasets/Mothbox/raw-data/Mothbox_cover_photo.jpg" height="150"> |
 | [**amber**](/datasets/amber) | 🟡 Almost (3/5) | <img src="datasets/amber/media/raw_images/20241102032319-snapshot.jpg" height="150"> |
 | [**antenna**](/datasets/antenna) | 🟢 Success (4/4) | <img src="https://object-arbutus.cloud.computecanada.ca/ami-trapdata/newfoundland/Unit-1/2024%20Snapshots/2024%20Ami%20Images-%20Unit%201%20Pasadena/01-20240709024649-snapshot.jpg" height="150"> |
 | [**diopsis**](/datasets/diopsis) | 🟡 Almost (4/5) | <img src="datasets/diopsis/raw-data/diopsis_soortherkenning_AI_231_2022_08_05_00_30_44.png" height="150"> |
@@ -28,7 +28,7 @@
 | [**plant-pollinator-interactions**](/datasets/plant-pollinator-interactions) | 🟢 Success (5/5) | <img src="datasets/plant-pollinator-interactions/media/5mp_300521_10_18_30_696493.jpg" height="150"> |
 | [**rangex**](/datasets/rangex) | 🟢 Success (5/5) | <img src="datasets/rangex/media/HE22_01_83_2037_2.jpg" height="150"> |
 
-<!-- Last updated: 2026-05-06 02:07:57 UTC -->
+<!-- Last updated: 2026-05-06 08:53:09 UTC -->
 <!-- END: DATASET PROGRESS TABLE -->
 ---
 
