@@ -1,8 +1,8 @@
-<!-- Image: raw-data/Mothbox cover photo.jpg -->
+<!-- Image: raw-data/Mothbox_cover_photo.jpg -->
 
 # Mothbox Cerro Hoya
 
-<img src="raw-data/Mothbox%20cover%20photo.jpg" alt="Mothbox cover photo" width="480"/>
+<img src="raw-data/Mothbox_cover_photo.jpg" alt="Mothbox cover photo" width="480"/>
 
 This example dataset is exported in **Camtrap DP** form from the Cerro Hoya expedition deployment (`Cerro_Hoya_Expedition`). It was produced with [`code/convert_mothbox_to_camtrapdp.py`](./code/convert_mothbox_to_camtrapdp.py).
 
