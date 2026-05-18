@@ -39,6 +39,12 @@ def datetime_from_ISO(isostr):
     dt = datetime.fromisoformat(isostr)
     return dt
 
+def csv_path_with_prefix(filename, output_path, files_prefix=None):
+    csv_path = filename
+    if files_prefix is not None and len(files_prefix) > 0:
+        csv_path = f"{files_prefix}_{csv_path}"
+    return os.path.join(output_path, csv_path)
+
 def obj_to_csv(obj_list, csvpath, overwrite=False):
 
     df = pd.DataFrame([o.as_dict() for o in obj_list])
