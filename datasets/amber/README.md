@@ -16,3 +16,4 @@ The raw images are cropped to individual insects using the flatbug model. Next, 
 # Camtrap DP suggestions
 
 * Add pipelineID to detections.csv and models.csv. This will link together models that are run sequentially on the same piece of media. Ideally, also add positionInPipeline column to models.csv, to specify the order in which models are run in a pipeline.
+* For this dataset, we decided to use eventID to identify the presence of an individual moth which is continuously present across multiple images. This way we can use eventID to link detections of that moth across different images and labelling methods.
