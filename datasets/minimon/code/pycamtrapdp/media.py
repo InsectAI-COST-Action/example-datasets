@@ -4,7 +4,6 @@ Modified to match the miniMon processing pipeline
 """
 from enum import Enum
 from .utils import generate_uuid, generate_id
-from .minimonfile import MinimonFile
 
 
 class CaptureMethod(str, Enum):
@@ -14,6 +13,8 @@ class CaptureMethod(str, Enum):
 
 class MediaType(str, Enum):
     IMG_JPG = "image/jpeg"
+    LOG_TXT = "log/txt"
+    OTHER = "other"
 
 
 class Media:
@@ -54,20 +55,4 @@ class Media:
     def as_dict(self):
         return self.__dict__
 
-    @staticmethod
-    def from_filename(deploymentID: str, filename):
-        minimon_file = MinimonFile(filename)
 
-        return Media.from_minimonfile(deploymentID, minimon_file)
-
-    @staticmethod
-    def from_minimonfile(deploymentID: str, minimonfile: MinimonFile):
-        mediaID = generate_uuid()
-
-        return Media(mediaID=mediaID,
-                     deploymentID=deploymentID,
-                     captureMethod=CaptureMethod.TIME_LAPSE,
-                     timestamp=minimonfile.datetime_iso,
-                     filePath=minimonfile.filepath,
-                     fileName=minimonfile.filename,
-                     fileMediatype=minimonfile.filetype)

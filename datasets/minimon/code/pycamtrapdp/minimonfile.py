@@ -1,11 +1,8 @@
 import os
 from enum import Enum
 from datetime import datetime
-
-class FileType(str, Enum):
-    IMG_JPG = "image/jpeg"
-    LOG_TXT = "log/txt"
-    OTHER = "other"
+from .utils import generate_uuid, generate_id
+from .media import Media, MediaType, CaptureMethod
 
 
 class MinimonFile:
@@ -34,11 +31,11 @@ class MinimonFile:
         # split extension from filename, e.g., 'foo.jpg' --> ('foo', '.jpg')
         basename, extension = os.path.splitext(filename)
         if extension in [".jpg", ".jpeg"]:
-            self.filetype = FileType.IMG_JPG
+            self.filetype = MediaType.IMG_JPG
         elif extension == ".log":
-            self.filetype = FileType.LOG_TXT
+            self.filetype = MediaType.LOG_TXT
         else:
-            self.filetype = FileType.OTHER
+            self.filetype = MediaType.OTHER
 
         # ## Image format: DEVID_DATETIME_BURST_MS.jpg
         # ## Log format: DEVID_DATETIME.log
@@ -54,10 +51,19 @@ class MinimonFile:
         self.datetime = datetime.strptime(self.datetime_str, "%Y%m%d%H%M%S")
         self.datetime_iso = self.datetime.isoformat(timespec='seconds')
 
-        if self.filetype == FileType.IMG_JPG:
+        if self.filetype == MediaType.IMG_JPG:
             self.burst_id = int(nameparts[2][:2])
             self.burst_target = int(nameparts[2][2:])
             self.ms = int(nameparts[3])
 
 
+    def to_media(self, deploymentID:str):
+        mediaID = generate_uuid()
 
+        return Media(mediaID=mediaID,
+                     deploymentID=deploymentID,
+                     captureMethod=CaptureMethod.TIME_LAPSE,
+                     timestamp=self.datetime_iso,
+                     filePath=self.filepath,
+                     fileName=self.filename,
+                     fileMediatype=self.filetype)
